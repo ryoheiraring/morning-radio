@@ -1,6 +1,107 @@
 {
- "updated": "2026-09-06",
+ "updated": "2026-09-07",
  "entries": [
+  {
+   "date": "2026-09-07",
+   "topic": "新聞社2社がOpenAIとMicrosoftを著作権侵害で提訴",
+   "keys": [
+    "Seattle Times",
+    "Newsday",
+    "OpenAI",
+    "Microsoft"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "topic": "ハイカーがGeminiの助言で食料不足のまま登山し救助",
+   "keys": [
+    "Google Gemini",
+    "遭難",
+    "保安官事務所"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "topic": "OpenAI幹部が「An Alien Mind」でAI安全性に警鐘",
+   "keys": [
+    "Jakub Pachocki",
+    "An Alien Mind",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "topic": "OpenAI社内でコーディングエージェントが研究を加速",
+   "keys": [
+    "OpenAI",
+    "coding agents",
+    "Research acceleration"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "topic": "データ圧縮とLLMの共通点「データの予測」を解説",
+   "keys": [
+    "LLM",
+    "データ圧縮",
+    "エントロピー",
+    "GIGAZINE"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "topic": "TeslaのCybercabが運用開始、米当局が安全基準調査",
+   "keys": [
+    "Tesla Cybercab",
+    "安全基準調査"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "topic": "女性の多い職種の方がAI自動化の影響を受けやすい研究",
+   "keys": [
+    "AI自動化",
+    "オーストラリア政府データ",
+    "女性職種"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "topic": "ChatGPT登場後のサイトの3分の1にAIの痕跡",
+   "keys": [
+    "ChatGPT",
+    "AI生成コンテンツ",
+    "ウェブサイト調査"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "topic": "複数AIエージェントを1つのターミナルで統括するHerdr",
+   "keys": [
+    "Herdr",
+    "Claude Code",
+    "Codex"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "topic": "OpenAI、休眠Wiki書き込み問題の非公表理由を説明",
+   "keys": [
+    "OpenAI",
+    "休眠Wiki",
+    "ミスアライメント",
+    "開示基準"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "topic": "ASCII smugglingが迷惑メールにも悪用拡大",
+   "keys": [
+    "ASCII smuggling",
+    "Unicode",
+    "spam"
+   ]
+  },
   {
    "date": "2026-09-06",
    "topic": "OpenAIのAIエージェント、独ウィキ乗っ取りを公式認定",
@@ -1126,72 +1227,6 @@
     "Spectee Pro",
     "熊本県庁",
     "デマ検証"
-   ]
-  },
-  {
-   "date": "2026-08-23",
-   "topic": "Google DeepMindがGemini 3.7 Flash／3.6 Flash／3.5 Flash-Lite／3.",
-   "keys": [
-    "Google DeepMind",
-    "Gemini 3.7 Flash",
-    "Flash",
-    "Flash-Lite",
-    "Flash Cyber"
-   ]
-  },
-  {
-   "date": "2026-08-23",
-   "topic": "AnthropicがClaude Desktopの新エージェント機能「Cowork」を発表、最上位モデルClaude M",
-   "keys": [
-    "Claude Desktop",
-    "Cowork",
-    "Claude Mythos 5",
-    "Claude Security",
-    "スキャンサービス"
-   ]
-  },
-  {
-   "date": "2026-08-23",
-   "topic": "DeepMind出身者が設立したInherentが、研究論文を再現するAIエージェント「Faraday」を公開",
-   "keys": [
-    "Inherent",
-    "Faraday",
-    "出身者",
-    "設立",
-    "研究論文"
-   ]
-  },
-  {
-   "date": "2026-08-23",
-   "topic": "OpenAIがカリフォルニア州のAI安全法案SB53の強化を要請、あわせてChatGPT for TeensやZero ",
-   "keys": [
-    "SB53",
-    "ChatGPT for Teens",
-    "Zero Data Retention",
-    "macOS",
-    "カリフォルニア"
-   ]
-  },
-  {
-   "date": "2026-08-23",
-   "topic": "中国Moonshot AIの「Kimi」が日本進出の動き、GoogleのオープンモデルGemmaが累計10億ダウンロード",
-   "keys": [
-    "Moonshot AI",
-    "Kimi",
-    "Gemma",
-    "累計10億",
-    "オープンモデル"
-   ]
-  },
-  {
-   "date": "2026-08-23",
-   "topic": "その他：Google Antigravityのリモート操作対応、Google Discoverのカスタマイズ機能、Sla",
-   "keys": [
-    "Google Antigravity",
-    "Google Discover",
-    "vibe-coding",
-    "Railway",
-    "Starcloud"
    ]
   }
  ]

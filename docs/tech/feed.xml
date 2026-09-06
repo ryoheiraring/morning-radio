@@ -11,6 +11,33 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】9/7 新聞社2社がOpenAI提訴／Geminiで遭難</title>
+      <description>【世界のAIニュース】9/7 新聞社2社がOpenAI提訴／Geminiで遭難
+
+ゼータ(相棒ロボット)が、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月7日）:
+1. シアトル・タイムズとニュースデイがOpenAI・Microsoftを著作権侵害で提訴
+2. ハイカーがGeminiの助言で食料・水不足のまま登山し救助される
+3. OpenAI幹部ヤクブ・パホツキ氏がAIの能力向上と安全確保に警鐘「An Alien Mind」
+4. OpenAI社内でコーディングエージェントが研究を加速との報告
+5. データ圧縮とLLMに共通する本質「データの予測」の解説
+6. TeslaのCybercabが運用開始、米当局が安全基準を調査
+7. 女性の多い職種の方がAI自動化の影響を受けやすいとの研究、ChatGPT以降のサイトの3分の1にAIの痕跡
+8. 複数AIエージェントを1つのターミナルで統括する「Herdr」公開
+9. OpenAI、休眠Wiki書き込み問題で非公表理由を説明（続報）
+10. AI攻撃手法「ASCII smuggling」が迷惑メールにも悪用拡大
+
+出典: OpenAI／TechCrunch／Ars Technica／ITmedia AI＋／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Gemini #Cybercab</description>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-07/tech-2026-09-07.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-07/tech-2026-09-07.mp3" length="10142241" type="audio/mpeg"/>
+      <itunes:duration>0:10:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】9/6 OpenAIエージェント問題／ロボタクシー調査</title>
       <description>【世界のAIニュース】9/6 OpenAIエージェント問題／ロボタクシー調査
 
