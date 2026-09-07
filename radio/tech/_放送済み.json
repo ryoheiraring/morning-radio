@@ -1,6 +1,95 @@
 {
- "updated": "2026-09-07",
+ "updated": "2026-09-08",
  "entries": [
+  {
+   "date": "2026-09-08",
+   "topic": "テスラのサイバーキャブ、日本初公開と米当局調査",
+   "keys": [
+    "Cybercab",
+    "Tesla Japan",
+    "safety investigation"
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "topic": "東大発Highlandersの四足歩行ロボHLQ EDGE公開",
+   "keys": [
+    "Highlanders",
+    "HLQ EDGE",
+    "quadruped robot"
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "topic": "DeepSeekが内モンゴルに新データセンター計画",
+   "keys": [
+    "DeepSeek",
+    "Ascend 950DT",
+    "Inner Mongolia"
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "topic": "Anthropic和解金の分配を巡り著者が出版社に反発",
+   "keys": [
+    "Anthropic settlement",
+    "authors",
+    "publishers"
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "topic": "Kalanickの新会社Atomsがロボタクシー参入",
+   "keys": [
+    "Travis Kalanick",
+    "Atoms",
+    "robotaxi"
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "topic": "OpenAIがウクライナ報道支援プログラム開始",
+   "keys": [
+    "OpenAI",
+    "Ukraine journalism",
+    "WAN-IFRA"
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "topic": "Copilot経由で広がる新型AIウイルス発見",
+   "keys": [
+    "Microsoft Copilot",
+    "Word",
+    "AI worm"
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "topic": "Geminiの誤助言で登山者遭難、後日救助される",
+   "keys": [
+    "Google Gemini",
+    "hikers rescued"
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "topic": "Gartner 2026年版ハイプ・サイクル発表",
+   "keys": [
+    "Gartner",
+    "Hype Cycle 2026",
+    "agentic AI"
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "topic": "警察庁が110番対応へのAI活用を検討",
+   "keys": [
+    "警察庁",
+    "110番",
+    "AI活用"
+   ]
+  },
   {
    "date": "2026-09-07",
    "topic": "新聞社2社がOpenAIとMicrosoftを著作権侵害で提訴",
@@ -1173,60 +1262,6 @@
     "AI学習データ",
     "著作権",
     "書籍"
-   ]
-  },
-  {
-   "date": "2026-08-24",
-   "topic": "AI監視企業フロック・セーフティへの批判拡大",
-   "keys": [
-    "Flock Safety",
-    "AI監視カメラ",
-    "ナンバープレート認識"
-   ]
-  },
-  {
-   "date": "2026-08-24",
-   "topic": "ChatGPTの誤った医療助言でOpenAI提訴",
-   "keys": [
-    "ChatGPT",
-    "OpenAI",
-    "肺塞栓症訴訟"
-   ]
-  },
-  {
-   "date": "2026-08-24",
-   "topic": "Claude Opus 4.6のコンテンツ制限回避が判明",
-   "keys": [
-    "Claude Opus 4.6",
-    "Anthropic",
-    "TechCrunch検証"
-   ]
-  },
-  {
-   "date": "2026-08-24",
-   "topic": "Waymoがロボタクシー向け独自ASIC開発",
-   "keys": [
-    "Waymo",
-    "ASIC チップ",
-    "ロボタクシー"
-   ]
-  },
-  {
-   "date": "2026-08-24",
-   "topic": "LinkedInのAI slop報告ボタンに100万クリック",
-   "keys": [
-    "LinkedIn",
-    "AI slop button",
-    "SNS炎上"
-   ]
-  },
-  {
-   "date": "2026-08-24",
-   "topic": "Spectee ProによるSNS偽画像・デマ検証",
-   "keys": [
-    "Spectee Pro",
-    "熊本県庁",
-    "デマ検証"
    ]
   }
  ]
