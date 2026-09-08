@@ -1,6 +1,84 @@
 {
- "updated": "2026-09-08",
+ "updated": "2026-09-09",
  "entries": [
+  {
+   "date": "2026-09-09",
+   "topic": "OpenAIがナビエ・ストークス問題にAI解答",
+   "keys": [
+    "Navier-Stokes",
+    "Lean formal proof",
+    "Millennium Prize Problem"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "topic": "Mistralが30億ユーロを調達",
+   "keys": [
+    "Mistral AI",
+    "Series D",
+    "€21B valuation"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "topic": "Google CloudがAccentureと提携",
+   "keys": [
+    "Google Cloud",
+    "Accenture",
+    "forward-deployed engineers"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "topic": "Chromeが2週間ごとの更新に",
+   "keys": [
+    "Google Chrome",
+    "biweekly release"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "topic": "日本でローカルLLMが過熱",
+   "keys": [
+    "ローカルLLM",
+    "価格.com",
+    "AI PC"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "topic": "OpenAIが10代AI研究に助成金",
+   "keys": [
+    "OpenAI teen grant",
+    "$5 million"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "topic": "日立がフィジカルAI元年を宣言",
+   "keys": [
+    "日立製作所",
+    "HMAX",
+    "フィジカルAI"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "topic": "Xiaopengの人型ロボットIRONが量産へ",
+   "keys": [
+    "Xiaopeng",
+    "IRON",
+    "人型ロボット"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "topic": "Unitreeが自律格闘デモを公開",
+   "keys": [
+    "Unitree Robotics",
+    "自律格闘デモ"
+   ]
+  },
   {
    "date": "2026-09-08",
    "topic": "テスラのサイバーキャブ、日本初公開と米当局調査",
@@ -1182,86 +1260,6 @@
     "Stanford",
     "entry-level jobs",
     "19%"
-   ]
-  },
-  {
-   "date": "2026-08-25",
-   "topic": "謎のステルスAI「Ox Alpha」が無料テスト開始",
-   "keys": [
-    "Ox Alpha",
-    "OpenRouter",
-    "OpenCode"
-   ]
-  },
-  {
-   "date": "2026-08-25",
-   "topic": "Nvidia社員がSupermicro密輸事件で起訴",
-   "keys": [
-    "Nvidia",
-    "Supermicro",
-    "Jensen Huang"
-   ]
-  },
-  {
-   "date": "2026-08-25",
-   "topic": "OpenAIがAIエージェントを一般向けに拡大",
-   "keys": [
-    "OpenAI",
-    "AI agents"
-   ]
-  },
-  {
-   "date": "2026-08-25",
-   "topic": "NvidiaがAIサーバー価格を15%超値上げ",
-   "keys": [
-    "NVIDIA",
-    "Vera Rubin",
-    "Grace Blackwell"
-   ]
-  },
-  {
-   "date": "2026-08-25",
-   "topic": "General Intuitionが60億ドル評価額で調達",
-   "keys": [
-    "General Intuition",
-    "Valor",
-    "Point72"
-   ]
-  },
-  {
-   "date": "2026-08-25",
-   "topic": "Google DeepMindがEVE OnlineでAI研究",
-   "keys": [
-    "Google DeepMind",
-    "EVE Online",
-    "Fenris Creations"
-   ]
-  },
-  {
-   "date": "2026-08-25",
-   "topic": "日本企業のAI投資、成果実感13%にとどまる",
-   "keys": [
-    "Accenture",
-    "78%投資意欲",
-    "13%成果"
-   ]
-  },
-  {
-   "date": "2026-08-25",
-   "topic": "LinkedInのAIスロップ通報ボタン100万人利用",
-   "keys": [
-    "LinkedIn",
-    "Seems Like AI Slop",
-    "Hari Srinivasan"
-   ]
-  },
-  {
-   "date": "2026-08-25",
-   "topic": "AI学習データと著作権書籍の合法性論争",
-   "keys": [
-    "AI学習データ",
-    "著作権",
-    "書籍"
    ]
   }
  ]

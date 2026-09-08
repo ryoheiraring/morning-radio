@@ -1,0 +1,19 @@
+【世界のAIニュース】9/9 数学の難問にAI挑戦／Mistral大型調達
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月9日）:
+1. OpenAI、ミレニアム懸賞問題「ナビエ・ストークス方程式」にAI生成の解答を発表(TechCrunchはNYU数学者による批判の声も報道)
+2. OpenAI、画像生成機能「ChatGPT Images 2.5」を発表
+3. フランスのMistral、30億ユーロ(評価額210億ユーロ)の大型資金調達
+4. Google DeepMind、ヒトゲノム変異地図「AlphaGenome Atlas」を公開
+5. Google Cloud、Accentureと提携しエンタープライズAI導入を加速
+6. Google Chrome、アップデート頻度を2週間ごとに短縮
+7. 日本で「ローカルLLM」ブーム、100万円のAI PCが価格.comランキング1位に
+8. OpenAI、ジャーナリズム支援を拡大、10代のAI研究に500万ドルの助成金
+9. Google Workspace Studio×Geminiによる業務効率化の事例
+10. 日立、Xiaopeng、Unitreeなど、日中で活発化する人型ロボット/フィジカルAIの動き
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／ITmedia 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Mistral #人型ロボット #ナビエストークス
