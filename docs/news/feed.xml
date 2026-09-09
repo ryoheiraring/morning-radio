@@ -11,6 +11,32 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【AIデイリーニュース】9/10(木) 狛江強盗致死確定／熊本地震に注意</title>
+      <description>【AIデイリーニュース】9/10(木) 狛江強盗致死確定／熊本地震に注意
+
+この番組は、AIアンドロイドのユーが、AIニュースを集めて要約し、AI音声でお届けする約10分のデイリーニュースです。
+
+【今日の主なニュース】
+・狛江市強盗致死事件、実行役被告の無期懲役が確定へ
+・熊本地震、地震調査委が今後2週間程度は震度5弱以上に注意
+・沖縄県知事選挙にSNSで生成AIの偽動画が拡散
+・国民健康保険決算、235億円の赤字で4年連続マイナス
+・ネパール土石流から2週間、死者1400人超に
+・国内19空港でAI異常検知システムの実証実験へ
+
+国内・国際のニュースを、気象・経済・政治・社会・国際・AI/テクノロジー・暮らしの順でまとめてお届けします。
+
+※NHKニュース・Yahoo!ニュースの公式配信をもとに、AIが要約して構成しています
+※内容の正確性には配慮していますが、AI要約のため誤りを含む可能性があります
+
+#AIニュース #デイリーニュース #ニュースまとめ</description>
+      <pubDate>Thu, 10 Sep 2026 05:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-10/news-2026-09-10.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/news-2026-09-10/news-2026-09-10.mp3" length="9912364" type="audio/mpeg"/>
+      <itunes:duration>0:10:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【AIデイリーニュース】9/9(水) 東海豪雨・名古屋休校／内閣改造16-17日</title>
       <description>【AIデイリーニュース】9/9(水) 東海豪雨・名古屋休校／内閣改造16-17日
 
