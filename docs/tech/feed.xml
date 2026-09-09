@@ -11,6 +11,29 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】9/10 iPhone Duo登場／AI安全論争</title>
+      <description>【世界のAIニュース】9/10 iPhone Duo登場／AI安全論争
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月10日）:
+1. Appleが新製品発表イベントを開催、折りたたみ型iPhone「iPhone Duo」やiPhone 18 Pro、Apple Watch、AirPods 5を発表
+2. OpenAIがPaul Christiano氏をFoundation Boardに迎え、AnthropicではAI安全研究者が超知能開発競争に警鐘を鳴らし退社
+3. Google DeepMindがヒトゲノムの変異を予測する「AlphaGenome Atlas」を公開
+4. OpenAIが画像生成機能の新版「ChatGPT Images 2.5」を発表
+5. Meta「Muse」やAIアシスタント「Instinct」、Amazon Prime Videoなど、AIエージェント・サービスの広がり
+6. OECD調査でAI利用と生徒の成績低下の関連が判明、GoogleはAIを使った攻撃の急増を報告
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #iPhoneDuo #AI安全性 #AlphaGenome</description>
+      <pubDate>Thu, 10 Sep 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-10/tech-2026-09-10.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-10/tech-2026-09-10.mp3" length="9555844" type="audio/mpeg"/>
+      <itunes:duration>0:09:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】9/9 数学の難問にAI挑戦／Mistral大型調達</title>
       <description>【世界のAIニュース】9/9 数学の難問にAI挑戦／Mistral大型調達
 

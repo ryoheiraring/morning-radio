@@ -1,6 +1,100 @@
 {
- "updated": "2026-09-09",
+ "updated": "2026-09-10",
  "entries": [
+  {
+   "date": "2026-09-10",
+   "topic": "Apple新製品発表、折りたたみ型iPhone Duo登場",
+   "keys": [
+    "iPhone Duo",
+    "iPhone 18 Pro",
+    "John Ternus",
+    "Apple Watch Ultra 4"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "topic": "Siri AI日本語版が10月提供開始",
+   "keys": [
+    "Siri AI",
+    "Apple Intelligence"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "topic": "OpenAI財団理事にPaul Christiano氏就任",
+   "keys": [
+    "Paul Christiano",
+    "OpenAI Foundation Board",
+    "Safety and Security Committee"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "topic": "Anthropic研究者が超知能開発に警鐘し退社",
+   "keys": [
+    "Anthropic",
+    "superintelligence",
+    "ControlAI",
+    "Connor Leahy"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "topic": "Google DeepMindがAlphaGenome Atlas公開",
+   "keys": [
+    "AlphaGenome Atlas",
+    "Google DeepMind"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "topic": "OpenAIがChatGPT Images 2.5を発表",
+   "keys": [
+    "ChatGPT Images 2.5",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "topic": "Meta「Muse」エージェントに注力",
+   "keys": [
+    "Muse",
+    "Meta"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "topic": "Amazon Prime VideoがAIリップシンク吹替導入",
+   "keys": [
+    "Prime Video",
+    "Amazon"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "topic": "1PasswordがCodex導入で生産性21%向上",
+   "keys": [
+    "1Password",
+    "Codex",
+    "OpenAI"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "topic": "Google GTIGがAI悪用の攻撃急増を報告",
+   "keys": [
+    "GTIG",
+    "Google"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "topic": "ナビエ・ストークス問題を巡る不正疑惑続報",
+   "keys": [
+    "Navier-Stokes",
+    "OpenAI"
+   ]
+  },
   {
    "date": "2026-09-09",
    "topic": "OpenAIがナビエ・ストークス問題にAI解答",
@@ -1156,110 +1250,6 @@
     "Stanford Digital Economy Lab",
     "雇用影響",
     "若年層"
-   ]
-  },
-  {
-   "date": "2026-08-26",
-   "topic": "OpenAI推論チップ「Jalapeño」初公開",
-   "keys": [
-    "Jalapeño",
-    "OpenAI",
-    "InferenceX",
-    "Sarah Friar"
-   ]
-  },
-  {
-   "date": "2026-08-26",
-   "topic": "Stability AIが7600万ドル資金調達",
-   "keys": [
-    "Stability AI",
-    "Stable Diffusion",
-    "$76 million"
-   ]
-  },
-  {
-   "date": "2026-08-26",
-   "topic": "Claude、チャットとCoworkで記憶共有",
-   "keys": [
-    "Claude",
-    "Claude Cowork",
-    "Anthropic",
-    "shared memory"
-   ]
-  },
-  {
-   "date": "2026-08-26",
-   "topic": "OpenAI、ロシア発偽情報工作を阻止",
-   "keys": [
-    "OpenAI",
-    "Russia",
-    "covert influence campaign",
-    "sovereignty index"
-   ]
-  },
-  {
-   "date": "2026-08-26",
-   "topic": "ChatGPT Plusに5時間制限が復活",
-   "keys": [
-    "ChatGPT Plus",
-    "ChatGPT Work",
-    "Codex",
-    "5-hour limit"
-   ]
-  },
-  {
-   "date": "2026-08-26",
-   "topic": "日本政府がAI事業者向け知財指針策定",
-   "keys": [
-    "プリンシプル・コード",
-    "知的財産権",
-    "生成AI"
-   ]
-  },
-  {
-   "date": "2026-08-26",
-   "topic": "AIヘッジファンドにSEC捜査の報道",
-   "keys": [
-    "Situational Awareness",
-    "SEC",
-    "hedge fund"
-   ]
-  },
-  {
-   "date": "2026-08-26",
-   "topic": "Apple、ローカルAI開発向け新デスクトップ",
-   "keys": [
-    "Apple",
-    "Mac",
-    "local AI development"
-   ]
-  },
-  {
-   "date": "2026-08-26",
-   "topic": "Windowsペイントに電子透かし発覚",
-   "keys": [
-    "Windows Paint",
-    "Microsoft Photos",
-    "watermark",
-    "GUID"
-   ]
-  },
-  {
-   "date": "2026-08-26",
-   "topic": "シャープ「ポケとも」新モデル発表",
-   "keys": [
-    "ポケとも",
-    "Sharp",
-    "対話型AIロボット"
-   ]
-  },
-  {
-   "date": "2026-08-26",
-   "topic": "AIで若手雇用19%減、Stanford調査",
-   "keys": [
-    "Stanford",
-    "entry-level jobs",
-    "19%"
    ]
   }
  ]
