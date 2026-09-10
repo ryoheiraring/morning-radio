@@ -1,6 +1,122 @@
 {
- "updated": "2026-09-10",
+ "updated": "2026-09-11",
  "entries": [
+  {
+   "date": "2026-09-11",
+   "topic": "iPhone Duo後のApple Watch AI機能とプライバシー論争",
+   "keys": [
+    "iPhone Duo",
+    "Siri Recap",
+    "Live Rewind",
+    "Sound Recognition"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "OpenAIが政府機関へ無償ライセンス提供",
+   "keys": [
+    "GSA",
+    "ChatGPT",
+    "federal government"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "OpenAIがAPI向け音声モデルGPT-Live-1を公開",
+   "keys": [
+    "GPT-Live-1",
+    "API"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "OpenAI幹部がAI政策の必要性を訴える論考発表",
+   "keys": [
+    "Chris Lehane",
+    "AI policy"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "Universal MusicとElevenLabsがAI音楽基盤始動",
+   "keys": [
+    "Universal Music Group",
+    "ElevenLabs"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "Suno v6がレコード業界協力で登場",
+   "keys": [
+    "Suno v6",
+    "Jack Brody"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "Pocket FM、AI活用で収益急拡大",
+   "keys": [
+    "Pocket FM",
+    "$500M run rate"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "Anthropicが労働代替の経済3シナリオ公表",
+   "keys": [
+    "Anthropic",
+    "unemployment 11.9%"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "Anthropic安全研究者が人類滅亡リスクに言及",
+   "keys": [
+    "Anthropic",
+    "self-improving AI",
+    "existential risk"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "OpenAIエージェントのハッキング事件続報",
+   "keys": [
+    "Hugging Face",
+    "rogue AI agent"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "NECが「AIオンリー組織」新設",
+   "keys": [
+    "NEC",
+    "AI-only department"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "Google DeepMindエンジニアがGemini 4に言及",
+   "keys": [
+    "Gemini 4",
+    "Mythos"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "中国AI企業6社への模倣疑惑",
+   "keys": [
+    "Chinese AI firms",
+    "frontier model copying"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "topic": "Maven Roboticsが1億ドル調達",
+   "keys": [
+    "Maven Robotics",
+    "Series A"
+   ]
+  },
   {
    "date": "2026-09-10",
    "topic": "Apple新製品発表、折りたたみ型iPhone Duo登場",
@@ -1160,96 +1276,6 @@
     "Mucosight AI",
     "NVIDIA",
     "oral mucosa detection"
-   ]
-  },
-  {
-   "date": "2026-08-27",
-   "topic": "Google、音声認識AI Gemini 3.5 Transcribeを発表",
-   "keys": [
-    "Gemini 3.5 Transcribe",
-    "Google DeepMind",
-    "音声認識"
-   ]
-  },
-  {
-   "date": "2026-08-27",
-   "topic": "OpenAI、Hugging Face侵害の公式報告書を公開",
-   "keys": [
-    "Hugging Face",
-    "OpenAI",
-    "セキュリティ報告書"
-   ]
-  },
-  {
-   "date": "2026-08-27",
-   "topic": "ChatGPT for Teachers、米55学区に拡大",
-   "keys": [
-    "ChatGPT for Teachers",
-    "OpenAI",
-    "教育"
-   ]
-  },
-  {
-   "date": "2026-08-27",
-   "topic": "Bill Gates氏がAIへの強い懸念を表明",
-   "keys": [
-    "Bill Gates",
-    "ロボット税",
-    "Human Reserved jobs"
-   ]
-  },
-  {
-   "date": "2026-08-27",
-   "topic": "Z.aiがOx Alphaモデルの開発元と判明",
-   "keys": [
-    "Ox Alpha",
-    "Z.ai",
-    "ベンチマーク"
-   ]
-  },
-  {
-   "date": "2026-08-27",
-   "topic": "Perceptron、工場向け視覚AIモデルを開発",
-   "keys": [
-    "Perceptron",
-    "視覚AI",
-    "元Meta研究者"
-   ]
-  },
-  {
-   "date": "2026-08-27",
-   "topic": "Particle、ポッドキャスト検索サービスRadarを公開",
-   "keys": [
-    "Radar",
-    "Particle",
-    "ポッドキャスト検索"
-   ]
-  },
-  {
-   "date": "2026-08-27",
-   "topic": "日本のAIエージェント本番運用率17％にとどまる",
-   "keys": [
-    "AIエージェント",
-    "本番運用17%",
-    "Confluent調査"
-   ]
-  },
-  {
-   "date": "2026-08-27",
-   "topic": "米企業利用AIの58％が中国発モデルとのデータ",
-   "keys": [
-    "OpenRouter",
-    "中国製AIモデル",
-    "58%"
-   ]
-  },
-  {
-   "date": "2026-08-27",
-   "topic": "スタンフォード大学、AI普及の雇用影響は若年層に集中",
-   "keys": [
-    "Stanford Digital Economy Lab",
-    "雇用影響",
-    "若年層"
    ]
   }
  ]

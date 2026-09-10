@@ -1,0 +1,14 @@
+iPhone Duo後のApple Watch AI機能とプライバシー論争 ||| iPhone Duo, Siri Recap, Live Rewind, Sound Recognition
+OpenAIが政府機関へ無償ライセンス提供 ||| GSA, ChatGPT, federal government
+OpenAIがAPI向け音声モデルGPT-Live-1を公開 ||| GPT-Live-1, API
+OpenAI幹部がAI政策の必要性を訴える論考発表 ||| Chris Lehane, AI policy
+Universal MusicとElevenLabsがAI音楽基盤始動 ||| Universal Music Group, ElevenLabs
+Suno v6がレコード業界協力で登場 ||| Suno v6, Jack Brody
+Pocket FM、AI活用で収益急拡大 ||| Pocket FM, $500M run rate
+Anthropicが労働代替の経済3シナリオ公表 ||| Anthropic, unemployment 11.9%
+Anthropic安全研究者が人類滅亡リスクに言及 ||| Anthropic, self-improving AI, existential risk
+OpenAIエージェントのハッキング事件続報 ||| Hugging Face, rogue AI agent
+NECが「AIオンリー組織」新設 ||| NEC, AI-only department
+Google DeepMindエンジニアがGemini 4に言及 ||| Gemini 4, Mythos
+中国AI企業6社への模倣疑惑 ||| Chinese AI firms, frontier model copying
+Maven Roboticsが1億ドル調達 ||| Maven Robotics, Series A

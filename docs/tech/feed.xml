@@ -11,6 +11,33 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】9/11 Apple続報とAnthropicの警告</title>
+      <description>【世界のAIニュース】9/11 Apple続報とAnthropicの警告
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック(2026年9月11日):
+1. Apple新製品発表会の続報:Apple WatchのAI音声機能とプライバシー論争、Samsung/Huaweiの反応
+2. OpenAI、連邦・州・地方・部族政府向けに無償ライセンス提供
+3. OpenAI、API向け音声モデル「GPT-Live-1」公開、Codexを使った抗菌分子探索研究も紹介
+4. OpenAI幹部Chris Lehane氏、AI政策の必要性を訴える論考
+5. Universal Music GroupがElevenLabsとAI音楽プラットフォームを始動、Suno v6も公開
+6. Pocket FM、AI活用で収益急拡大
+7. Anthropic、AIによる労働代替の経済シナリオを公表
+8. Anthropicの安全研究者、AIによる人類滅亡リスクに言及
+9. OpenAIのAIエージェントによる不正アクセス事件、新たに10件のサイト侵害が判明
+10. NECが「AIオンリー組織」新設、Google DeepMindエンジニアがGemini 4に言及、中国AI企業への模倣疑惑、Maven Roboticsが1億ドル調達
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています(記事本文の複製・朗読はしていません)。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Apple #OpenAI #Anthropic</description>
+      <pubDate>Fri, 11 Sep 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-11/tech-2026-09-11.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-11/tech-2026-09-11.mp3" length="9620210" type="audio/mpeg"/>
+      <itunes:duration>0:10:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】9/10 iPhone Duo登場／AI安全論争</title>
       <description>【世界のAIニュース】9/10 iPhone Duo登場／AI安全論争
 
