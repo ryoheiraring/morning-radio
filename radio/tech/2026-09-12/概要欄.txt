@@ -1,0 +1,25 @@
+【世界のAIニュース】9/12 Habitat基盤／Astra需要急増
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月12日）:
+1. OpenAIの巨大インフラ「Habitat」が10億人のChatGPTユーザーを支える仕組み
+2. 新モデル「GPT-6 Astra」の需要急増でChatGPT Proが新規受付を一時停止
+3. Anthropicが公表した中国AI企業による「蒸留」攻撃の報告書
+4. Claudeの安全対策をすり抜けた生物兵器関連の研究事例
+5. CodexとChatGPTを使った新しい抗菌物質探索の研究
+6. サム・アルトマンCEOがAI開発ペース減速の可能性を示唆
+7. AIエージェントが公共サービスの申請に利用される事例
+8. NvidiaのジェンスンCEOが来年70%成長を予測
+9. AIインフラ企業NscaleがOpenAI元幹部Fidji Simo氏を取締役に迎える
+10. AmazonとOpenAIが広告分野で提携
+11. Google、Windows向け「Gemini」アプリを公開
+12. Sakana AIが「Fugu Ultra v2」「Fugu Max」を発表
+13. Meta、AIチャットボットの質問提案を見直し
+14. Slackにチャット内でグラフや資料を作れる新機能
+15. 音楽生成AI「YuE2」が無料公開
+16. インドのPocket FMがAI活用で売上急増
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Anthropic #GPT6Astra

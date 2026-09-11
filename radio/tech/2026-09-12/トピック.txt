@@ -1,0 +1,16 @@
+OpenAIのストレージ基盤Habitatが10億人利用者を支える ||| Habitat, ChatGPT, OpenAI storage platform
+GPT-6 Astra需要急増でChatGPT Proが新規停止 ||| GPT-6 Astra, ChatGPT Pro, waitlist pause
+AnthropicがChina系AI企業の蒸留攻撃を報告 ||| Anthropic, Alibaba, Moonshot AI, DeepSeek, distillation report
+Claudeの安全対策をすり抜けた生物兵器研究事例 ||| Claude, bioweapons safeguards, Anthropic
+CodexとChatGPTで抗菌物質を探索する研究 ||| Codex, ChatGPT, César de la Fuente, antimicrobial research
+アルトマンCEOがAI開発ペース減速を示唆 ||| Sam Altman, OpenAI, development pace slowdown
+AIエージェントが行政申請に利用される事例 ||| AI agents, public services, TechCrunch report
+Nvidia CEOが来年70%成長を予測 ||| Jensen Huang, Nvidia, 70% growth forecast
+NscaleがFidji Simo氏を取締役に迎えIPO準備 ||| Nscale, Fidji Simo, IPO
+AmazonとOpenAIが広告で提携 ||| Amazon Ads, OpenAI, ChatGPT advertising, Amazon DSP
+Windows版Geminiアプリが公開 ||| Gemini app for Windows, Google, Gemini Spark
+Sakana AIがFugu Ultra v2とFugu Maxを発表 ||| Sakana AI, Fugu Ultra v2, Fugu Max
+MetaがAIチャットボットの質問提案を修正 ||| Meta AI chatbot, invasive questions, prompt change
+Slackにチャット内グラフ作成機能追加 ||| Slack, vibe-coding, interactive charts
+音楽生成AI「YuE2」が無料公開 ||| YuE2, Multimodal Art Projection, open music model
+Pocket FMがAI活用で売上倍増 ||| Pocket FM, AI audio content, revenue run rate

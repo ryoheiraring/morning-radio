@@ -1,6 +1,154 @@
 {
- "updated": "2026-09-11",
+ "updated": "2026-09-12",
  "entries": [
+  {
+   "date": "2026-09-12",
+   "topic": "OpenAIのストレージ基盤Habitatが10億人利用者を支える",
+   "keys": [
+    "Habitat",
+    "ChatGPT",
+    "OpenAI storage platform"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "GPT-6 Astra需要急増でChatGPT Proが新規停止",
+   "keys": [
+    "GPT-6 Astra",
+    "ChatGPT Pro",
+    "waitlist pause"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "AnthropicがChina系AI企業の蒸留攻撃を報告",
+   "keys": [
+    "Anthropic",
+    "Alibaba",
+    "Moonshot AI",
+    "DeepSeek",
+    "distillation report"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "Claudeの安全対策をすり抜けた生物兵器研究事例",
+   "keys": [
+    "Claude",
+    "bioweapons safeguards",
+    "Anthropic"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "CodexとChatGPTで抗菌物質を探索する研究",
+   "keys": [
+    "Codex",
+    "ChatGPT",
+    "César de la Fuente",
+    "antimicrobial research"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "アルトマンCEOがAI開発ペース減速を示唆",
+   "keys": [
+    "Sam Altman",
+    "OpenAI",
+    "development pace slowdown"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "AIエージェントが行政申請に利用される事例",
+   "keys": [
+    "AI agents",
+    "public services",
+    "TechCrunch report"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "Nvidia CEOが来年70%成長を予測",
+   "keys": [
+    "Jensen Huang",
+    "Nvidia",
+    "70% growth forecast"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "NscaleがFidji Simo氏を取締役に迎えIPO準備",
+   "keys": [
+    "Nscale",
+    "Fidji Simo",
+    "IPO"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "AmazonとOpenAIが広告で提携",
+   "keys": [
+    "Amazon Ads",
+    "OpenAI",
+    "ChatGPT advertising",
+    "Amazon DSP"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "Windows版Geminiアプリが公開",
+   "keys": [
+    "Gemini app for Windows",
+    "Google",
+    "Gemini Spark"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "Sakana AIがFugu Ultra v2とFugu Maxを発表",
+   "keys": [
+    "Sakana AI",
+    "Fugu Ultra v2",
+    "Fugu Max"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "MetaがAIチャットボットの質問提案を修正",
+   "keys": [
+    "Meta AI chatbot",
+    "invasive questions",
+    "prompt change"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "Slackにチャット内グラフ作成機能追加",
+   "keys": [
+    "Slack",
+    "vibe-coding",
+    "interactive charts"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "音楽生成AI「YuE2」が無料公開",
+   "keys": [
+    "YuE2",
+    "Multimodal Art Projection",
+    "open music model"
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "topic": "Pocket FMがAI活用で売上倍増",
+   "keys": [
+    "Pocket FM",
+    "AI audio content",
+    "revenue run rate"
+   ]
+  },
   {
    "date": "2026-09-11",
    "topic": "iPhone Duo後のApple Watch AI機能とプライバシー論争",
@@ -1203,79 +1351,6 @@
     "Microduck",
     "Pollen Robotics",
     "Hugging Face"
-   ]
-  },
-  {
-   "date": "2026-08-28",
-   "topic": "NvidiaがHugging Faceを買収と報道",
-   "keys": [
-    "Nvidia",
-    "Hugging Face",
-    "$12.9 billion acquisition"
-   ]
-  },
-  {
-   "date": "2026-08-28",
-   "topic": "Google検索AIモードに旅行予約機能追加",
-   "keys": [
-    "Google AI Mode",
-    "hotel booking",
-    "flight tracking"
-   ]
-  },
-  {
-   "date": "2026-08-28",
-   "topic": "100社超が暴走AI対策を呼びかけ",
-   "keys": [
-    "OpenAI",
-    "Anthropic",
-    "Google",
-    "rogue AI coalition"
-   ]
-  },
-  {
-   "date": "2026-08-28",
-   "topic": "Gemini Omni 1.1 Flash公開、二重盲検評価も",
-   "keys": [
-    "Gemini Omni 1.1 Flash",
-    "double-blind AI evaluation"
-   ]
-  },
-  {
-   "date": "2026-08-28",
-   "topic": "Meta「Project OT」AI置き換え計画が頓挫",
-   "keys": [
-    "Meta",
-    "Project OT",
-    "Mark Zuckerberg"
-   ]
-  },
-  {
-   "date": "2026-08-28",
-   "topic": "中国のステルスモデルGLM-5.3-Flash公開",
-   "keys": [
-    "GLM-5.3-Flash",
-    "Z.ai",
-    "Ox Alpha",
-    "Claude Opus 4.8"
-   ]
-  },
-  {
-   "date": "2026-08-28",
-   "topic": "AI推論市場、2035年に46ギガワットへ拡大予測",
-   "keys": [
-    "ABI Research",
-    "AI inference market",
-    "46 gigawatts"
-   ]
-  },
-  {
-   "date": "2026-08-28",
-   "topic": "NVIDIA支援の歯科用AI「Mucosight AI」承認取得",
-   "keys": [
-    "Mucosight AI",
-    "NVIDIA",
-    "oral mucosa detection"
    ]
   }
  ]
