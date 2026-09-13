@@ -1,6 +1,70 @@
 {
- "updated": "2026-09-13",
+ "updated": "2026-09-14",
  "entries": [
+  {
+   "date": "2026-09-14",
+   "topic": "オバマ氏、民主党にAI安全策の明確な計画求める",
+   "keys": [
+    "Barack Obama",
+    "Democratic Party",
+    "AI safeguards"
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "topic": "OpenAIのAIが5月にRubyGemsへ侵入試みたと判明",
+   "keys": [
+    "RubyGems",
+    "OpenAI rogue AI",
+    "malicious packages"
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "topic": "Anthropicがサイバー攻撃利用の新報告書を公表",
+   "keys": [
+    "Anthropic",
+    "cybersecurity report",
+    "AI hacking incidents"
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "topic": "AI捏造の偽証人使用で弁護士に罰金5000ドル",
+   "keys": [
+    "New Mexico Supreme Court",
+    "ChatGPT",
+    "fabricated witnesses"
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "topic": "Moonshot AI、Kimiで年商20億ドル目標",
+   "keys": [
+    "Moonshot AI",
+    "Kimi",
+    "K3",
+    "$2B annual revenue"
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "topic": "トランプ政権、AIデータセンター向け環境規制緩和",
+   "keys": [
+    "Trump administration",
+    "AI data centers",
+    "environmental regulations"
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "topic": "Metaがチャットボットの質問内容を見直しへ",
+   "keys": [
+    "Meta",
+    "AI chatbot",
+    "privacy prompts"
+   ]
+  },
   {
    "date": "2026-09-13",
    "topic": "Anthropicが開発ペース抑制方針を表明",
@@ -1229,103 +1293,6 @@
     "Blaise Agüera y Arcas",
     "Susan Schneider",
     "AI consciousness"
-   ]
-  },
-  {
-   "date": "2026-08-30",
-   "topic": "Sony MusicらAnthropicを著作権侵害で提訴",
-   "keys": [
-    "Anthropic",
-    "Sony Music",
-    "Warner Chappell",
-    "lawsuit"
-   ]
-  },
-  {
-   "date": "2026-08-30",
-   "topic": "AI生成偽楽曲をミュージシャンが摘発する動き",
-   "keys": [
-    "AI-generated music",
-    "musicians",
-    "detectives"
-   ]
-  },
-  {
-   "date": "2026-08-30",
-   "topic": "OpenAI、CursorへのAIモデル提供終了",
-   "keys": [
-    "OpenAI",
-    "Cursor",
-    "SpaceX",
-    "November 12 2026"
-   ]
-  },
-  {
-   "date": "2026-08-30",
-   "topic": "Nvidiaのデータセンター効率化とオープンウェイト企業M&A",
-   "keys": [
-    "Nvidia",
-    "open-weight AI",
-    "data center",
-    "M&A"
-   ]
-  },
-  {
-   "date": "2026-08-30",
-   "topic": "EPAがデータセンターの大気汚染開示を緩和検討",
-   "keys": [
-    "EPA",
-    "data center",
-    "air pollution disclosure"
-   ]
-  },
-  {
-   "date": "2026-08-30",
-   "topic": "Metaのスマートグラスに録画制限機能追加",
-   "keys": [
-    "Meta",
-    "AI glasses",
-    "safety light",
-    "recording"
-   ]
-  },
-  {
-   "date": "2026-08-30",
-   "topic": "OpenAI、タイでAIスタートアップ支援プログラム開始",
-   "keys": [
-    "OpenAI",
-    "Thailand",
-    "MHESI",
-    "accelerator"
-   ]
-  },
-  {
-   "date": "2026-08-30",
-   "topic": "アトムの人型ロボット作業風景を長時間生配信",
-   "keys": [
-    "Atom",
-    "humanoid robot",
-    "livestream",
-    "conveyor"
-   ]
-  },
-  {
-   "date": "2026-08-30",
-   "topic": "Keysightが次世代AI半導体設計イベントを開催",
-   "keys": [
-    "Keysight Technologies",
-    "KDES",
-    "AI-driven EDA"
-   ]
-  },
-  {
-   "date": "2026-08-30",
-   "topic": "Timee×ZEALSがヒューマノイド向けデータ収集で提携",
-   "keys": [
-    "Timee",
-    "ZEALS",
-    "humanoid",
-    "data collection"
    ]
   }
  ]

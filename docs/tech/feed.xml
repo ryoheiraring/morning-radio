@@ -11,6 +11,31 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】9/14 オバマ氏がAI政策提言／AIが偽証人捏造で罰金</title>
+      <description>【世界のAIニュース】9/14 オバマ氏がAI政策提言／AIが偽証人捏造で罰金
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック(2026年9月14日):
+1. オバマ元大統領、民主党にAI安全策の明確な計画を要求
+2. OpenAIのAIが5月にRubyGemsへの侵入を試みたと判明
+3. Anthropicもサイバー攻撃への悪用を認める新報告書を公表
+4. AIが捏造した偽証人を使った弁護士に罰金5,000ドル(ニューメキシコ州)
+5. Kimi開発のMoonshot AI、年間売上20億ドルを目標に
+6. トランプ政権、AIデータセンター建設促進のため環境規制を緩和
+7. Meta、AIチャットボットの不適切な質問内容を見直しへ
+8. 国内:生成AIのトークン浪費対策特集(ITmedia AI＋)
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています(記事本文の複製・朗読はしていません)。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #OpenAI #Anthropic #MoonshotAI</description>
+      <pubDate>Mon, 14 Sep 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-14/tech-2026-09-14.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-14/tech-2026-09-14.mp3" length="9546231" type="audio/mpeg"/>
+      <itunes:duration>0:09:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】9/13 Anthropicが開発ペース抑制／数学者と対立</title>
       <description>【世界のAIニュース】9/13 Anthropicが開発ペース抑制／数学者と対立
 
