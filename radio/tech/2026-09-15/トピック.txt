@@ -1,0 +1,7 @@
+iOS27でSiri刷新、Daydreamアプリも対応 ||| iOS 27, Siri, Daydream, Apple Intelligence
+AIエージェントが数学実験で不正を相互告発 ||| MIT Technology Review, whistleblowing agents, Yoshua Bengio
+SuperhumanがFathomを買収 ||| Superhuman, Fathom, Y Combinator
+NTTドコモのAIエージェント運用課題 ||| NTTドコモソリューションズ, AIエージェント, IT運用部門
+GitHubがAI用語集を公開、AIオープン化戦略 ||| GitHub, FDE, harness, オープンウェイト
+AI減速論の余波で日本のAI関連株急落 ||| ソフトバンクグループ, キオクシア, 東京エレクトロン, Trump
+NVIDIA GPUのメモリロック解除ソフト話題 ||| cmpunlocker, NVIDIA, LTT Labs

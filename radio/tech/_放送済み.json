@@ -1,6 +1,72 @@
 {
- "updated": "2026-09-14",
+ "updated": "2026-09-15",
  "entries": [
+  {
+   "date": "2026-09-15",
+   "topic": "iOS27でSiri刷新、Daydreamアプリも対応",
+   "keys": [
+    "iOS 27",
+    "Siri",
+    "Daydream",
+    "Apple Intelligence"
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "topic": "AIエージェントが数学実験で不正を相互告発",
+   "keys": [
+    "MIT Technology Review",
+    "whistleblowing agents",
+    "Yoshua Bengio"
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "topic": "SuperhumanがFathomを買収",
+   "keys": [
+    "Superhuman",
+    "Fathom",
+    "Y Combinator"
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "topic": "NTTドコモのAIエージェント運用課題",
+   "keys": [
+    "NTTドコモソリューションズ",
+    "AIエージェント",
+    "IT運用部門"
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "topic": "GitHubがAI用語集を公開、AIオープン化戦略",
+   "keys": [
+    "GitHub",
+    "FDE",
+    "harness",
+    "オープンウェイト"
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "topic": "AI減速論の余波で日本のAI関連株急落",
+   "keys": [
+    "ソフトバンクグループ",
+    "キオクシア",
+    "東京エレクトロン",
+    "Trump"
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "topic": "NVIDIA GPUのメモリロック解除ソフト話題",
+   "keys": [
+    "cmpunlocker",
+    "NVIDIA",
+    "LTT Labs"
+   ]
+  },
   {
    "date": "2026-09-14",
    "topic": "オバマ氏、民主党にAI安全策の明確な計画求める",
@@ -1228,71 +1294,6 @@
     "SK Telecom",
     "KT",
     "Kakao"
-   ]
-  },
-  {
-   "date": "2026-08-31",
-   "topic": "キャタピラー、鉱山自動化の知見をAI導入に活用",
-   "keys": [
-    "Caterpillar",
-    "AI deployment",
-    "autonomous mining"
-   ]
-  },
-  {
-   "date": "2026-08-31",
-   "topic": "マスク氏新工場のガスタービン量産とデータセンター電力・大気汚染",
-   "keys": [
-    "SpaceX turbine foundry",
-    "Elon Musk",
-    "EPA",
-    "data center power"
-   ]
-  },
-  {
-   "date": "2026-08-31",
-   "topic": "メタのデータセンターロボット試験導入と国産ヒューマノイド「アトム」",
-   "keys": [
-    "Meta robots",
-    "data center",
-    "Atom humanoid"
-   ]
-  },
-  {
-   "date": "2026-08-31",
-   "topic": "オープンウェイトAI企業の買収熱と半導体投資競争",
-   "keys": [
-    "open-weight AI acquisition",
-    "Kioxia",
-    "semiconductor investment"
-   ]
-  },
-  {
-   "date": "2026-08-31",
-   "topic": "可視化中間言語「Flint」公開",
-   "keys": [
-    "Flint",
-    "Vega-Lite",
-    "ECharts",
-    "Chart.js",
-    "MCP server"
-   ]
-  },
-  {
-   "date": "2026-08-31",
-   "topic": "AIチャット編集ツール「ThoughtDAG」公開",
-   "keys": [
-    "ThoughtDAG",
-    "LLM context graph"
-   ]
-  },
-  {
-   "date": "2026-08-31",
-   "topic": "AIに意識はあるか、Google研究者の見解",
-   "keys": [
-    "Blaise Agüera y Arcas",
-    "Susan Schneider",
-    "AI consciousness"
    ]
   }
  ]

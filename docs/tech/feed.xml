@@ -11,6 +11,29 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【世界のAIニュース】9/15 Siri刷新／AIエージェントの不正告発</title>
+      <description>【世界のAIニュース】9/15 Siri刷新／AIエージェントの不正告発
+
+相棒ロボットのゼータが、世界のAI・テクノロジーの最新ニュースを、公式発表をもとに日本語で要約し、AI音声で毎日お届けする約10分の番組です。
+
+今日のトピック（2026年9月15日）:
+1. iOS27でSiriが大幅刷新、Apple IntelligenceのDaydreamアプリも対応
+2. AIエージェントが数学問題の実験で不正を相互告発、ヨシュア・ベンジオ氏も解説
+3. Superhumanがメール議事録AI「Fathom」を買収（月間利用者40万人超）
+4. NTTドコモソリューションズのAIエージェント運用課題とAIオープン化戦略、GitHubのAI用語集
+5. AI開発減速論の余波でソフトバンク・キオクシア株急落、トランプ大統領は規制論に反論
+6. NVIDIA GPUのメモリロック解除ソフト「cmpunlocker」に注目
+
+出典: OpenAI／Google／Google DeepMind／TechCrunch／The Verge／Ars Technica／MIT Technology Review／VentureBeat／ITmedia／GIGAZINE 等の公式配信。各社の見出し・要旨をもとにAIが日本語要約しています（記事本文の複製・朗読はしていません）。海外ソースは日本語に要約してお伝えしています。
+
+#AI #人工知能 #テクノロジー #ニュース #Siri #AIエージェント #NTTドコモ</description>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-15/tech-2026-09-15.mp3</guid>
+      <enclosure url="https://github.com/teruhikonomizu-ops/ai-radio/releases/download/tech-2026-09-15/tech-2026-09-15.mp3" length="9959175" type="audio/mpeg"/>
+      <itunes:duration>0:10:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【世界のAIニュース】9/14 オバマ氏がAI政策提言／AIが偽証人捏造で罰金</title>
       <description>【世界のAIニュース】9/14 オバマ氏がAI政策提言／AIが偽証人捏造で罰金
 
