@@ -89,6 +89,8 @@ jobs:
           fi
           echo "speakers=$(python3 scripts/shows.py get "$SHOW" speakers)" >> "$GITHUB_OUTPUT"
           echo "chars=$(python3 scripts/shows.py get "$SHOW" chars)" >> "$GITHUB_OUTPUT"
+          echo "collector=$(python3 scripts/shows.py get "$SHOW" collector)" >> "$GITHUB_OUTPUT"
+          echo "fresh=$(python3 scripts/shows.py get "$SHOW" fresh_hours)" >> "$GITHUB_OUTPUT"
 
       - name: シークレットの確認
         if: steps.mode.outputs.mode == 'full'
@@ -100,6 +102,12 @@ jobs:
             exit 1
           fi
 
+      - name: 素材収集 (番組に collector がある場合のみ)
+        if: steps.mode.outputs.mode == 'full' && steps.mode.outputs.collector != ''
+        run: |
+          mkdir -p work
+          python3 "${{ steps.mode.outputs.collector }}" work/digest.md "${{ steps.mode.outputs.fresh }}"
+
       - name: Claude で台本と概要欄を執筆
         if: steps.mode.outputs.mode == 'full'
         env:
@@ -107,7 +115,7 @@ jobs:
         run: |
           npm install -g @anthropic-ai/claude-code
           mkdir -p work
-          python3 scripts/build_prompt.py "$SHOW" "$TODAY" work/prompt.md
+          python3 scripts/build_prompt.py "$SHOW" "$TODAY" work/prompt.md work/digest.md
           set -- ${{ steps.mode.outputs.chars }}; lo=$1; hi=$2
           speakers="${{ steps.mode.outputs.speakers }}"
           ok=""; judged=0
@@ -132,6 +140,7 @@ jobs:
           cp work/script.txt "$ep/台本.txt"
           cp work/desc.txt   "$ep/概要欄.txt"
           cp work/topics.txt "$ep/テーマ.txt"
+          [ -f work/digest.md ] && cp work/digest.md "$ep/digest.md" || true
           echo "--- 台本(冒頭) ---"; head -n 12 "$ep/台本.txt"
 
       - name: 依存ツール (ffmpeg・日本語フォント)

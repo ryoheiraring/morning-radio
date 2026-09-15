@@ -17,6 +17,9 @@ days: [mon, tue, wed, thu, fri, sat, sun]   # 放送する曜日。週1なら [s
 chars: [1500, 2000]         # 読み上げ文字数の許容範囲(約5分)
 category: Education         # Apple Podcasts のカテゴリ名(英語)
 color: "#3f6fb5"            # アートワークの色
+collector: scripts/collect_crypto.py   # (任意)素材収集スクリプト。毎朝 <出力md> <鮮度時間> を引数に実行され、
+                                        #  出力がプロンプト末尾に「今日の素材」として付く。無ければ収集なし
+fresh_hours: 24             # (任意)収集スクリプトに渡す鮮度(時間)
 ---
 (ここから下が、Claude に渡す番組固有の指示。テーマ・語り口・構成など)
 ```

@@ -12,6 +12,7 @@ PC 不要・API 課金なし・YouTube 出力なし。
 | `psychology` | 毎朝の心理学レッスン | 毎朝 | Nana |
 | `behavioral-economics` | 毎朝の行動経済学 | 毎朝 | Nana |
 | `evolution` | 人類の進化 〜ナナとソウの土曜日〜 | 毎週土曜 | Nana / Sou |
+| `crypto-morning` | 暗号資産朝刊(CoinGecko + 公式RSS、直近24時間、5項目) | 毎朝 | Nana / Sou |
 
 フィード URL: `https://<ユーザー名>.github.io/morning-radio/<番組ID>/feed.xml`
 (一覧ページ: `https://<ユーザー名>.github.io/morning-radio/`)
@@ -47,7 +48,8 @@ GitHub Pages は初回の実行時にワークフローが自動で有効化す�
 GitHub Actions (毎朝・cron)
   plan  … prompts/ を読み、今日の曜日に放送する番組IDを列挙(matrix)
   build … 番組ごとに(直列):
-    1. scripts/build_prompt.py   番組プロンプト + 共通ルール + 日付 + 放送済みテーマ一覧 → prompt.md
+    0. (collector がある番組のみ) 素材収集 → digest.md。取れない項目は「取得失敗」と記して飛ばす
+    1. scripts/build_prompt.py   番組プロンプト + 共通ルール + 日付 + 放送済みテーマ一覧 (+ digest) → prompt.md
     2. claude -p --model sonnet  台本・概要欄・テーマ台帳を執筆(CLAUDE_CODE_OAUTH_TOKEN)
     3. scripts/split_output.py   分割・話者タグ/字数/タイトル検査(不合格なら修正指示付きで作り直し)
     4. scripts/tts_aivis.py      AivisSpeech Engine(Docker・CPU)で合成。声モデルは AivisHub から自動DL

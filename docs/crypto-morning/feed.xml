@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>暗号資産朝刊</title>
+    <link>https://ryoheiraring.github.io/morning-radio/</link>
+    <description>進行役の Nana と解説役の Sou が、CoinGecko と主要メディアの公式RSSから集めた直近24時間の暗号資産市場を5分で読む朝刊。市況・ニュース・規制・トレンド・今日の見返しポイントの5項目。AIが台本を書き、AI音声でお届けします。</description>
+    <language>ja</language>
+    <atom:link href="https://ryoheiraring.github.io/morning-radio/crypto-morning/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>ryoheiraring</itunes:author>
+    <itunes:image href="https://ryoheiraring.github.io/morning-radio/crypto-morning/artwork.png"/>
+    <itunes:category text="Business"/>
+    <itunes:explicit>false</itunes:explicit>
+
+  </channel>
+</rss>

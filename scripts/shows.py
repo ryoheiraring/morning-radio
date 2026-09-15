@@ -25,6 +25,8 @@ DEFAULTS = {
     "category": "Education",
     "color": "#3f6fb5",
     "pub_hour": 6,
+    "collector": "",      # 素材収集スクリプト(例: scripts/collect_crypto.py)。空なら収集なし
+    "fresh_hours": 24,    # 収集スクリプトに渡す鮮度(時間)
 }
 
 
