@@ -10,6 +10,21 @@
     <itunes:image href="https://ryoheiraring.github.io/morning-radio/behavioral-economics/artwork.png"/>
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>【毎朝の行動経済学】9/15 損失回避とは</title>
+      <description>【毎朝の行動経済学】9/15 損失回避とは
 
+毎朝5分で学ぶ、行動経済学のラジオ番組です。Nanaが一人で、身近な例をもとにやさしく解説します。
+
+今日のテーマ:
+「損失回避」について取り上げました。人は得をする喜びより、損をする痛みを大きく感じてしまう心の傾向です。カーネマンとトヴェルスキーが提唱したプロスペクト理論をもとに、コイン投げの実験や、サブスク解約を先延ばしにしてしまう心理を紹介しています。自分が引っかからないコツと、伝え方に活かすコツもお話しします。
+
+#行動経済学 #損失回避 #プロスペクト理論 #心理学 #お金の話</description>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/behavioral-economics-2026-09-15/behavioral-economics-2026-09-15.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/behavioral-economics-2026-09-15/behavioral-economics-2026-09-15.mp3" length="3712776" type="audio/mpeg"/>
+      <itunes:duration>0:05:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
