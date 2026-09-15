@@ -28,7 +28,7 @@ PC 不要・API 課金なし・YouTube 出力なし。
    - Name: `CLAUDE_CODE_OAUTH_TOKEN` / Secret: コピーしたトークン
 
 以上。次の朝から自動で始まる(すぐ試すなら Actions タブ → morning-radio → Run workflow)。
-GitHub Pages は初回の実行時にワークフローが自動で有効化する。
+GitHub Pages(配信元 = GitHub Actions)は作成済み。
 
 ## スケジュール
 

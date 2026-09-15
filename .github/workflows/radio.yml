@@ -225,7 +225,7 @@ jobs:
         if: always() && steps.mode.outputs.mode != 'skip'
         run: sudo chown -R "$(id -u):$(id -g)" engine-data 2>/dev/null || true
 
-  # docs/ を GitHub Pages に公開する(初回は Pages 自体もここで自動有効化する)
+  # docs/ を GitHub Pages に公開する(Pages サイト自体は gh api -X POST repos/<repo>/pages -f build_type=workflow で作成済み)
   pages:
     needs: [plan, build]
     if: always() && needs.plan.result == 'success'
@@ -238,8 +238,6 @@ jobs:
         with:
           ref: main
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
