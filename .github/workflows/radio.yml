@@ -101,6 +101,11 @@ jobs:
             echo "::error::リポジトリの Secrets に CLAUDE_CODE_OAUTH_TOKEN がありません。Settings → Secrets and variables → Actions → New repository secret で登録してください(値は claude setup-token の出力)。"
             exit 1
           fi
+          t=$(printf %s "$TOKEN" | tr -d '[:space:]')
+          case "$t" in
+            sk-ant-oat01-*) echo "トークン形式OK(長さ ${#t})";;
+            *) echo "::error::CLAUDE_CODE_OAUTH_TOKEN の形式が違います(先頭が sk-ant-oat01- ではない・長さ ${#t})。claude setup-token が最後に表示する sk-ant-oat01-... の値を、そのまま登録し直してください。"; exit 1;;
+          esac
 
       - name: 素材収集 (番組に collector がある場合のみ)
         if: steps.mode.outputs.mode == 'full' && steps.mode.outputs.collector != ''
@@ -114,6 +119,7 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
           npm install -g @anthropic-ai/claude-code
+          export CLAUDE_CODE_OAUTH_TOKEN=$(printf %s "$CLAUDE_CODE_OAUTH_TOKEN" | tr -d '[:space:]')   # 貼り付け時の改行・空白を除去
           mkdir -p work
           python3 scripts/build_prompt.py "$SHOW" "$TODAY" work/prompt.md work/digest.md
           set -- ${{ steps.mode.outputs.chars }}; lo=$1; hi=$2
