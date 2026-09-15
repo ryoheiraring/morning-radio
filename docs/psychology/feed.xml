@@ -10,6 +10,21 @@
     <itunes:image href="https://ryoheiraring.github.io/morning-radio/psychology/artwork.png"/>
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>【毎朝の心理学レッスン】9/15 単純接触効果</title>
+      <description>【毎朝の心理学レッスン】9/15 単純接触効果
 
+朝の支度をしながら聞く、5分間の心理学レッスンです。1回1テーマで、日常の「なぜだろう」を心理学の視点から解き明かします。
+
+今日のテーマ:
+何度も見るだけで、なぜか好きになってしまう「単純接触効果」を取り上げます。心理学者ロバート・ザイアンスによる、漢字や顔写真を使った古典的な実験を紹介しながら、その仕組みと、苦手な相手や新しい環境との付き合い方に生かすコツをお伝えします。
+
+#心理学 #単純接触効果 #朝活 #自己啓発 #ラジオ</description>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/psychology-2026-09-15/psychology-2026-09-15.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/psychology-2026-09-15/psychology-2026-09-15.mp3" length="3746944" type="audio/mpeg"/>
+      <itunes:duration>0:05:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
