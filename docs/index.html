@@ -3,34 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AIラジオ — 毎朝自動生成のポッドキャスト</title>
+<title>毎朝ラジオ</title>
 <style>
-  body { font-family: sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.7; }
-  .show { display: flex; gap: 1rem; align-items: center; margin: 1.5rem 0; }
-  .show img { width: 96px; height: 96px; border-radius: 12px; }
-  code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; word-break: break-all; }
-  .btn { display: inline-block; margin-top: .5rem; padding: .6rem 1.2rem; background: #1a73e8; color: #fff; border-radius: 8px; text-decoration: none; font-weight: bold; }
+  body { font-family: sans-serif; max-width: 680px; margin: 2rem auto; padding: 0 1rem; line-height: 1.7; color: #222; }
+  .show { display: flex; gap: 1rem; align-items: flex-start; margin: 1.5rem 0; }
+  .show img { width: 96px; height: 96px; border-radius: 12px; flex: none; }
+  code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; word-break: break-all; font-size: .85em; }
+  .btn { display: inline-block; margin: .5rem .3rem 0 0; padding: .5rem 1rem; background: #1a73e8; color: #fff; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: .9em; }
+  .btn.alt { background: #666; }
 </style>
 </head>
 <body>
-<h1>AIラジオ</h1>
-<p>AIが毎朝自動生成するポッドキャスト。下のフィードURLをポッドキャストアプリに登録すると毎朝自動で届きます。</p>
+<h1>毎朝ラジオ</h1>
+<p>AI が毎朝自動生成する 5 分のポッドキャスト。フィードURLをポッドキャストアプリに登録すると自動で届きます。</p>
 <div class="show">
-  <img src="news/artwork.png" alt="AIデイリーニュース">
+  <img src="behavioral-economics/artwork.png" alt="" onerror="this.style.visibility='hidden'">
   <div>
-    <strong>AIデイリーニュース</strong>(毎朝5時ごろ)<br>
-    <code>https://teruhikonomizu-ops.github.io/ai-radio/news/feed.xml</code><br>
-    <a class="btn" href="https://antennapod.org/deeplink/subscribe?url=https%3A%2F%2Fteruhikonomizu-ops.github.io%2Fai-radio%2Fnews%2Ffeed.xml">📲 AntennaPodで登録</a>
+    <strong>毎朝の行動経済学</strong>(毎朝・Nana・0回)<br>
+    <small>損失回避・アンカリング・ナッジなど、人のお金と選択のクセを Nana が毎朝ひとつ5分で解説する番組。AIが台本を書き、AI音声でお届けします。</small><br>
+    <code>https://ryoheiraring.github.io/morning-radio/behavioral-economics/feed.xml</code><br>
+    <a class="btn" href="pktc://subscribe/ryoheiraring.github.io/morning-radio/behavioral-economics/feed.xml">Pocket Casts で登録</a>
+    <a class="btn alt" href="https://ryoheiraring.github.io/morning-radio/behavioral-economics/feed.xml">RSS</a>
   </div>
 </div>
 <div class="show">
-  <img src="tech/artwork.png" alt="世界のAIニュース">
+  <img src="evolution/artwork.png" alt="" onerror="this.style.visibility='hidden'">
   <div>
-    <strong>世界のAIニュース</strong>(毎朝4時ごろ)<br>
-    <code>https://teruhikonomizu-ops.github.io/ai-radio/tech/feed.xml</code><br>
-    <a class="btn" href="https://antennapod.org/deeplink/subscribe?url=https%3A%2F%2Fteruhikonomizu-ops.github.io%2Fai-radio%2Ftech%2Ffeed.xml">📲 AntennaPodで登録</a>
+    <strong>人類の進化 〜ナナとソウの土曜日〜</strong>(毎週土曜・Nana／Sou・0回)<br>
+    <small>700万年の人類史をたどる週末の対話番組。進行役の Nana が問いかけ、解説役の Sou が答える5分。毎週土曜更新。AIが台本を書き、AI音声でお届けします。</small><br>
+    <code>https://ryoheiraring.github.io/morning-radio/evolution/feed.xml</code><br>
+    <a class="btn" href="pktc://subscribe/ryoheiraring.github.io/morning-radio/evolution/feed.xml">Pocket Casts で登録</a>
+    <a class="btn alt" href="https://ryoheiraring.github.io/morning-radio/evolution/feed.xml">RSS</a>
   </div>
 </div>
-<p>※各社の公式RSS配信(NHK・Yahoo!・OpenAI・Google・TechCrunch等)をもとにAIが要約・構成しています。AI要約のため誤りを含む可能性があります。</p>
+<div class="show">
+  <img src="psychology/artwork.png" alt="" onerror="this.style.visibility='hidden'">
+  <div>
+    <strong>毎朝の心理学レッスン</strong>(毎朝・Nana・0回)<br>
+    <small>認知・感情・対人関係・発達など心理学の定番テーマを、Nana が毎朝ひとつ5分で解説するレッスン番組。AIが台本を書き、AI音声でお届けします。</small><br>
+    <code>https://ryoheiraring.github.io/morning-radio/psychology/feed.xml</code><br>
+    <a class="btn" href="pktc://subscribe/ryoheiraring.github.io/morning-radio/psychology/feed.xml">Pocket Casts で登録</a>
+    <a class="btn alt" href="https://ryoheiraring.github.io/morning-radio/psychology/feed.xml">RSS</a>
+  </div>
+</div>
+<p><small>台本は Claude、音声は AivisSpeech(Nana: morioki / Sou: fumifumi)。AI 生成のため誤りを含む可能性があります。</small></p>
 </body>
 </html>

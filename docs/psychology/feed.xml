@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>毎朝の心理学レッスン</title>
+    <link>https://ryoheiraring.github.io/morning-radio/</link>
+    <description>認知・感情・対人関係・発達など心理学の定番テーマを、Nana が毎朝ひとつ5分で解説するレッスン番組。AIが台本を書き、AI音声でお届けします。</description>
+    <language>ja</language>
+    <atom:link href="https://ryoheiraring.github.io/morning-radio/psychology/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>ryoheiraring</itunes:author>
+    <itunes:image href="https://ryoheiraring.github.io/morning-radio/psychology/artwork.png"/>
+    <itunes:category text="Education"/>
+    <itunes:explicit>false</itunes:explicit>
+
+  </channel>
+</rss>

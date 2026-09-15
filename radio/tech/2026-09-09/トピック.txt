@@ -1,9 +1,0 @@
-OpenAIがナビエ・ストークス問題にAI解答 ||| Navier-Stokes, Lean formal proof, Millennium Prize Problem
-Mistralが30億ユーロを調達 ||| Mistral AI, Series D, €21B valuation
-Google CloudがAccentureと提携 ||| Google Cloud, Accenture, forward-deployed engineers
-Chromeが2週間ごとの更新に ||| Google Chrome, biweekly release
-日本でローカルLLMが過熱 ||| ローカルLLM, 価格.com, AI PC
-OpenAIが10代AI研究に助成金 ||| OpenAI teen grant, $5 million
-日立がフィジカルAI元年を宣言 ||| 日立製作所, HMAX, フィジカルAI
-Xiaopengの人型ロボットIRONが量産へ ||| Xiaopeng, IRON, 人型ロボット
-Unitreeが自律格闘デモを公開 ||| Unitree Robotics, 自律格闘デモ

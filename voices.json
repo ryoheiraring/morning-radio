@@ -1,0 +1,25 @@
+{
+  "_comment": "話者名 → AivisSpeech の声。model_uuid は AivisHub (https://hub.aivis-project.com/) のモデルID。speaker/style はそのモデル内の話者名・スタイル名。pitch/intonation/speed はこの話者だけの補正。",
+  "Nana": {
+    "model_uuid": "baaae3c0-7b22-4605-8ba5-80c959b41a48",
+    "speaker": "morioki",
+    "style": "ノーマル",
+    "pitch": 0.0,
+    "intonation": 1.0,
+    "speed": 1.0
+  },
+  "Sou": {
+    "model_uuid": "71e72188-2726-4739-9aa9-39567396fb2a",
+    "speaker": "fumifumi",
+    "style": "ノーマル",
+    "pitch": 0.0,
+    "intonation": 1.0,
+    "speed": 1.0
+  },
+  "_global": {
+    "speed": 0.92,
+    "sentpause": 0.35,
+    "parapause": 1.0,
+    "sectpause": 1.6
+  }
+}

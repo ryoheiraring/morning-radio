@@ -1,128 +1,68 @@
-# ai-radio — AIラジオ2番組の全自動クラウド生成・配信
+# morning-radio — 毎朝5分の自分専用ラジオ(全自動)
 
-毎朝、GitHub Actions がクラウド上で「ニュース収集 → 台本執筆(Claude) →
-音声合成(AivisSpeech) → ポッドキャスト配信(RSS) → YouTube動画(立ち絵+大きな字幕)」まで無人実行する。
-**PCの電源は不要。人の作業もゼロ。**
+[teruhikonomizu-ops/ai-radio](https://github.com/teruhikonomizu-ops/ai-radio) をフォークし、
+ニュース番組から「学びの5分番組」に作り替えたもの。毎朝 GitHub Actions が
+**台本(Claude・定額プラン) → 音声合成(AivisSpeech) → Podcast RSS(GitHub Pages)** まで無人で実行する。
+PC 不要・API 課金なし・YouTube 出力なし。
 
-| 番組 | 実行時刻(JST) | フィードURL |
-|---|---|---|
-| AIデイリーニュース | 毎朝 04:47(保険 05:47/06:47/07:47) | `https://teruhikonomizu-ops.github.io/ai-radio/news/feed.xml` |
-| 世界のAIニュース | 毎朝 04:13(保険 05:13/06:13/07:13) | `https://teruhikonomizu-ops.github.io/ai-radio/tech/feed.xml` |
+## 番組
 
-> ⚠ **2026-08-30訂正: 上の時刻は「予定」であって「保証」ではない。**
-> GitHub Actionsのcronは、**2026-08-26のGitHub障害**(Actionsのワークフロー起動処理が使うDBへの
-> 書き込み飽和)を境に、このリポジトリでは**数時間〜十数時間遅れて発火**する状態が続いている。
-> GitHubは公式Discussion #196910(2026-06-04, GitHub社員nebuk89)で「スケジュール起動のドリフトは
-> 悪化しており、2か月ほどでdropが30%以上増えた。今すぐ直すものではない」と認めている。
-> **これは障害ではなく意図的な負荷分散なのでステータスページには載らない。待っても直らない。**
->
-> 🔴 **2026-08-28に入れた「毎時0分は混雑ピークだから避ける」対策は誤診だった。**
-> 実データ上、**全cronが0分だった8/11〜8/25の15日間は75枠すべて発火し、遅延も12〜49分で安定**していた。
-> 0分だから飛んでいたのではなく、8/26から遅くなった。保険を3本に増やしても遅延は全枠に等しくかかるため
-> 意味がない(実際、増設後の保険53枠は**1本も番組を作っていない**=すべて10秒前後のskip)。
-> ⚠ **10秒で終わったsuccessは「何もしていない」の印。Actions画面の緑を「自動で動いている」と読まないこと。**
->
-> ✅ **2026-08-30の修正(コミット `1dba573`)はこれとは別物で、こちらは効く。**
-> checkoutに `ref: main` を追加し、**遅れて届いた実行が「実行が作られた時点の古いコミット」を見て
-> 『本日分はまだ無い』と誤判定し、同じ番組を二重生成する事故**を構造的に止めた。
-> (2026-08-27に同じ穴が見つかっていたが、当時は「手動復旧のたびに人が目視してキャンセルする」という
-> 人力運用でしのいでいた。8/30朝にその見張りが働かず、YouTubeへ2本目が公開される実害が出たため機械化した。)
+| 番組ID | 番組 | 放送 | 話者 |
+|---|---|---|---|
+| `psychology` | 毎朝の心理学レッスン | 毎朝 | Nana |
+| `behavioral-economics` | 毎朝の行動経済学 | 毎朝 | Nana |
+| `evolution` | 人類の進化 〜ナナとソウの土曜日〜 | 毎週土曜 | Nana / Sou |
 
-スマホのポッドキャストアプリに上のフィードURLを登録すると、毎朝自動で新エピソードが届く。
+フィード URL: `https://<ユーザー名>.github.io/morning-radio/<番組ID>/feed.xml`
+(一覧ページ: `https://<ユーザー名>.github.io/morning-radio/`)
 
-## 登場キャラクター(unizomのオリジナルIP・2026-08-10導入)
+- **Nana**(進行役): AivisSpeech `morioki`(落ち着いた女性)
+- **Sou**(解説役): AivisSpeech `fumifumi`(落ち着いた青年)
+- 台本の行頭 `Nana: ` / `Sou: ` で声が切り替わる。声の割り当ては [voices.json](voices.json)
 
-番組ごとに専属の1キャラがソロで読み上げる(掛け合いではない)。画面上にキャラ名の表示はしない。
-- **AIデイリーニュース**: AIアンドロイド「**ユー**」。声はAivisSpeechのmorioki
-- **世界のAIニュース**: 相棒ロボット「**ゼータ**」。声はAivisSpeechのコハク候補6
+## 初期設定(やることは1つだけ)
 
-どちらも元々ニュースラジオ/AIテックラジオで使っていた声で、キャラクターが変わっても声は据え置き。
-見た目はHiggsfieldで1から作った完全オリジナルデザイン(`assets/characters/`、胸元にunizomロゴ入り)で、
-既存の版権キャラ(ずんだもん等)とは無関係。背景も番組ごとにHiggsfieldで作った専用のテック調グラフィック
-(`assets/backgrounds/`、一度作った静止画を毎日使い回す・生成コストは初回のみ)。
+1. 手元の PC で `claude setup-token` を実行し、表示された長いトークンをコピー
+2. GitHub のリポジトリ → **Settings → Secrets and variables → Actions → New repository secret**
+   - Name: `CLAUDE_CODE_OAUTH_TOKEN` / Secret: コピーしたトークン
+
+以上。次の朝から自動で始まる(すぐ試すなら Actions タブ → morning-radio → Run workflow)。
+GitHub Pages は初回の実行時にワークフローが自動で有効化する。
+
+## スケジュール
+
+- 05:30 JST に本線、06:30 / 07:30 JST に保険(作り終えていれば数秒で skip)
+- 10:17 JST に `radio-watchdog` が当日分の有無を確認し、欠けていれば自動で再実行
+- GitHub の cron は混雑時に遅れることがある(6時ちょうどの保証はない)
+
+## 番組を増やす・変える
+
+`prompts/<番組ID>.md` を1つ足すだけ。書き方は [prompts/README.md](prompts/README.md)。
+既存番組の語り口やテーマ選びを変えたいときも、そのファイルを編集するだけでよい。
+全番組共通のルール(出力形式・字数の数え方など)は `prompts/_common.md`。
 
 ## 仕組み
 
 ```
 GitHub Actions (毎朝・cron)
-  1. scripts/collect_news.py    … 公式RSS(NHK/Yahoo!)から見出し収集 → digest.md
-                                   鮮度で絞り(直近36h/60h)、放送済み台帳と照合して【新規】【既報】に分ける。
-                                   新規が目標本数に届かなければ窓を広げ→予備ソースを足して10分ぶんを確保
-  2. scripts/check_digest.py    … 取得成功が半分未満なら中止(誤報防止)。更新の止まったフィードを警告
-  3. claude -p                  … prompts/<show>.md のルールで番組専属キャラのソロ台本+概要欄を執筆
-                                   (CLAUDE_CODE_OAUTH_TOKEN シークレット=Claude定額プラン内)
-  4. scripts/split_output.py    … 台本/概要欄/トピック台帳に分割・文字数検査(不合格なら1回作り直し)
-  5. scripts/tts_aivis.py       … AivisSpeech Engine(公式Dockerイメージ・CPU・無料)で音声合成
-                                   → mp3 + 文単位のタイミング情報(*.segments.json)
-  6. 長さ検証(8〜16分の範囲外なら公開中止) → GitHub Release にmp3を添付
-  7. scripts/create_video.py    … segments.jsonを使いキャラの立ち絵(口パク)+大きな字幕を合成 → 1080p MP4
-  8. scripts/upload_youtube.py  … YouTube Data API v3 で YouTube へ自動投稿
-  9. scripts/broadcast_log.py   … その日扱ったトピックを radio/<show>/_放送済み.json に記録(翌朝の重複排除に使う)
- 10. scripts/make_feed.py       … docs/<show>/feed.xml を再生成 → コミット(GitHub Pagesが配信)
+  plan  … prompts/ を読み、今日の曜日に放送する番組IDを列挙(matrix)
+  build … 番組ごとに(直列):
+    1. scripts/build_prompt.py   番組プロンプト + 共通ルール + 日付 + 放送済みテーマ一覧 → prompt.md
+    2. claude -p --model sonnet  台本・概要欄・テーマ台帳を執筆(CLAUDE_CODE_OAUTH_TOKEN)
+    3. scripts/split_output.py   分割・話者タグ/字数/タイトル検査(不合格なら修正指示付きで作り直し)
+    4. scripts/tts_aivis.py      AivisSpeech Engine(Docker・CPU)で合成。声モデルは AivisHub から自動DL
+    5. 長さ検証 → GitHub Release に mp3 を添付 → meta.json
+    6. scripts/make_feed.py      docs/<番組ID>/feed.xml と index.html を再生成 → main にコミット
+  pages … docs/ を GitHub Pages に配信
 ```
 
-- 声: AivisSpeech(morioki=ユー役・AivisHubからDL、コハク候補6=ゼータ役・エンジン標準搭載)
+- `radio/<番組ID>/<日付>/` に 台本.txt・概要欄.txt・テーマ.txt・meta.json が残る
+- テーマの重複は、過去全回の `テーマ.txt` をプロンプトに添付して避ける
 - 生成済みの日は自動スキップ。`台本.txt` だけある日は音声合成から再開(手動修復の入り口)
-- 失敗時はGitHubからオーナーへ通知メールが飛ぶ(Actionsの既定動作)
+- 作り直したい日: その日のフォルダの `meta.json` を消して手動実行(台本ごとなら `台本.txt` も消す)
+- 失敗時は GitHub からオーナーへ通知メールが飛ぶ(Actions の既定動作)
 
-## フォルダ
+## 声を変える
 
-- `.github/workflows/news.yml` / `tech.yml` … 各番組のワークフロー本体(構成は同一・番組設定だけ違う)
-- `scripts/` … 収集・検査・分割・合成・動画生成・フィード生成(標準ライブラリ+Pillow)
-- `prompts/news.md` / `tech.md` … 台本ルール(執筆プロンプト・キャラ設定)。文言調整はここ
-- `assets/characters/` … ユー・ゼータの立ち絵(口の開閉2種類×2キャラ、背景透過PNG)
-- `assets/backgrounds/` … 番組ごとの背景画像(news.png/tech.png、1920×1080)
-- `radio/<show>/<日付>/` … 台本.txt・概要欄.txt・トピック.txt・digest.md・meta.json(公開の記録)
-- `radio/<show>/_放送済み.json` … 過去14日に放送したトピックとキーワード(重複排除の帳簿)
-- `docs/` … GitHub Pages(feed.xml)
-
-## 運用メモ
-
-- 手動実行: Actionsタブ → news-radio → Run workflow
-- 作り直したい日: `radio/news/<日付>/` の `meta.json` を消して手動実行(台本ごと作り直すなら`台本.txt`も消す)
-- 元の運用(ローカルPC生成+stand.fm投稿)は
-  OneDrive `デスクトップ/ai記事自動/ニュースラジオ/` にあり、当面は保険として並走(2026-08-06より無効化中)
-- 台本の出典・著作権方針: 公式RSSの見出し・要旨のみを素材に自分の言葉で要約(prompts/news.md 参照)
-- キャラクター立ち絵を差し替えたい場合: `assets/characters/{yu,zeta}_{open,closed}.png` を同じ構図・
-  同じ透過背景で置き換えるだけでよい(`scripts/create_video.py` がそのまま使う)
-
-
-## 🔁 同じニュースを繰り返さない仕組み(2026-08-23導入)
-
-「前に放送した話をまた今日も流している」を止めるために、3段構えで防いでいる。
-
-1. **鮮度で絞る** — RSSは古い記事を何日も配信し続ける。各記事の配信日時を見て
-   ニュース番組は直近36時間、AIテック番組は直近60時間のものだけを素材にする。
-   digest の各行には `[今日 06:59]` `[2日前 8/21]` と日付を書き、台本側で
-   「古い記事を今日の出来事として語らない」よう指示している。
-2. **放送済み台帳で弾く** — Claudeが台本と一緒に「今日扱ったトピック+キーワード」を出し、
-   `radio/<show>/_放送済み.json` に14日ぶん貯める。翌朝の収集時に照合して、
-   直近7日で扱った話題は【既報】として別枠に落とす(消しはしない。新展開があれば続報として使える)。
-   2番組は互いの台帳も見るので、同じ日にニュース番組とAIテック番組が同じAIの話をすることも減る。
-3. **足りなければ取りに行く** — 新規がニュース20本/テック18本に届かない朝は、
-   ①鮮度の窓を広げる→②予備ソースを足す→③さらに広げる、と自動で段階を上げる。
-   素材不足を「同じ話の言い換えで水増し」して埋めない(プロンプトでも禁止)。
-
-## 🔊 話す速さと間(2026-08-23調整)
-
-「もう少しゆっくり・間を空けて聞きやすく」というリクエストへの対応。
-
-| | 速度 | 文と文の間 | 段落の間 | コーナーの間 |
-|---|---|---|---|---|
-| AIデイリーニュース | 0.90 → **0.85** | 0.2 → **0.40秒** | 0.8 → **1.15秒** | (無し) → **1.8秒** |
-| 世界のAIニュース | 0.86 → **0.82** | 0.3 → **0.45秒** | 1.0 → **1.25秒** | (無し) → **1.8秒** |
-
-- 台本の `# ──国内──` のように**罫線を含むコメント行**をコーナーの切れ目とみなし、長めの間を入れる
-- 続けて書かれた行どうしの間に無音がゼロだった不具合も直した(`--sentpause` が入る)
-- ゆっくりになるぶん字数を 2,900〜3,200字 → **2,850〜2,950字** に下げ、仕上がりは約10分15秒〜10分35秒
-
-## ⚠ フィードが「静かに壊れる」ことがある(2026-08-23の事故)
-
-NHKのRSSが `www3.nhk.or.jp` → `www.nhk.or.jp` へ移転していたが、**旧URLはHTTP 200のまま
-8月8日時点の内容で凍結**していた。エラーが1件も出ないので誰も気づかず、
-8月8日〜23日の15日間、ニュース番組は**半月前の見出しを毎朝「今日のニュース」として放送**していた
-(台風13号・熊本地震の死者39人などが連日繰り返された原因もこれ)。
-
-再発防止として、各フィードの最新記事が何日前かを毎回測り、
-ニュース系は3日、テック系は10日新着が無ければ `::warning::` を出すようにした。
-**「エラーが出ていない＝正常」ではない。**
+[voices.json](voices.json) の `model_uuid` / `speaker` / `style` を AivisHub(https://hub.aivis-project.com/)の
+モデルに差し替える。`_global` で全体の速度と間(文・段落・コーナー)を調整できる。

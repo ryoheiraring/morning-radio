@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>毎朝の行動経済学</title>
+    <link>https://ryoheiraring.github.io/morning-radio/</link>
+    <description>損失回避・アンカリング・ナッジなど、人のお金と選択のクセを Nana が毎朝ひとつ5分で解説する番組。AIが台本を書き、AI音声でお届けします。</description>
+    <language>ja</language>
+    <atom:link href="https://ryoheiraring.github.io/morning-radio/behavioral-economics/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>ryoheiraring</itunes:author>
+    <itunes:image href="https://ryoheiraring.github.io/morning-radio/behavioral-economics/artwork.png"/>
+    <itunes:category text="Education"/>
+    <itunes:explicit>false</itunes:explicit>
+
+  </channel>
+</rss>

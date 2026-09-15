@@ -1,0 +1,232 @@
+name: morning-radio
+
+# 毎朝クラウドで 台本(Claude・定額プラン)→音声合成(AivisSpeech)→配信(Release+RSS)→GitHub Pages まで無人実行。
+# 番組は prompts/<番組ID>.md を置くだけで増える(plan ジョブが今日放送する番組を自動で列挙する)。
+# 手動実行: Actionsタブ → morning-radio → Run workflow(番組IDを指定すると曜日に関係なくその番組だけ作る)
+
+on:
+  schedule:
+    # GitHub の cron は数十分遅れることがあるので、6時に聴けるよう 05:30 JST に本線を置き、保険を2本。
+    # 作り終えた朝は保険が数秒で skip するので無駄はない。
+    - cron: '30 20 * * *'   # 20:30 UTC = 05:30 JST(本線)
+    - cron: '30 21 * * *'   # 06:30 JST(保険1)
+    - cron: '30 22 * * *'   # 07:30 JST(保険2)
+  workflow_dispatch:
+    inputs:
+      show:
+        description: '番組ID(空なら今日の曜日に放送する全番組)'
+        required: false
+        default: ''
+      date:
+        description: '放送日 YYYY-MM-DD(空なら今日・JST)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: morning-radio
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Tokyo
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      shows: ${{ steps.plan.outputs.shows }}
+      today: ${{ steps.plan.outputs.today }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - id: plan
+        run: |
+          today="${{ github.event.inputs.date }}"
+          [ -n "$today" ] || today=$(date +%F)
+          if [ -n "${{ github.event.inputs.show }}" ]; then
+            shows='["${{ github.event.inputs.show }}"]'
+          else
+            shows=$(python3 scripts/shows.py matrix "$today")
+          fi
+          echo "today=$today"; echo "shows=$shows"
+          echo "today=$today" >> "$GITHUB_OUTPUT"
+          echo "shows=$shows" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: plan
+    if: needs.plan.outputs.shows != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 1        # 同時に走らせると main への push が競合しやすいので直列
+      matrix:
+        show: ${{ fromJSON(needs.plan.outputs.shows) }}
+    env:
+      SHOW: ${{ matrix.show }}
+      TODAY: ${{ needs.plan.outputs.today }}
+    steps:
+      # 遅れて届いた実行が古いコミットを見て二重生成しないよう、走り出す瞬間の main を取り直す
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: 実行モードを判定
+        id: mode
+        run: |
+          ep="radio/$SHOW/$TODAY"
+          if [ -f "$ep/meta.json" ]; then
+            echo "本日分($SHOW $TODAY)は公開済みのためスキップ"; echo "mode=skip" >> "$GITHUB_OUTPUT"
+          elif [ -f "$ep/台本.txt" ]; then
+            echo "台本が既にあるため音声合成から再開"; echo "mode=resume" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=full" >> "$GITHUB_OUTPUT"
+          fi
+          echo "speakers=$(python3 scripts/shows.py get "$SHOW" speakers)" >> "$GITHUB_OUTPUT"
+          echo "chars=$(python3 scripts/shows.py get "$SHOW" chars)" >> "$GITHUB_OUTPUT"
+
+      - name: シークレットの確認
+        if: steps.mode.outputs.mode == 'full'
+        env:
+          TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::error::リポジトリの Secrets に CLAUDE_CODE_OAUTH_TOKEN がありません。Settings → Secrets and variables → Actions → New repository secret で登録してください(値は claude setup-token の出力)。"
+            exit 1
+          fi
+
+      - name: Claude で台本と概要欄を執筆
+        if: steps.mode.outputs.mode == 'full'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          mkdir -p work
+          python3 scripts/build_prompt.py "$SHOW" "$TODAY" work/prompt.md
+          set -- ${{ steps.mode.outputs.chars }}; lo=$1; hi=$2
+          speakers="${{ steps.mode.outputs.speakers }}"
+          ok=""; judged=0
+          for i in 1 2 3 4; do
+            if ! claude -p --model sonnet < work/prompt.md > work/claude_out.txt 2> work/claude_err.txt; then
+              echo "::warning::Claude の呼び出しが失敗(試行 $i)。60秒待って再挑戦。"
+              tail -c 1500 work/claude_err.txt || true
+              sleep 60; continue
+            fi
+            judged=$((judged+1))
+            # 1回目は指定どおり、2回目以降は放送を落とさないため少し緩める
+            if [ "$judged" = 1 ]; then strict=1; l=$lo; h=$hi; else strict=0; l=$((lo-300)); h=$((hi+400)); fi
+            if python3 scripts/split_output.py work/claude_out.txt work/script.txt work/desc.txt work/topics.txt "$l" "$h" "$speakers" "$strict"; then
+              ok=1; break
+            fi
+            if [ "$judged" -ge 2 ]; then echo "品質不合格が2回続いた"; break; fi
+            printf '\n\n【重要・作り直し】前回の出力は不合格だった。以下を必ず守り、最初から全体を作り直すこと:\n' >> work/prompt.md
+            cat work/feedback.txt >> work/prompt.md 2>/dev/null || true
+          done
+          if [ -z "$ok" ]; then echo "::error::台本生成に失敗"; tail -c 3000 work/claude_out.txt; exit 1; fi
+          ep="radio/$SHOW/$TODAY"; mkdir -p "$ep"
+          cp work/script.txt "$ep/台本.txt"
+          cp work/desc.txt   "$ep/概要欄.txt"
+          cp work/topics.txt "$ep/テーマ.txt"
+          echo "--- 台本(冒頭) ---"; head -n 12 "$ep/台本.txt"
+
+      - name: 依存ツール (ffmpeg・日本語フォント)
+        if: steps.mode.outputs.mode != 'skip'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-noto-cjk >/dev/null
+          pip install -q pillow
+
+      - name: 音声エンジンのデータをキャッシュから復元
+        if: steps.mode.outputs.mode != 'skip'
+        uses: actions/cache@v4
+        with:
+          path: engine-data
+          key: aivis-engine-${{ hashFiles('voices.json') }}-v1
+
+      - name: AivisSpeech Engine を起動 (Docker)
+        if: steps.mode.outputs.mode != 'skip'
+        run: |
+          mkdir -p engine-data work
+          sudo chown -R 1000:1000 engine-data
+          docker run -d --name aivis -p 10101:10101 \
+            -v "$PWD/engine-data:/home/user/.local/share/AivisSpeech-Engine-Dev" \
+            ghcr.io/aivis-project/aivisspeech-engine:cpu-latest
+          echo "エンジンの起動を待機中(初回はモデルDLで数分かかる)..."
+          for i in $(seq 1 120); do
+            sleep 5
+            if curl -fsS http://127.0.0.1:10101/version >/dev/null 2>&1; then
+              echo "エンジン起動OK: $(curl -fsS http://127.0.0.1:10101/version)"; exit 0
+            fi
+          done
+          echo "エンジンが10分以内に起動しなかった"; docker logs aivis; exit 1
+
+      - name: 音声合成 (AivisSpeech)
+        if: steps.mode.outputs.mode != 'skip'
+        run: |
+          python3 scripts/tts_aivis.py "radio/$SHOW/$TODAY/台本.txt" "work/$SHOW-$TODAY.mp3"
+
+      - name: 長さ検証とメタ情報
+        if: steps.mode.outputs.mode != 'skip'
+        run: |
+          ep="radio/$SHOW/$TODAY"; mp3="work/$SHOW-$TODAY.mp3"
+          dur=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$mp3" | cut -d. -f1)
+          echo "長さ: $((dur/60))分$((dur%60))秒"
+          if [ "$dur" -lt 150 ] || [ "$dur" -gt 720 ]; then
+            echo "::error::長さが異常(2分半未満または12分超)のため公開を中止"; exit 1
+          fi
+          python3 scripts/write_meta.py "$SHOW" "$TODAY" "$mp3" "$ep/概要欄.txt" "$ep/meta.json"
+
+      - name: GitHub Release に mp3 を公開
+        if: steps.mode.outputs.mode != 'skip'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="$SHOW-$TODAY"; ep="radio/$SHOW/$TODAY"
+          if ! gh release view "$tag" >/dev/null 2>&1; then
+            gh release create "$tag" --title "$(head -n 1 "$ep/概要欄.txt")" --notes-file "$ep/概要欄.txt"
+          fi
+          gh release upload "$tag" "work/$SHOW-$TODAY.mp3" --clobber
+
+      - name: フィード更新とコミット
+        if: steps.mode.outputs.mode != 'skip'
+        run: |
+          python3 scripts/make_feed.py "$SHOW"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add radio docs
+          git commit -m "$SHOW $TODAY"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && exit 0
+            echo "push に失敗(試行 $i)。少し待って再試行"; sleep $((i*10))
+          done
+          echo "::error::push できなかった"; exit 1
+
+      - name: キャッシュ保存用にファイル所有権を戻す
+        if: always() && steps.mode.outputs.mode != 'skip'
+        run: sudo chown -R "$(id -u):$(id -g)" engine-data 2>/dev/null || true
+
+  # docs/ を GitHub Pages に公開する(初回は Pages 自体もここで自動有効化する)
+  pages:
+    needs: [plan, build]
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deploy
+        uses: actions/deploy-pages@v4

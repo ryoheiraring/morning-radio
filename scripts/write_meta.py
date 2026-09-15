@@ -18,7 +18,7 @@ dur = float(subprocess.check_output(
     ["ffprobe", "-v", "error", "-show_entries", "format=duration",
      "-of", "default=noprint_wrappers=1:nokey=1", str(mp3)]).strip())
 
-repo = os.environ.get("GITHUB_REPOSITORY", "teruhikonomizu-ops/ai-radio")
+repo = os.environ.get("GITHUB_REPOSITORY", "ryoheiraring/morning-radio")
 url = f"https://github.com/{repo}/releases/download/{show}-{date}/{show}-{date}.mp3"
 
 meta = {

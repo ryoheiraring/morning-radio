@@ -1,8 +1,0 @@
-Anthropicが開発ペース抑制方針を表明 ||| Anthropic, Dario Amodei, METR, pace the frontier
-Anthropicのサイバーセキュリティ報告書に批判 ||| Anthropic, cybersecurity report, AI hacking incidents
-OpenAIと数学者25人が対立、公開書簡で批判 ||| OpenAI, open letter, mathematicians
-ChatGPT WorkにData agent機能追加 ||| ChatGPT Work, Data agent
-AI捏造の架空証人で弁護士に罰金(米ニューメキシコ州) ||| New Mexico Supreme Court, AI hallucination, murder case appeal
-Y Combinator Tan氏がオープンウェイトAI蒸留を呼びかけ ||| Garry Tan, Y Combinator, open-weight AI, distillation
-Moonshot AIのK3が年間売上20億ドル目標 ||| Moonshot AI, Kimi K3, $2B revenue target
-ロボット学習データのMecka AIが5億ドル評価額に接近 ||| Mecka AI, Sequoia, robot training data, $500M valuation
