@@ -1,0 +1,4 @@
+SECの株式トークン化規制枠組み ||| SEC, トークン化株式, AMM流動性プール
+S&PグローバルによるOpenZeppelin買収 ||| S&P Global, OpenZeppelin, オンチェーンセキュリティー
+米議員によるビットコイン準備金法制化法案 ||| Bitcoin reserve, 米国議会, 没収資産
+HyperliquidのHIP-3新規デプロイ(CVX・TLT) ||| Hyperliquid, HIP-3, xyz dex
