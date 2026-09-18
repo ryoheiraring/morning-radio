@@ -10,6 +10,21 @@
     <itunes:image href="https://ryoheiraring.github.io/morning-radio/evolution/artwork.png"/>
     <itunes:category text="Science"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>【人類の進化】9/19 人類の起源を探る三つの方法</title>
+      <description>【人類の進化】9/19 人類の起源を探る三つの方法
 
+ナナとソウが、人類がどこから来たのかを毎週少しずつたどっていく対話番組です。
+
+今日のテーマ:
+記念すべき第一回は、本編に入る前の準備回。化石・遺伝子・年代測定という三つの手がかりから、はるか昔の人類の姿がどうやって分かるのかを、身近な例えを交えて解説します。骨盤の形から歩き方が分かる話や、年代測定の意外な仕組みも紹介。来週からいよいよ、霊長類の起源をたどる本編が始まります。
+
+#人類進化 #ナナとソウの土曜日 #化石 #DNA #古人類学</description>
+      <pubDate>Sat, 19 Sep 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/evolution-2026-09-19/evolution-2026-09-19.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/evolution-2026-09-19/evolution-2026-09-19.mp3" length="3805249" type="audio/mpeg"/>
+      <itunes:duration>0:05:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
