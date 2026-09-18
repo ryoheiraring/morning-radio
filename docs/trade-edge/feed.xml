@@ -10,6 +10,34 @@
     <itunes:image href="https://ryoheiraring.github.io/morning-radio/trade-edge/artwork.png"/>
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>【エッジの見つけ方】9/18 資金調達率の偏りを見つける方法</title>
+      <description>【エッジの見つけ方】9/18 資金調達率の偏りを見つける方法
 
+トレードの確率的優位=エッジを、自分で見つけて確かめる方法を毎回1つ紹介する番組です。
+
+今日のテーマ:
+無期限先物(パープ)の資金調達率が、普段よりどれだけ極端に偏っているかを手がかりに、エッジの芽を見つける方法を解説しました。感情でポジションを持ち続ける人がコストを払う側に回る構造と、その偏りが本物かを確かめる手順、消えていく兆候までを話しています。
+
+■ 今日のコツ
+無期限先物の資金調達率の偏りから、エッジの芽を見つける
+
+■ 観察手順(3行以内)
+・ハイパーリキッドやバイナンスで主要銘柄の資金調達率を過去7日分メモする
+・同じ時間帯の値段の動きと未決済の建玉(ポジション量)も並べて比較する
+・複数の取引所で同じように偏っているかを確認する
+
+■ 明日から試せる1アクション
+気になる銘柄を1つ選び、資金調達率と未決済の建玉を毎日同じ時間に記録してみる
+
+本番組は情報提供のみで投資助言ではありません。エッジは確率的な優位であり損失が出ることもあります。
+
+#エッジの見つけ方 #トレード #ハイパーリキッド #資金調達率 #暗号資産</description>
+      <pubDate>Fri, 18 Sep 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-09-18/trade-edge-2026-09-18.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-09-18/trade-edge-2026-09-18.mp3" length="4200221" type="audio/mpeg"/>
+      <itunes:duration>0:05:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
