@@ -150,10 +150,8 @@ jobs:
           [ -f work/digest.md ] && cp work/digest.md "$ep/digest.md" || true
           ledger="${{ steps.mode.outputs.ledger }}"
           if [ -n "$ledger" ]; then   # 放送済み台帳に1行ずつ追記(次回のプロンプトに丸ごと添付される)
-            [ -f "radio/$SHOW/$ledger" ] || printf '# %s 放送済みの題材(1行=1回。日付  題材 ||| 分類, キーワード)
-' "$SHOW" > "radio/$SHOW/$ledger"
-            while IFS= read -r line; do [ -n "$line" ] && printf -- '- %s  %s
-' "$TODAY" "$line" >> "radio/$SHOW/$ledger"; done < work/topics.txt
+            [ -f "radio/$SHOW/$ledger" ] || echo "# $SHOW 放送済みの題材(1行=1回。日付  題材 ||| 分類, キーワード)" > "radio/$SHOW/$ledger"
+            while IFS= read -r line; do [ -n "$line" ] && echo "- $TODAY  $line" >> "radio/$SHOW/$ledger"; done < work/topics.txt
           fi
           echo "--- 台本(冒頭) ---"; head -n 12 "$ep/台本.txt"
 
