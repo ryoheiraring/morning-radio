@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>エッジの見つけ方</title>
+    <link>https://ryoheiraring.github.io/morning-radio/</link>
+    <description>進行役の Nana と解説役の Sou が、トレードの「エッジ(確率的な優位)」を自分で見つけ・確かめ・管理するコツを毎朝ひとつ、数式なしで語る5〜6分。暗号資産(Hyperliquid・Binance)の具体例つき。投資助言ではありません。AIが台本を書き、AI音声でお届けします。</description>
+    <language>ja</language>
+    <atom:link href="https://ryoheiraring.github.io/morning-radio/trade-edge/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>ryoheiraring</itunes:author>
+    <itunes:image href="https://ryoheiraring.github.io/morning-radio/trade-edge/artwork.png"/>
+    <itunes:category text="Business"/>
+    <itunes:explicit>false</itunes:explicit>
+
+  </channel>
+</rss>

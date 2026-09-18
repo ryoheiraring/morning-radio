@@ -13,6 +13,7 @@ PC 不要・API 課金なし・YouTube 出力なし。
 | `behavioral-economics` | 毎朝の行動経済学 | 毎朝 | Nana |
 | `evolution` | 人類の進化 〜ナナとソウの土曜日〜 | 毎週土曜 | Nana / Sou |
 | `crypto-morning` | 暗号資産朝刊(CoinGecko + 公式RSS、直近24時間、5項目) | 毎朝 | Nana / Sou |
+| `trade-edge` | エッジの見つけ方(題材は radio/trade-edge/covered.md に記録) | 毎朝 | Nana / Sou |
 
 フィード URL: `https://<ユーザー名>.github.io/morning-radio/<番組ID>/feed.xml`
 (一覧ページ: `https://<ユーザー名>.github.io/morning-radio/`)

@@ -91,6 +91,7 @@ jobs:
           echo "chars=$(python3 scripts/shows.py get "$SHOW" chars)" >> "$GITHUB_OUTPUT"
           echo "collector=$(python3 scripts/shows.py get "$SHOW" collector)" >> "$GITHUB_OUTPUT"
           echo "fresh=$(python3 scripts/shows.py get "$SHOW" fresh_hours)" >> "$GITHUB_OUTPUT"
+          echo "ledger=$(python3 scripts/shows.py get "$SHOW" ledger)" >> "$GITHUB_OUTPUT"
 
       - name: シークレットの確認
         if: steps.mode.outputs.mode == 'full'
@@ -147,6 +148,13 @@ jobs:
           cp work/desc.txt   "$ep/概要欄.txt"
           cp work/topics.txt "$ep/テーマ.txt"
           [ -f work/digest.md ] && cp work/digest.md "$ep/digest.md" || true
+          ledger="${{ steps.mode.outputs.ledger }}"
+          if [ -n "$ledger" ]; then   # 放送済み台帳に1行ずつ追記(次回のプロンプトに丸ごと添付される)
+            [ -f "radio/$SHOW/$ledger" ] || printf '# %s 放送済みの題材(1行=1回。日付  題材 ||| 分類, キーワード)
+' "$SHOW" > "radio/$SHOW/$ledger"
+            while IFS= read -r line; do [ -n "$line" ] && printf -- '- %s  %s
+' "$TODAY" "$line" >> "radio/$SHOW/$ledger"; done < work/topics.txt
+          fi
           echo "--- 台本(冒頭) ---"; head -n 12 "$ep/台本.txt"
 
       - name: 依存ツール (ffmpeg・日本語フォント)

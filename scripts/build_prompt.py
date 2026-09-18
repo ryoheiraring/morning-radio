@@ -38,6 +38,12 @@ for ep in sorted(Path(f"radio/{show_id}").glob("*/")):
         past.append(f"{ep.name}  {json.loads(m.read_text(encoding='utf-8')).get('title', '')}")
 
 speakers = " / ".join(cfg["speakers"])
+ledger_text = ""
+if cfg.get("ledger"):
+    lp = Path(f"radio/{show_id}/{cfg['ledger']}")
+    if lp.exists():
+        ledger_text = lp.read_text(encoding="utf-8").strip()
+
 parts = [
     cfg["body"],
     "",
@@ -53,7 +59,9 @@ parts = [
     "",
     "## 放送済みテーマ一覧(これらは扱わない)",
 ]
-if past:
+if ledger_text:
+    parts.append(ledger_text)
+elif past:
     parts += [f"- {p}" for p in past[-300:]]
 else:
     parts.append("(まだ放送はありません。第1回です)")

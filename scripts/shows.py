@@ -27,6 +27,7 @@ DEFAULTS = {
     "pub_hour": 6,
     "collector": "",      # 素材収集スクリプト(例: scripts/collect_crypto.py)。空なら収集なし
     "fresh_hours": 24,    # 収集スクリプトに渡す鮮度(時間)
+    "ledger": "",         # (任意)放送済み台帳ファイル名(radio/<番組ID>/ 直下)。テーマ台帳を毎回追記し、次回のプロンプトに丸ごと添付
 }
 
 
