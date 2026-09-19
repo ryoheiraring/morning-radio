@@ -11,6 +11,35 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【エッジの見つけ方】9/20 清算の連鎖と行き過ぎを狙う</title>
+      <description>【エッジの見つけ方】9/20 清算の連鎖と行き過ぎを狙う
+
+暗号資産のトレードにおける「確率的な優位=エッジ」を、自分の手で見つけて確かめる方法を紹介するラジオ番組です。
+
+今日のテーマ:
+無理なレバレッジを抱えた人が強制的に決済される「清算」が連鎖すると、価格は本来の価値から行き過ぎることがあります。その行き過ぎがどこで起きやすく、どう確かめ、いつ効かなくなるのかを、Nana と Sou が対話形式で解説します。
+
+■ 今日のコツ
+・清算の連鎖が起きた直後の「行き過ぎ」を狙う
+
+■ 観察手順(3行以内)
+・取引所の清算データで、短時間に清算が連続した場面を過去から探す
+・清算前・行き過ぎた瞬間・数十分後の価格を3点セットで記録する
+・清算と無関係な場面とも比べて、戻りが本物か確かめる
+
+■ 明日から試せる1アクション
+・取引所の清算データのページを開き、直近の連鎖を1つ見つけて値動きを記録してみる
+
+本番組は情報提供のみで投資助言ではありません。エッジは確率的な優位であり損失が出ることもあります。
+
+#エッジの見つけ方 #トレード #清算 #ハイパーリキッド #暗号資産</description>
+      <pubDate>Sun, 20 Sep 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-09-20/trade-edge-2026-09-20.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-09-20/trade-edge-2026-09-20.mp3" length="4526229" type="audio/mpeg"/>
+      <itunes:duration>0:06:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【エッジの見つけ方】9/19 損切りが集まる場所を探す</title>
       <description>【エッジの見つけ方】9/19 損切りが集まる場所を探す
 
