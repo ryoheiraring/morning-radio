@@ -1,0 +1,4 @@
+ECBの決済基盤Pontes稼働 ||| ECB, Pontes, トークン化資産, ステーブルコイン
+アップル・グーグルのステーブルコイン人材採用強化 ||| Apple, Google, ステーブルコイン, トークン化預金
+機関投資家によるBTC/ETH買い増し継続(Strategy/Bitmine/Strive) ||| Strategy, Bitmine, Strive, ビットコイン買い増し
+HyperliquidのHIP-3新規デプロイpara:DRV ||| Hyperliquid, HIP-3, para, DRV
