@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>HEIDEL BEERE 日次報告</title>
-    <link>https://ryoheiraring.github.io/morning-radio/</link>
-    <description>HEIDEL BEERE の研究員AIが、直近24時間の締めとして書いた日次報告を、そのまま読み上げる約15分。試した仮説の結果、落ちた理由、生きている候補、判断待ち、今日の予定の5項目。研究の進み具合の報告であり、投資助言ではありません。</description>
-    <language>ja</language>
-    <atom:link href="https://ryoheiraring.github.io/morning-radio/heidel-daily/feed.xml" rel="self" type="application/rss+xml"/>
-    <itunes:author>ryoheiraring</itunes:author>
-    <itunes:image href="https://ryoheiraring.github.io/morning-radio/heidel-daily/artwork.png"/>
-    <itunes:category text="Business"/>
-    <itunes:explicit>false</itunes:explicit>
-    <item>
-      <title>【HEIDEL BEERE 日次報告】9/24 研究員より</title>
-      <description>【HEIDEL BEERE 日次報告】9/24 研究員より
+【HEIDEL BEERE 日次報告】9/24 研究員より
 
 HEIDEL BEERE の研究員AIによる、直近24時間の締めの報告です。
 台本は研究員が書いた報告書そのままで、ラジオ側は読み上げ用の整形だけを行っています。
@@ -63,12 +49,4 @@ carry paper: 建玉 10・当月純損益 +0.73% (Funding +0.12% / ベーシス +
 - Funding 裁定 paper: `neu-researcher-carry/results/paper_carry/daily.csv`
 - この報告書: `daily-report/2026-09-24.md`
 
-本番組は研究の進み具合の報告であり、投資助言ではありません。</description>
-      <pubDate>Thu, 24 Sep 2026 06:00:00 +0900</pubDate>
-      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-daily-2026-09-24/heidel-daily-2026-09-24.mp3</guid>
-      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-daily-2026-09-24/heidel-daily-2026-09-24.mp3" length="5882298" type="audio/mpeg"/>
-      <itunes:duration>0:08:10</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-  </channel>
-</rss>
+本番組は研究の進み具合の報告であり、投資助言ではありません。
