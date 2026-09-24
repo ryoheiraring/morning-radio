@@ -16,6 +16,15 @@
     "intonation": 1.0,
     "speed": 1.0
   },
+  "研究員": {
+    "model_uuid": "47e53151-a378-46f3-abee-ce13aa07feb1",
+    "speaker": "阿井田 茂",
+    "style": "Calm",
+    "pitch": 0.0,
+    "intonation": 0.95,
+    "speed": 0.98,
+    "_note": "HEIDEL BEERE 日次報告の読み手。落ち着いた中年男性 (バリトン)。ライセンス ACML 1.0"
+  },
   "_global": {
     "speed": 0.92,
     "sentpause": 0.35,

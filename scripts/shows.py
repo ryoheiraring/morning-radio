@@ -28,6 +28,9 @@ DEFAULTS = {
     "collector": "",      # 素材収集スクリプト(例: scripts/collect_crypto.py)。空なら収集なし
     "fresh_hours": 24,    # 収集スクリプトに渡す鮮度(時間)
     "ledger": "",         # (任意)放送済み台帳ファイル名(radio/<番組ID>/ 直下)。テーマ台帳を毎回追記し、次回のプロンプトに丸ごと添付
+    "builder": "",        # (任意)台本を直接作るスクリプト。指定すると Claude を呼ばず、これが 台本/概要欄/テーマ を書く
+    "duration_sec": [150, 720],   # 公開してよい音声の長さ(秒)の範囲
+    "attach_reports": 0,  # (任意)研究員の日次報告(radio/heidel-daily/archive/)の直近 N 日ぶんをプロンプトに添付
 }
 
 

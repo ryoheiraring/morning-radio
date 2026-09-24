@@ -65,6 +65,18 @@ elif past:
     parts += [f"- {p}" for p in past[-300:]]
 else:
     parts.append("(まだ放送はありません。第1回です)")
+n_rep = int(cfg.get("attach_reports") or 0)
+if n_rep:
+    reps = sorted(Path("radio/heidel-daily/archive").glob("*.md"), reverse=True)[:n_rep]
+    if reps:
+        parts += ["", "---", "", f"## 研究員の日次報告 (直近 {len(reps)} 日・実例として引用してよい)", "",
+                  "★ ここに出てくる数字・出来事は実際の記録です。番組で実例として使うときは、"
+                  "『私たちの研究員の記録では』のように出所を明示し、投資助言にはしないこと。", ""]
+        for rp in reps:
+            parts += [f"### {rp.stem}", "", rp.read_text(encoding="utf-8").split("
+---
+")[0].strip(), ""]
+
 if digest and digest.exists():
     parts += ["", "---", "", "## 今日の素材(ダイジェスト)", "",
               "★ 台本の事実・数字はすべてこのダイジェストの範囲内で書くこと。無い項目は飛ばす。", "",

@@ -92,9 +92,36 @@ jobs:
           echo "collector=$(python3 scripts/shows.py get "$SHOW" collector)" >> "$GITHUB_OUTPUT"
           echo "fresh=$(python3 scripts/shows.py get "$SHOW" fresh_hours)" >> "$GITHUB_OUTPUT"
           echo "ledger=$(python3 scripts/shows.py get "$SHOW" ledger)" >> "$GITHUB_OUTPUT"
+          echo "builder=$(python3 scripts/shows.py get "$SHOW" builder)" >> "$GITHUB_OUTPUT"
+          echo "dur=$(python3 scripts/shows.py get "$SHOW" duration_sec)" >> "$GITHUB_OUTPUT"
+          # 最後の便 (07:30 JST 以降、または手動実行) かどうか。届かない報告の扱いを分ける
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date +%H)" -ge 7 ]; then
+            echo "last_chance=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "last_chance=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 台本を作る (builder のある番組・Claude を使わず整形のみ)
+        id: builder
+        if: steps.mode.outputs.mode == 'full' && steps.mode.outputs.builder != ''
+        run: |
+          mkdir -p work
+          set +e
+          python3 "${{ steps.mode.outputs.builder }}" "$TODAY" work/script.txt work/desc.txt work/topics.txt ${{ steps.mode.outputs.last_chance && '--last-chance' || '' }}
+          rc=$?
+          set -e
+          if [ "$rc" = "3" ]; then
+            echo "素材がまだ無いので、この便では作らない (次の便で再確認)"
+            echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          [ "$rc" = "0" ] || exit $rc
+          ep="radio/$SHOW/$TODAY"; mkdir -p "$ep"
+          cp work/script.txt "$ep/台本.txt"; cp work/desc.txt "$ep/概要欄.txt"; cp work/topics.txt "$ep/テーマ.txt"
+          [ -f work/absent.flag ] && echo "absent=1" >> "$GITHUB_OUTPUT" || true
+          echo "--- 台本(冒頭) ---"; head -n 8 "$ep/台本.txt"
 
       - name: シークレットの確認
-        if: steps.mode.outputs.mode == 'full'
+        if: steps.mode.outputs.mode == 'full' && steps.mode.outputs.builder == ''
         env:
           TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
@@ -109,13 +136,13 @@ jobs:
           esac
 
       - name: 素材収集 (番組に collector がある場合のみ)
-        if: steps.mode.outputs.mode == 'full' && steps.mode.outputs.collector != ''
+        if: steps.mode.outputs.mode == 'full' && steps.mode.outputs.collector != '' && steps.mode.outputs.builder == ''
         run: |
           mkdir -p work
           python3 "${{ steps.mode.outputs.collector }}" work/digest.md "${{ steps.mode.outputs.fresh }}"
 
       - name: Claude で台本と概要欄を執筆
-        if: steps.mode.outputs.mode == 'full'
+        if: steps.mode.outputs.mode == 'full' && steps.mode.outputs.builder == ''
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
@@ -156,21 +183,21 @@ jobs:
           echo "--- 台本(冒頭) ---"; head -n 12 "$ep/台本.txt"
 
       - name: 依存ツール (ffmpeg・日本語フォント)
-        if: steps.mode.outputs.mode != 'skip'
+        if: steps.mode.outputs.mode != 'skip' && steps.builder.outputs.skip != '1'
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-noto-cjk >/dev/null
           pip install -q pillow
 
       - name: 音声エンジンのデータをキャッシュから復元
-        if: steps.mode.outputs.mode != 'skip'
+        if: steps.mode.outputs.mode != 'skip' && steps.builder.outputs.skip != '1'
         uses: actions/cache@v4
         with:
           path: engine-data
           key: aivis-engine-${{ hashFiles('voices.json') }}-v1
 
       - name: AivisSpeech Engine を起動 (Docker)
-        if: steps.mode.outputs.mode != 'skip'
+        if: steps.mode.outputs.mode != 'skip' && steps.builder.outputs.skip != '1'
         run: |
           mkdir -p engine-data work
           sudo chown -R 1000:1000 engine-data
@@ -187,23 +214,24 @@ jobs:
           echo "エンジンが10分以内に起動しなかった"; docker logs aivis; exit 1
 
       - name: 音声合成 (AivisSpeech)
-        if: steps.mode.outputs.mode != 'skip'
+        if: steps.mode.outputs.mode != 'skip' && steps.builder.outputs.skip != '1'
         run: |
           python3 scripts/tts_aivis.py "radio/$SHOW/$TODAY/台本.txt" "work/$SHOW-$TODAY.mp3"
 
       - name: 長さ検証とメタ情報
-        if: steps.mode.outputs.mode != 'skip'
+        if: steps.mode.outputs.mode != 'skip' && steps.builder.outputs.skip != '1'
         run: |
           ep="radio/$SHOW/$TODAY"; mp3="work/$SHOW-$TODAY.mp3"
           dur=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$mp3" | cut -d. -f1)
-          echo "長さ: $((dur/60))分$((dur%60))秒"
-          if [ "$dur" -lt 150 ] || [ "$dur" -gt 720 ]; then
-            echo "::error::長さが異常(2分半未満または12分超)のため公開を中止"; exit 1
+          set -- ${{ steps.mode.outputs.dur }}; dlo=$1; dhi=$2
+          echo "長さ: $((dur/60))分$((dur%60))秒 (許容 $((dlo/60))〜$((dhi/60))分)"
+          if [ "$dur" -lt "$dlo" ] || [ "$dur" -gt "$dhi" ]; then
+            echo "::error::長さが許容範囲外($((dlo))〜$((dhi))秒)のため公開を中止"; exit 1
           fi
           python3 scripts/write_meta.py "$SHOW" "$TODAY" "$mp3" "$ep/概要欄.txt" "$ep/meta.json"
 
       - name: GitHub Release に mp3 を公開
-        if: steps.mode.outputs.mode != 'skip'
+        if: steps.mode.outputs.mode != 'skip' && steps.builder.outputs.skip != '1'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -214,7 +242,7 @@ jobs:
           gh release upload "$tag" "work/$SHOW-$TODAY.mp3" --clobber
 
       - name: フィード更新とコミット
-        if: steps.mode.outputs.mode != 'skip'
+        if: steps.mode.outputs.mode != 'skip' && steps.builder.outputs.skip != '1'
         run: |
           python3 scripts/make_feed.py "$SHOW"
           git config user.name "github-actions[bot]"
@@ -226,6 +254,21 @@ jobs:
             echo "push に失敗(試行 $i)。少し待って再試行"; sleep $((i*10))
           done
           echo "::error::push できなかった"; exit 1
+
+      - name: 報告が届かなかったことを LINE に通知
+        if: steps.builder.outputs.absent == '1'
+        env:
+          LINE_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          LINE_TO: ${{ secrets.LINE_TO_USER_ID }}
+        run: |
+          export MSG="【HEIDEL BEERE 日次報告】$TODAY の報告が届きませんでした。ラジオは「本日の報告は届いていません」版を配信しました。PC 側の run.cmd daily-report を確認してください。"
+          if [ -z "$LINE_TOKEN" ] || [ -z "$LINE_TO" ]; then
+            echo "::warning::LINE 未設定 (Secrets の LINE_CHANNEL_ACCESS_TOKEN / LINE_TO_USER_ID)。通知は送れません: $MSG"
+          else
+            python3 -c 'import json,os;print(json.dumps({"to":os.environ["LINE_TO"],"messages":[{"type":"text","text":os.environ["MSG"]}]}))' > work/line.json
+            curl -fsS -X POST https://api.line.me/v2/bot/message/push               -H "Authorization: Bearer $LINE_TOKEN" -H "Content-Type: application/json"               -d @work/line.json && echo "LINE 通知OK" || echo "::warning::LINE 通知に失敗"
+          fi
+        continue-on-error: true
 
       - name: キャッシュ保存用にファイル所有権を戻す
         if: always() && steps.mode.outputs.mode != 'skip'
