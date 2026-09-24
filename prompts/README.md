@@ -21,6 +21,9 @@ collector: scripts/collect_crypto.py   # (任意)素材収集スクリプト。�
                                         #  出力がプロンプト末尾に「今日の素材」として付く。無ければ収集なし
 fresh_hours: 24             # (任意)収集スクリプトに渡す鮮度(時間)
 ledger: covered.md          # (任意)放送済み台帳。radio/<番組ID>/covered.md に毎回1行追記し、次回のプロンプトに丸ごと添付
+builder: scripts/xxx.py     # (任意)台本を直接作るスクリプト。指定すると Claude を呼ばない(heidel-daily 方式)
+duration_sec: [150, 720]    # (任意)公開してよい音声の長さ(秒)
+attach_reports: 3           # (任意)研究員の日次報告の直近 N 日ぶんをプロンプトに添付
 ---
 (ここから下が、Claude に渡す番組固有の指示。テーマ・語り口・構成など)
 ```

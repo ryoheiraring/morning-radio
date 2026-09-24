@@ -14,13 +14,15 @@ PC 不要・API 課金なし・YouTube 出力なし。
 | `evolution` | 人類の進化 〜ナナとソウの土曜日〜 | 毎週土曜 | Nana / Sou |
 | `crypto-morning` | 暗号資産朝刊(CoinGecko + 公式RSS、直近24時間、5項目) | 毎朝 | Nana / Sou |
 | `trade-edge` | エッジの見つけ方(題材は radio/trade-edge/covered.md に記録) | 毎朝 | Nana / Sou |
+| `heidel-daily` | HEIDEL BEERE 日次報告(研究員AIの report.md をそのまま読み上げ・約15分) | 毎朝 | 研究員 |
 
 フィード URL: `https://<ユーザー名>.github.io/morning-radio/<番組ID>/feed.xml`
 (一覧ページ: `https://<ユーザー名>.github.io/morning-radio/`)
 
 - **Nana**(進行役): AivisSpeech `morioki`(落ち着いた女性)
 - **Sou**(解説役): AivisSpeech `fumifumi`(落ち着いた青年)
-- 台本の行頭 `Nana: ` / `Sou: ` で声が切り替わる。声の割り当ては [voices.json](voices.json)
+- **研究員**: AivisSpeech `阿井田 茂`(Calm・落ち着いた中年男性)。HEIDEL BEERE 日次報告の読み手
+- 台本の行頭 `Nana: ` / `Sou: ` / `研究員: ` で声が切り替わる。声の割り当ては [voices.json](voices.json)
 
 ## 初期設定(やることは1つだけ)
 
@@ -36,6 +38,21 @@ GitHub Pages(配信元 = GitHub Actions)は作成済み。
 - 05:30 JST に本線、06:30 / 07:30 JST に保険(作り終えていれば数秒で skip)
 - 10:17 JST に `radio-watchdog` が当日分の有無を確認し、欠けていれば自動で再実行
 - GitHub の cron は混雑時に遅れることがある(6時ちょうどの保証はない)
+
+## heidel-daily (HEIDEL BEERE 日次報告) だけ流れが違う
+
+この番組は Claude で台本を書かない。PC の研究員AI (`C:\Users\ryohe\neu-researcher`) が書いた報告書が正典:
+
+```
+PC 側 05:00 JST  run.cmd daily-report
+   → daily-report/<日付>.md を書き、radio/heidel-daily/report.md と archive/<日付>.md に push
+ラジオ側 05:30   scripts/build_heidel_daily.py が report.md を読み上げ用に整形 (内容は変えない)
+   → 届いていなければ 06:30 / 07:30 で再確認 → それでも無ければ「本日の報告は届いていません」1分版 + LINE 通知
+```
+
+- LINE 通知には Secrets の `LINE_CHANNEL_ACCESS_TOKEN` と `LINE_TO_USER_ID` が要る (未設定なら警告のみ)
+- `attach_reports: N` を front matter に書くと、その番組のプロンプトに直近 N 日ぶんの報告が実例として付く
+  (現在 `trade-edge` が 3 日ぶん)
 
 ## 番組を増やす・変える
 
