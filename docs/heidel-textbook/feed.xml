@@ -10,6 +10,35 @@
     <itunes:image href="https://ryoheiraring.github.io/morning-radio/heidel-textbook/artwork.png"/>
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>【HEIDEL BEEREの教科書】9/27 総合スコア</title>
+      <description>【HEIDEL BEEREの教科書】9/27 総合スコア
 
+暗号資産の分析ソフト、ハイデルベーレの画面に出てくる指標を、毎日1つずつ、中学生でも分かる言葉で読み解く講座です。
+
+今日のテーマ:
+初回の今日は、バックテスト結果の一番上に出る「総合スコア」を取り上げました。OOSシャープ・最大DD・劣化率・PSRという4つの数字を1枚のカードにまとめたものだと説明し、70点という合格ラインの目安と、高得点でも別期間で崩れる例を紹介しています。
+
+■ 今日の用語
+・総合スコア(バックテスト結果画面の最上部の点数。OOSシャープ×最大DD×劣化率×PSRの合成)
+
+■ 読み方の目安
+・70点以上が合格ライン、50〜60点台は保留、大きく下回れば見送り
+
+■ やりがちな誤読
+・「総合スコアが高い=これからも儲かり続ける」と思い込むこと
+
+■ 明日見る1か所
+・総合スコアのすぐ横に出る「OOSシャープ」という数字
+
+本番組は情報提供のみで投資助言ではありません。
+
+#暗号資産 #クオンツ分析 #バックテスト #統計 #初心者向け</description>
+      <pubDate>Sun, 27 Sep 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-09-27/heidel-textbook-2026-09-27.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-09-27/heidel-textbook-2026-09-27.mp3" length="4986402" type="audio/mpeg"/>
+      <itunes:duration>0:06:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
