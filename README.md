@@ -47,12 +47,23 @@ GitHub Pages(配信元 = GitHub Actions)は作成済み。
 PC 側 05:00 JST  run.cmd daily-report
    → daily-report/<日付>.md を書き、radio/heidel-daily/report.md と archive/<日付>.md に push
 ラジオ側 05:30   scripts/build_heidel_daily.py が report.md を読み上げ用に整形 (内容は変えない)
-   → 届いていなければ 06:30 / 07:30 で再確認 → それでも無ければ「本日の報告は届いていません」1分版 + LINE 通知
+   → 届いていなければ 06:30 / 07:30 で再確認 → それでも無ければ「本日の配信は失敗しました」1分版
+PC 側は同時に radio/heidel-daily/status.json (ループの状態・API 費用・直近の異常) も push する
 ```
 
-- LINE 通知には Secrets の `LINE_CHANNEL_ACCESS_TOKEN` と `LINE_TO_USER_ID` が要る (未設定なら警告のみ)
 - `attach_reports: N` を front matter に書くと、その番組のプロンプトに直近 N 日ぶんの報告が実例として付く
   (現在 `trade-edge` が 3 日ぶん)
+
+## 失敗したときにどうなるか (通知は GitHub の失敗メール 1 本)
+
+外部通知 (LINE 等) は使わない。ユーザー側の設定作業はゼロ。
+
+| 起きたこと | ラジオの動き | 通知 |
+|---|---|---|
+| 台本生成・素材収集・報告書未着 | その番組だけ「本日の配信は失敗しました。原因は〇〇」の1分版を配信。**他の番組は通常どおり** | 番組ジョブが赤 → 失敗メール |
+| 音声合成・Release・push の失敗 | エピソードは作れない (失敗した工程そのものが必要なため) | 番組ジョブが赤 → 失敗メール |
+| 研究員AIの異常 (報告が届かない・ループ停止・API 残高切れ) | — | `radio-watchdog` が status.json を読んで赤 → 失敗メール |
+| どこかの番組が失敗 | — | 最後の `summary` ジョブが赤 → 失敗メール |
 
 ## 番組を増やす・変える
 

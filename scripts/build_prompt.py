@@ -73,9 +73,7 @@ if n_rep:
                   "★ ここに出てくる数字・出来事は実際の記録です。番組で実例として使うときは、"
                   "『私たちの研究員の記録では』のように出所を明示し、投資助言にはしないこと。", ""]
         for rp in reps:
-            parts += [f"### {rp.stem}", "", rp.read_text(encoding="utf-8").split("
----
-")[0].strip(), ""]
+            parts += [f"### {rp.stem}", "", rp.read_text(encoding="utf-8").split("\n---\n")[0].strip(), ""]
 
 if digest and digest.exists():
     parts += ["", "---", "", "## 今日の素材(ダイジェスト)", "",

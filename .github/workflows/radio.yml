@@ -114,35 +114,45 @@ jobs:
             echo "素材がまだ無いので、この便では作らない (次の便で再確認)"
             echo "skip=1" >> "$GITHUB_OUTPUT"; exit 0
           fi
-          [ "$rc" = "0" ] || exit $rc
+          if [ "$rc" != "0" ]; then
+            echo "::warning::台本の整形に失敗した (rc=$rc)。失敗エピソードに切り替える"
+            echo "reason=report" >> "$GITHUB_OUTPUT"; exit 0
+          fi
           ep="radio/$SHOW/$TODAY"; mkdir -p "$ep"
           cp work/script.txt "$ep/台本.txt"; cp work/desc.txt "$ep/概要欄.txt"; cp work/topics.txt "$ep/テーマ.txt"
-          [ -f work/absent.flag ] && echo "absent=1" >> "$GITHUB_OUTPUT" || true
+          [ -f work/absent.flag ] && echo "reason=report" >> "$GITHUB_OUTPUT" || true
           echo "--- 台本(冒頭) ---"; head -n 8 "$ep/台本.txt"
 
       - name: シークレットの確認
+        id: secret
         if: steps.mode.outputs.mode == 'full' && steps.mode.outputs.builder == ''
         env:
           TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
           if [ -z "$TOKEN" ]; then
-            echo "::error::リポジトリの Secrets に CLAUDE_CODE_OAUTH_TOKEN がありません。Settings → Secrets and variables → Actions → New repository secret で登録してください(値は claude setup-token の出力)。"
-            exit 1
+            echo "::error::リポジトリの Secrets に CLAUDE_CODE_OAUTH_TOKEN がありません(値は claude setup-token の出力)。"
+            echo "reason=script" >> "$GITHUB_OUTPUT"; exit 0
           fi
           t=$(printf %s "$TOKEN" | tr -d '[:space:]')
           case "$t" in
             sk-ant-oat01-*) echo "トークン形式OK(長さ ${#t})";;
-            *) echo "::error::CLAUDE_CODE_OAUTH_TOKEN の形式が違います(先頭が sk-ant-oat01- ではない・長さ ${#t})。claude setup-token が最後に表示する sk-ant-oat01-... の値を、そのまま登録し直してください。"; exit 1;;
+            *) echo "::error::CLAUDE_CODE_OAUTH_TOKEN の形式が違います(先頭が sk-ant-oat01- ではない・長さ ${#t})。"
+               echo "reason=script" >> "$GITHUB_OUTPUT"; exit 0;;
           esac
 
       - name: 素材収集 (番組に collector がある場合のみ)
+        id: collect
         if: steps.mode.outputs.mode == 'full' && steps.mode.outputs.collector != '' && steps.mode.outputs.builder == ''
         run: |
           mkdir -p work
-          python3 "${{ steps.mode.outputs.collector }}" work/digest.md "${{ steps.mode.outputs.fresh }}"
+          if ! python3 "${{ steps.mode.outputs.collector }}" work/digest.md "${{ steps.mode.outputs.fresh }}"; then
+            echo "::error::素材の収集に失敗した"
+            echo "reason=material" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Claude で台本と概要欄を執筆
-        if: steps.mode.outputs.mode == 'full' && steps.mode.outputs.builder == ''
+        id: claude
+        if: steps.mode.outputs.mode == 'full' && steps.mode.outputs.builder == '' && steps.secret.outputs.reason == '' && steps.collect.outputs.reason == ''
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
@@ -169,7 +179,10 @@ jobs:
             printf '\n\n【重要・作り直し】前回の出力は不合格だった。以下を必ず守り、最初から全体を作り直すこと:\n' >> work/prompt.md
             cat work/feedback.txt >> work/prompt.md 2>/dev/null || true
           done
-          if [ -z "$ok" ]; then echo "::error::台本生成に失敗"; tail -c 3000 work/claude_out.txt; exit 1; fi
+          if [ -z "$ok" ]; then
+            echo "::error::台本生成に失敗"; tail -c 3000 work/claude_out.txt
+            echo "reason=script" >> "$GITHUB_OUTPUT"; exit 0
+          fi
           ep="radio/$SHOW/$TODAY"; mkdir -p "$ep"
           cp work/script.txt "$ep/台本.txt"
           cp work/desc.txt   "$ep/概要欄.txt"
@@ -181,6 +194,22 @@ jobs:
             while IFS= read -r line; do [ -n "$line" ] && echo "- $TODAY  $line" >> "radio/$SHOW/$ledger"; done < work/topics.txt
           fi
           echo "--- 台本(冒頭) ---"; head -n 12 "$ep/台本.txt"
+
+      - name: 失敗エピソードに切り替え (どこかで失敗していたら)
+        id: fail
+        if: steps.mode.outputs.mode != 'skip' && steps.builder.outputs.skip != '1'
+        run: |
+          reason=""
+          for r in "${{ steps.builder.outputs.reason }}" "${{ steps.secret.outputs.reason }}"                    "${{ steps.collect.outputs.reason }}" "${{ steps.claude.outputs.reason }}"; do
+            [ -n "$r" ] && [ -z "$reason" ] && reason="$r"
+          done
+          if [ -z "$reason" ]; then echo "通常どおり配信する"; exit 0; fi
+          echo "::warning::$SHOW は「$reason」で失敗。1分の失敗エピソードを配信する"
+          mkdir -p work
+          python3 scripts/build_failure_episode.py "$SHOW" "$TODAY" "$reason"             work/script.txt work/desc.txt work/topics.txt
+          ep="radio/$SHOW/$TODAY"; mkdir -p "$ep"
+          cp work/script.txt "$ep/台本.txt"; cp work/desc.txt "$ep/概要欄.txt"; cp work/topics.txt "$ep/テーマ.txt"
+          echo "reason=$reason" >> "$GITHUB_OUTPUT"
 
       - name: 依存ツール (ffmpeg・日本語フォント)
         if: steps.mode.outputs.mode != 'skip' && steps.builder.outputs.skip != '1'
@@ -224,6 +253,7 @@ jobs:
           ep="radio/$SHOW/$TODAY"; mp3="work/$SHOW-$TODAY.mp3"
           dur=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$mp3" | cut -d. -f1)
           set -- ${{ steps.mode.outputs.dur }}; dlo=$1; dhi=$2
+          [ -n "${{ steps.fail.outputs.reason }}" ] && { dlo=20; dhi=180; }   # 失敗エピソードは約1分
           echo "長さ: $((dur/60))分$((dur%60))秒 (許容 $((dlo/60))〜$((dhi/60))分)"
           if [ "$dur" -lt "$dlo" ] || [ "$dur" -gt "$dhi" ]; then
             echo "::error::長さが許容範囲外($((dlo))〜$((dhi))秒)のため公開を中止"; exit 1
@@ -255,24 +285,32 @@ jobs:
           done
           echo "::error::push できなかった"; exit 1
 
-      - name: 報告が届かなかったことを LINE に通知
-        if: steps.builder.outputs.absent == '1'
-        env:
-          LINE_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
-          LINE_TO: ${{ secrets.LINE_TO_USER_ID }}
+      - name: この番組は失敗だったと記録して赤で終える
+        if: steps.fail.outputs.reason != ''
         run: |
-          export MSG="【HEIDEL BEERE 日次報告】$TODAY の報告が届きませんでした。ラジオは「本日の報告は届いていません」版を配信しました。PC 側の run.cmd daily-report を確認してください。"
-          if [ -z "$LINE_TOKEN" ] || [ -z "$LINE_TO" ]; then
-            echo "::warning::LINE 未設定 (Secrets の LINE_CHANNEL_ACCESS_TOKEN / LINE_TO_USER_ID)。通知は送れません: $MSG"
-          else
-            python3 -c 'import json,os;print(json.dumps({"to":os.environ["LINE_TO"],"messages":[{"type":"text","text":os.environ["MSG"]}]}))' > work/line.json
-            curl -fsS -X POST https://api.line.me/v2/bot/message/push               -H "Authorization: Bearer $LINE_TOKEN" -H "Content-Type: application/json"               -d @work/line.json && echo "LINE 通知OK" || echo "::warning::LINE 通知に失敗"
-          fi
-        continue-on-error: true
+          echo "::error::$SHOW の本日分は「${{ steps.fail.outputs.reason }}」で失敗しました。"
+          echo "失敗のお知らせエピソードは配信済みです。GitHub の失敗メールはこのジョブから飛びます。"
+          exit 1
 
       - name: キャッシュ保存用にファイル所有権を戻す
         if: always() && steps.mode.outputs.mode != 'skip'
         run: sudo chown -R "$(id -u):$(id -g)" engine-data 2>/dev/null || true
+
+  # 1 本でも失敗したら、この最後のジョブが赤で終わる → GitHub の失敗メールが飛ぶ
+  summary:
+    needs: [plan, build]
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 本日の配信結果
+        run: |
+          echo "番組ジョブの結果: ${{ needs.build.result }}"
+          if [ "${{ needs.build.result }}" = "success" ] || [ "${{ needs.build.result }}" = "skipped" ]; then
+            echo "本日の配信はすべて成功しました。"; exit 0
+          fi
+          echo "::error::本日の配信で失敗した番組があります。どの番組かは build ジョブの一覧を見てください。"
+          echo "失敗した番組には「本日の配信は失敗しました」の1分エピソードが配信されています。"
+          exit 1
 
   # docs/ を GitHub Pages に公開する(Pages サイト自体は gh api -X POST repos/<repo>/pages -f build_type=workflow で作成済み)
   pages:

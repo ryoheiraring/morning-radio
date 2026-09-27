@@ -1,8 +1,14 @@
 name: radio-watchdog
 
-# 本線・保険の cron がすべて終わった時間帯に、今日放送するはずの番組が RSS に乗っているかを確認し、
-# 欠けていたら workflow_dispatch で自動再実行 → 最大45分待って復旧確認。
-# メールが来るのは自動再実行でも直らなかった時だけ。
+# 朝の便がすべて終わった時間帯に、2 つを確かめる:
+#   ① 今日放送するはずの番組が RSS に乗っているか (欠けていたら自動で再実行 → 最大45分待つ)
+#   ② 研究員AI (PC 側) が健康か — radio/heidel-daily/status.json を読む
+#      ・status.json が古い (26時間以上前) = PC が止まっている / push できていない
+#      ・24時間ループが停止・待機している (API 残高切れ 等)
+#      ・報告書 report.md が今日ぶんでない
+# どれかが駄目ならジョブを赤で終わらせる。通知は GitHub の失敗メール 1 本に統一している
+# (LINE などの外部通知は使わない = ユーザー側の設定作業ゼロ)。
+#
 # 手動確認: Actionsタブ → radio-watchdog → Run workflow
 
 on:
@@ -12,6 +18,7 @@ on:
 
 permissions:
   actions: write
+  contents: read
 
 env:
   TZ: Asia/Tokyo
@@ -24,17 +31,69 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: 研究員AI (PC 側) の健康状態
+        id: researcher
+        continue-on-error: true
+        run: |
+          today=$(date +%F)
+          st=radio/heidel-daily/status.json
+          problems=""
+          if [ ! -f "$st" ]; then
+            problems="研究員の status.json が無い (一度も push されていない)"
+          else
+            python3 - "$st" "$today" <<'PY' > work_status.txt || true
+          import json, sys, datetime
+          st, today = json.load(open(sys.argv[1], encoding="utf-8")), sys.argv[2]
+          out = []
+          gen = st.get("generated_at_jst", "")
+          try:
+              age = (datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))
+                     - datetime.datetime.fromisoformat(gen)).total_seconds() / 3600
+          except Exception:
+              age = 999
+          if age > 26:
+              out.append(f"研究員の報告が {age:.0f} 時間前から更新されていない (PC が止まっているか push できていない。最終 {gen})")
+          if st.get("loop_stopped"):
+              out.append("24時間ループが停止している: " + str(st.get("loop_stop_reason", ""))[:200])
+          if st.get("loop_waiting"):
+              out.append("24時間ループが待機中: " + str(st.get("loop_waiting"))[:200])
+          if st.get("day") != today and age <= 26:
+              out.append(f"status.json の日付が今日ではない ({st.get('day')})")
+          for a in (st.get("alerts") or [])[:3]:
+              out.append("研究員の記録: " + str(a)[:200])
+          print("\n".join(out))
+          PY
+            problems=$(cat work_status.txt)
+          fi
+          # 報告書そのものが今日ぶんか
+          if [ -f radio/heidel-daily/report.md ]; then
+            head -n 1 radio/heidel-daily/report.md | grep -q "$today" || \
+              problems="$problems
+          報告書 report.md が今日($today)ぶんではない: $(head -n 1 radio/heidel-daily/report.md)"
+          else
+            problems="$problems
+          報告書 report.md が無い"
+          fi
+          if [ -n "$(echo "$problems" | tr -d '[:space:]')" ]; then
+            echo "$problems"
+            echo "problems<<EOF" >> "$GITHUB_OUTPUT"; echo "$problems" >> "$GITHUB_OUTPUT"; echo "EOF" >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+          echo "研究員は正常 (報告書・ループとも今日ぶん)"
+
       - name: 今日の番組が配信済みか確認し、欠けていたら再実行
+        id: feeds
+        continue-on-error: true
         run: |
           today=$(date +%F)
           owner="${GH_REPO%%/*}"; name="${GH_REPO##*/}"
-          echo "本日(JST): $today"
-
           check() {  # $1=番組ID。当日分が配信済みなら0
             pubdate=$(curl -fsS "https://$owner.github.io/$name/$1/feed.xml" 2>/dev/null | grep -m1 -oP '(?<=<pubDate>).*?(?=</pubDate>)')
             [ "$(date -d "$pubdate" +%F 2>/dev/null)" = "$today" ]
           }
-
           due=$(python3 scripts/shows.py matrix "$today" | python3 -c 'import json,sys; print(" ".join(json.load(sys.stdin)))')
           [ -n "$due" ] || { echo "今日は放送する番組がない"; exit 0; }
           missing=""
@@ -53,5 +112,18 @@ jobs:
             [ -n "$missing" ] || { echo "自動再実行で復旧した。"; exit 0; }
             echo "待機中($i/9): 未配信=$missing"
           done
-          echo "::error::自動再実行でも復旧せず:$missing。morning-radio の Actions ログを確認してください。"
+          echo "missing=$missing" >> "$GITHUB_OUTPUT"
+          exit 1
+
+      - name: 異常があれば赤で終える (GitHub の失敗メールが飛ぶ)
+        if: steps.researcher.outcome == 'failure' || steps.feeds.outcome == 'failure'
+        run: |
+          if [ "${{ steps.researcher.outcome }}" = "failure" ]; then
+            echo "::error::研究員AI (PC 側) に異常があります:"
+            echo "${{ steps.researcher.outputs.problems }}"
+          fi
+          if [ "${{ steps.feeds.outcome }}" = "failure" ]; then
+            echo "::error::自動再実行しても配信されなかった番組があります:${{ steps.feeds.outputs.missing }}"
+          fi
+          echo "morning-radio / radio-watchdog の Actions ログを確認してください。"
           exit 1
