@@ -44,9 +44,17 @@ if cfg.get("ledger"):
     if lp.exists():
         ledger_text = lp.read_text(encoding="utf-8").strip()
 
+tools = str(cfg.get("tools") or "").strip()
+tool_note = ([f"## この番組で使えるツール", "",
+              f"- {tools} を使ってよい(この番組だけの例外)。共通ルールの「ツールを使わない」より、こちらが優先される",
+              "- 調べた内容は、出典(媒体名・日付)を本文か見返し用に必ず書く",
+              "- 調べ終えたら、指定の出力形式のテキストだけを出力する(検索の途中経過は出力しない)", ""]
+             if tools else [])
+
 parts = [
     cfg["body"],
     "",
+    *tool_note,
     common,
     "",
     "---",

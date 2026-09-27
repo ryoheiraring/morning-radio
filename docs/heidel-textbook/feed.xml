@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HEIDEL BEEREの教科書</title>
+    <link>https://ryoheiraring.github.io/morning-radio/</link>
+    <description>暗号資産クオンツ分析ソフト「neu Crypto Quant (HEIDEL BEERE)」の画面に出てくる指標・金融工学・統計分析を、進行役の Nana と解説役の Sou が毎日ひとつ、数式なしで6〜7分。中学生でも分かる説明で、実際の検証結果を例に使います。投資助言ではありません。</description>
+    <language>ja</language>
+    <atom:link href="https://ryoheiraring.github.io/morning-radio/heidel-textbook/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>ryoheiraring</itunes:author>
+    <itunes:image href="https://ryoheiraring.github.io/morning-radio/heidel-textbook/artwork.png"/>
+    <itunes:category text="Education"/>
+    <itunes:explicit>false</itunes:explicit>
+
+  </channel>
+</rss>

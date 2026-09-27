@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polymarket周辺・副業の種</title>
+    <link>https://ryoheiraring.github.io/morning-radio/</link>
+    <description>予測市場 Polymarket の周辺で、今週末から2人＋AIで始められて月5〜30万円になる小さな商売の種を、進行役の Nana と解説役の Sou が毎日ひとつ提案する6〜7分。自己資金を賭けるトレードは扱わず、ツール・データ・コンテンツを売る商売だけ。投資助言ではありません。</description>
+    <language>ja</language>
+    <atom:link href="https://ryoheiraring.github.io/morning-radio/polymarket-seeds/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>ryoheiraring</itunes:author>
+    <itunes:image href="https://ryoheiraring.github.io/morning-radio/polymarket-seeds/artwork.png"/>
+    <itunes:category text="Business"/>
+    <itunes:explicit>false</itunes:explicit>
+
+  </channel>
+</rss>

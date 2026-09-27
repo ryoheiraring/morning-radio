@@ -15,6 +15,8 @@ PC 不要・API 課金なし・YouTube 出力なし。
 | `crypto-morning` | 暗号資産朝刊(CoinGecko + 公式RSS、直近24時間、5項目) | 毎朝 | Nana / Sou |
 | `trade-edge` | エッジの見つけ方(題材は radio/trade-edge/covered.md に記録) | 毎朝 | Nana / Sou |
 | `heidel-daily` | HEIDEL BEERE 日次報告(研究員AIの report.md をそのまま読み上げ・約15分) | 毎朝 | 研究員 |
+| `heidel-textbook` | HEIDEL BEEREの教科書(ソフトの指標・統計をカリキュラム順に1日1つ) | 毎朝 | Nana / Sou |
+| `polymarket-seeds` | Polymarket周辺・副業の種(WebSearch で直近情報から1案) | 毎朝 | Nana / Sou |
 
 フィード URL: `https://<ユーザー名>.github.io/morning-radio/<番組ID>/feed.xml`
 (一覧ページ: `https://<ユーザー名>.github.io/morning-radio/`)
@@ -52,7 +54,9 @@ PC 側は同時に radio/heidel-daily/status.json (ループの状態・API 費�
 ```
 
 - `attach_reports: N` を front matter に書くと、その番組のプロンプトに直近 N 日ぶんの報告が実例として付く
-  (現在 `trade-edge` が 3 日ぶん)
+  (現在 `trade-edge` と `heidel-textbook` が 3 日ぶん)
+- `tools: WebSearch` を front matter に書くと、その番組だけ台本生成で WebSearch を使える
+  (既定は一切使わせない。現在 `polymarket-seeds` のみ)
 
 ## 失敗したときにどうなるか (通知は GitHub の失敗メール 1 本)
 

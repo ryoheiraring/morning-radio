@@ -94,6 +94,7 @@ jobs:
           echo "ledger=$(python3 scripts/shows.py get "$SHOW" ledger)" >> "$GITHUB_OUTPUT"
           echo "builder=$(python3 scripts/shows.py get "$SHOW" builder)" >> "$GITHUB_OUTPUT"
           echo "dur=$(python3 scripts/shows.py get "$SHOW" duration_sec)" >> "$GITHUB_OUTPUT"
+          echo "tools=$(python3 scripts/shows.py get "$SHOW" tools)" >> "$GITHUB_OUTPUT"
           # 最後の便 (07:30 JST 以降、または手動実行) かどうか。届かない報告の扱いを分ける
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date +%H)" -ge 7 ]; then
             echo "last_chance=1" >> "$GITHUB_OUTPUT"
@@ -162,9 +163,14 @@ jobs:
           python3 scripts/build_prompt.py "$SHOW" "$TODAY" work/prompt.md work/digest.md
           set -- ${{ steps.mode.outputs.chars }}; lo=$1; hi=$2
           speakers="${{ steps.mode.outputs.speakers }}"
+          # 番組が tools を指定していれば、そのツールだけを許可する (既定は一切使わせない)
+          tools="${{ steps.mode.outputs.tools }}"
+          CLAUDE_TOOLS=""
+          [ -n "$tools" ] && CLAUDE_TOOLS="--allowedTools $tools"
+          echo "許可ツール: ${tools:-(なし)}"
           ok=""; judged=0
           for i in 1 2 3 4; do
-            if ! claude -p --model sonnet < work/prompt.md > work/claude_out.txt 2> work/claude_err.txt; then
+            if ! claude -p --model sonnet $CLAUDE_TOOLS < work/prompt.md > work/claude_out.txt 2> work/claude_err.txt; then
               echo "::warning::Claude の呼び出しが失敗(試行 $i)。60秒待って再挑戦。"
               tail -c 1500 work/claude_err.txt || true
               sleep 60; continue

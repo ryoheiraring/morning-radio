@@ -24,6 +24,7 @@ ledger: covered.md          # (任意)放送済み台帳。radio/<番組ID>/cove
 builder: scripts/xxx.py     # (任意)台本を直接作るスクリプト。指定すると Claude を呼ばない(heidel-daily 方式)
 duration_sec: [150, 720]    # (任意)公開してよい音声の長さ(秒)
 attach_reports: 3           # (任意)研究員の日次報告の直近 N 日ぶんをプロンプトに添付
+tools: WebSearch            # (任意)台本生成で許可するツール。空なら一切使わせない
 ---
 (ここから下が、Claude に渡す番組固有の指示。テーマ・語り口・構成など)
 ```
