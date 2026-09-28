@@ -40,3 +40,4 @@
 - (初期値)  (38) note有料記事/マガジン/サークル ||| 使用済み
 - (初期値)  (39) Bubble.ioテンプレートマーケットプレイス ||| 使用済み
 - 2026-09-27  (40) 予測市場ポートフォリオ・トレード日誌トラッカー ||| サブスク型ウェブダッシュボード, predictboox.com/predictionbell.com/pymnts.com, PredictBoox, PredictionBell, ポートフォリオトラッカー, マルチプラットフォーム損益集計
+- 2026-09-28  (41) UMAオラクル紛争・証拠資料販売 ||| AI下書きの証拠資料を単発PDF販売, Bloomberg/The Block/CNBC/Webopedia/Polymarket Help Center, UMA, オプティミスティックオラクル, 紛争解決, Polymarket Alerts, Polyflux
