@@ -1,0 +1,24 @@
+【副業の種】9/29 Kalshi助成金狙いの無料解説ツール
+
+予測市場まわりの小さな商売の種を、毎日1つ紹介するラジオ番組です。
+
+今日のテーマ:
+Kalshi公式ビルダー助成金(2百万ドル以上)を狙う、無料の小さな解説ツールです。
+新しい点は、お金を払うのがお客さんではなくプラットフォームという仕組みです。
+中間選挙シーズンに合わせ、確率から倍率を出す計算ページを作ります。
+今日は個人の実額が見つからず、公式数字の援用です。
+
+本番組は情報提供のみで投資助言ではありません。
+
+#副業 #予測市場 #Kalshi #Polymarket #バイブコーディング
+
+■ 見返し用
+案名: Kalshi公式ビルダー助成金を狙う無料解説ツール(確率→倍率の計算ページ)
+出典URL: https://kalshi.com/builders (Kalshi公式・2026/9/29確認)
+出典URL: https://blockworks.com/news/kalshi-ecosystem-hub-solana-base (Blockworks・2025年12月)
+出典URL: https://www.cnbc.com/2026/09/13/nfl-and-midterms-mark-key-fall-season-for-prediction-markets.html (CNBC・2026/9/13)
+出典URL: https://www.axios.com/2026/03/02/kalshi-ap-elections-data (Axios・2026/3/2)
+出典URL: https://docs.polymarket.com/developers/builders/builder-tiers (Polymarket公式ドキュメント)
+出典URL: https://www.chainstory.co/the-invisible-ecosystem-who-actually-builds-on-polymarket/ (ChainStory)
+数字: 助成金型は年60万円=10万円×年6回で月5万円相当/ビルダーコード型は取り分1%なら月500万円分の取引/事例集は980円×50人
+最初の一歩: kalshi.com/builders で応募条件を読み、確率から倍率を出す1ページの計算ツールを作る
