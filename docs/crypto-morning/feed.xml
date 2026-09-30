@@ -11,6 +11,32 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【暗号資産朝刊】9/30 NEAR現物ETF上場／Coinbase清算免許</title>
+      <description>【暗号資産朝刊】9/30 NEAR現物ETF上場／Coinbase清算免許
+
+暗号資産の昨日から今朝までを5項目で把握する、Nana と Sou の朝刊ラジオです。
+
+今日のテーマ:
+市況は情報を取得できず割愛。Binance は TradFi 無期限先物の追加と 10/2 の上場廃止・証拠金条件変更、Hyperliquid は手数料が前日比+45.6%。
+ニュースは Bitwise の米国初 NEAR 現物ETF、Coinbase の CFTC 清算機関承認、Bitget 流出資金回収への慎重な見方。
+
+■ 今日の見返しポイント
+- 注目ポイント: 10/2 の Binance 取引条件の変更(現物ペア等の上場廃止、クロスマージン/ポートフォリオマージンの担保率・レバレッジ見直し、USDⓈ-M 無期限先物の証拠金段階表更新)
+- 覚える数字1: HYPE 85.99ドル(今朝の時点、24時間 -1.7%)
+- 覚える数字2: Hyperliquid プロトコル手数料 前日比 +45.6%
+- 覚える数字3: Hyperliquid 全 Perp の24時間出来高 66億ドル
+
+出典: CoinGecko、Binance と Hyperliquid の公式データ、各社の公式配信をもとに AI が要約
+本番組は情報提供のみで投資助言ではありません。
+
+#暗号資産 #仮想通貨 #Binance #Hyperliquid #NEAR</description>
+      <pubDate>Wed, 30 Sep 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/crypto-morning-2026-09-30/crypto-morning-2026-09-30.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/crypto-morning-2026-09-30/crypto-morning-2026-09-30.mp3" length="5227147" type="audio/mpeg"/>
+      <itunes:duration>0:07:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【暗号資産朝刊】9/29 BTC83,525ドル／CCIP2.0</title>
       <description>【暗号資産朝刊】9/29 BTC83,525ドル／CCIP2.0
 
