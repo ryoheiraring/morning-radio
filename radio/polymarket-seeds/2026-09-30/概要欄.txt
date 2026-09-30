@@ -1,0 +1,22 @@
+【副業の種】9/30 TradingView有料インジケーター月額販売
+
+Polymarket周辺で、今週末から始められる小さな商売の種を毎日1つ紹介する番組です。
+
+今日のテーマ:
+Polymarketの15分ビットコイン市場の開始を受け、確率を表示するだけのTradingView用インジケーターを、公式のクリエイター・プログラムで月額販売する案です。
+課金・更新・解約・税処理はTradingViewが代行します。売買サインは出さず、確率の目安だけを見せます。
+今日は個人の実額開示が見つからず、公式数字の援用です。
+
+■ 見返し用
+案名: TradingView Creator Programでの確率表示インジケーター月額販売(Pine Script・招待制)
+出典URL: https://www.tradingview.com/creator-program/ (TradingView Creator Program 公式ページ)
+出典URL: https://www.tradingview.com/support/solutions/43000772177-tradingview-creator-program-paid-spaces-terms/ (Creator Program規約)
+出典URL: https://www.tradingview.com/blog/en/tradingview-creator-program-60011/ (TradingView公式ブログ 8/12・参加作者39人、申請1,000人超)
+出典URL: https://www.tradingview.com/script/bKp6f7yZ-Polymarket-15m-BTC-Probability-10x/ (1/17公開・ブースト8,601・閲覧約332万回)
+出典URL: https://www.tradingview.com/news/cryptobriefing:ac19b6d05094b:0-polymarket-launches-15-minute-bitcoin-price-markets-on-us-app/ (Crypto Briefing 9/22)
+数字: 月5万円≒330ドル。単品15ドルなら22人、3本セット30ドルなら11人、上位版49ドルなら7人
+最初の一歩: Pine Scriptで残り時間と値動きから確率を出し市場価格と並べて表示する指標を作り、招待制で公開する
+
+本番組は情報提供のみで投資助言ではありません
+
+#副業 #Polymarket #TradingView #予測市場 #バイブコーディング
