@@ -43,3 +43,4 @@
 - 2026-09-28  (41) UMAオラクル紛争・証拠資料販売 ||| AI下書きの証拠資料を単発PDF販売, Bloomberg/The Block/CNBC/Webopedia/Polymarket Help Center, UMA, オプティミスティックオラクル, 紛争解決, Polymarket Alerts, Polyflux
 - 2026-09-29  (42) Kalshi公式ビルダー助成金 ||| 助成金応募用の無料解説ツール, CNBC/Blockworks/Axios/Polymarket Docs, Kalshi Builders, 助成金, ビルダーコード, 中間選挙
 - 2026-09-30  (43) TradingView Creator Program有料インジケーター ||| 確率表示のPineスクリプトを月額販売, TradingView/Crypto Briefing, TradingView, Pine Script, Creator Program, 15分市場, 招待制スクリプト
+- 2026-10-01  (44) Polymarket新取引エンジン移行対応 ||| ボット移行診断ツールを単発販売, CoinDesk/Blockhead/Polymarket Docs/Prediction News, CLOB V2, 取引エンジン, 移行, 診断ツール
