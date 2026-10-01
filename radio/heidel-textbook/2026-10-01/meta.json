@@ -1,0 +1,9 @@
+{
+ "show": "heidel-textbook",
+ "date": "2026-10-01",
+ "title": "【HEIDEL BEEREの教科書】10/1 IS/OOSの分離",
+ "description": "【HEIDEL BEEREの教科書】10/1 IS/OOSの分離\n\n暗号資産クオンツ分析ソフト neu Crypto Quant(HEIDEL BEERE)の指標を、毎日1つずつ中学生にも分かる言葉で学ぶ講座です。\n\n今日のテーマ: IS と OOS の分離、ウォークフォワード\n作戦づくりに使った練習期間(IS)と、見せていない本番期間(OOS)を分けて見る理由を解説します。\nDASH の OOSシャープ 0.01 や、ALGO が別期間で崩れた例も紹介します。\n\n■ 今日の用語\n・IS(インサンプル): 作戦を作るときに使った練習期間\n・OOS(アウトオブサンプル): 作戦づくりで見せていない本番期間\n・ウォークフォワード: 練習と本番の区切りを少しずつずらして何度も検証すること\n\n■ 読み方の目安\n・ISとOOSの成績が近ければ、練習の成果が本番でも出ている可能性がある\n・ISだけ立派でOOSが大きく落ちていたら疑う\n・OOSシャープがほぼゼロなら、作戦に中身がない可能性がある\n\n■ やりがちな誤読\n・OOSは本物の未来だと思い込む\n・OOSの結果を見て何度も作戦を直すと、OOSも練習に変わってしまう\n・全診断に合格した ALGO も、別期間(2024年12月〜2025年12月)では4点に崩れた\n\n■ 明日見る1か所\n・バックテスト結果画面の OOSシャープと、ISの成績を並べて差を確かめる\n\n本番組は情報提供のみで投資助言ではありません。\n\n#HEIDELBEERE #クオンツ #バックテスト #暗号資産 #ラジオ",
+ "duration_sec": 427,
+ "size_bytes": 5129344,
+ "url": "https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-01/heidel-textbook-2026-10-01.mp3"
+}
