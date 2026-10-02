@@ -44,3 +44,4 @@
 - 2026-09-29  (42) Kalshi公式ビルダー助成金 ||| 助成金応募用の無料解説ツール, CNBC/Blockworks/Axios/Polymarket Docs, Kalshi Builders, 助成金, ビルダーコード, 中間選挙
 - 2026-09-30  (43) TradingView Creator Program有料インジケーター ||| 確率表示のPineスクリプトを月額販売, TradingView/Crypto Briefing, TradingView, Pine Script, Creator Program, 15分市場, 招待制スクリプト
 - 2026-10-01  (44) Polymarket新取引エンジン移行対応 ||| ボット移行診断ツールを単発販売, CoinDesk/Blockhead/Polymarket Docs/Prediction News, CLOB V2, 取引エンジン, 移行, 診断ツール
+- 2026-10-02  (45) 予測市場入門の動画講座販売 ||| 入門動画講座をUdemy型マーケットプレイスで販売, Udemy/Shift Markets/Gambling Insider/Niche Pursuits/Bitcoin.com, Udemy, 動画講座, Genius Sports, 講師の取り分97%
