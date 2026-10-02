@@ -11,6 +11,33 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【エッジの見つけ方】10/2 バックテストの三つの落とし穴</title>
+      <description>【エッジの見つけ方】10/2 バックテストの三つの落とし穴
+
+トレードの確率的な優位(エッジ)を、自分で見つけ・確かめ・管理する方法を毎回1つだけ紹介する番組です。
+
+■ 今日のコツ
+- 過去データでの検証は、未来を見ない・手数料とスリッページを引く・消えた銘柄も入れる、の3点を先に潰す
+- 潰した後でも残る優位だけが、本物に近いエッジ
+
+■ 観察手順(3行以内)
+- 各取引で、その時点で見えていた情報だけを使ったかを1件ずつ確認する
+- 銘柄一覧に上場廃止や急落で消えた銘柄が入っているかを確かめる
+- 取引1回ごとの手数料とスリッページを表にして引く
+
+■ 明日から試せる1アクション
+- 今ある作戦の過去成績から1回ごとのコストを引いて再計算し、確定前の値を使っていないか1件確かめる
+
+本番組は情報提供のみで投資助言ではありません。エッジは確率的な優位であり損失が出ることもあります
+
+#エッジの見つけ方 #バックテスト #トレード検証 #暗号資産 #Hyperliquid</description>
+      <pubDate>Fri, 02 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-10-02/trade-edge-2026-10-02.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-10-02/trade-edge-2026-10-02.mp3" length="4994239" type="audio/mpeg"/>
+      <itunes:duration>0:06:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【エッジの見つけ方】10/1 エッジの寿命とやめる線</title>
       <description>【エッジの見つけ方】10/1 エッジの寿命とやめる線
 
