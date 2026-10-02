@@ -11,6 +11,21 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEERE 日次報告】10/2 本日の配信は失敗しました</title>
+      <description>【HEIDEL BEERE 日次報告】10/2 本日の配信は失敗しました
+
+本日の配信は失敗しました。原因は研究員からの報告書が届きませんでした。
+パソコン側の締め処理が、配信の時点で報告書を出せていませんでした。
+
+この回は自動生成のお知らせです。復旧後の回で通常の内容に戻ります。
+詳細は GitHub Actions の実行ログ (morning-radio / 2026-10-02) を確認してください。</description>
+      <pubDate>Fri, 02 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-daily-2026-10-02/heidel-daily-2026-10-02.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-daily-2026-10-02/heidel-daily-2026-10-02.mp3" length="388747" type="audio/mpeg"/>
+      <itunes:duration>0:00:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEERE 日次報告】10/1 本日の配信は失敗しました</title>
       <description>【HEIDEL BEERE 日次報告】10/1 本日の配信は失敗しました
 

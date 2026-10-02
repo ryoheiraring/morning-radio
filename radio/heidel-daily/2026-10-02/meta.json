@@ -1,0 +1,9 @@
+{
+ "show": "heidel-daily",
+ "date": "2026-10-02",
+ "title": "【HEIDEL BEERE 日次報告】10/2 本日の配信は失敗しました",
+ "description": "【HEIDEL BEERE 日次報告】10/2 本日の配信は失敗しました\n\n本日の配信は失敗しました。原因は研究員からの報告書が届きませんでした。\nパソコン側の締め処理が、配信の時点で報告書を出せていませんでした。\n\nこの回は自動生成のお知らせです。復旧後の回で通常の内容に戻ります。\n詳細は GitHub Actions の実行ログ (morning-radio / 2026-10-02) を確認してください。",
+ "duration_sec": 32,
+ "size_bytes": 388747,
+ "url": "https://github.com/ryoheiraring/morning-radio/releases/download/heidel-daily-2026-10-02/heidel-daily-2026-10-02.mp3"
+}
