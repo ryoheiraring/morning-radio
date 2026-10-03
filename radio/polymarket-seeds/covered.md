@@ -45,3 +45,4 @@
 - 2026-09-30  (43) TradingView Creator Program有料インジケーター ||| 確率表示のPineスクリプトを月額販売, TradingView/Crypto Briefing, TradingView, Pine Script, Creator Program, 15分市場, 招待制スクリプト
 - 2026-10-01  (44) Polymarket新取引エンジン移行対応 ||| ボット移行診断ツールを単発販売, CoinDesk/Blockhead/Polymarket Docs/Prediction News, CLOB V2, 取引エンジン, 移行, 診断ツール
 - 2026-10-02  (45) 予測市場入門の動画講座販売 ||| 入門動画講座をUdemy型マーケットプレイスで販売, Udemy/Shift Markets/Gambling Insider/Niche Pursuits/Bitcoin.com, Udemy, 動画講座, Genius Sports, 講師の取り分97%
+- 2026-10-03  (46) 天気予測市場の判定ルール・観測地点 ||| 判定ルール早見表PDFを単発販売, Kalshi公式ニュース/Bloomberg/Apify/Polyweather, 天気市場, 観測地点, 丸め方, The Weather Company, Gumroad
