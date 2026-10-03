@@ -11,6 +11,45 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】10/4 過学習とその診断</title>
+      <description>【HEIDEL BEEREの教科書】10/4 過学習とその診断
+
+暗号資産クオンツ分析ソフト「neu Crypto Quant(HEIDEL BEERE)」の指標を、毎日1つずつ中学生にも分かる言葉で学ぶ講座です。
+
+今日のテーマ: 過学習とその診断
+バックテスト結果画面の「過学習リスク」を、試験の過去問の丸暗記に例えて解説します。
+診断を全部通ったALGOが、別期間で崩れた例も紹介します。
+
+■ 今日の用語
+・過学習: 過去の相場に合わせすぎて、未来で通用しなくなること
+・過学習リスク: 丸暗記の疑いをまとめた、バックテスト結果画面の数字
+・診断: 合わせすぎを見つける検査
+
+■ 読み方の目安
+・過学習リスクは小さいほど、丸暗記の疑いが薄い
+・複数の診断が同じ方向で合格しているかを見る
+・総合スコアが高いのにOOSの成績が極端に低いなら疑う
+・調整の回数が多い作戦ほど、疑いの目を強める
+
+■ やりがちな誤読
+・過学習リスクが低いから本物だ、と考えること
+・診断の合格は最低限の関門であり、本物の証明ではない
+・実例: ALGOは92点・45件・PSR 97%・過学習リスク7で全診断に合格したが、別期間(2024年12月〜2025年12月)で4点・シャープ マイナス0.83に崩壊
+
+■ 明日見る1か所
+・結果画面の過学習リスクと、隣の総合スコアを見比べる
+・別期間で試した結果があれば、あわせて確認する
+
+本番組は情報提供のみで投資助言ではありません
+
+#HEIDELBEERE #暗号資産 #クオンツ #バックテスト #過学習</description>
+      <pubDate>Sun, 04 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-04/heidel-textbook-2026-10-04.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-04/heidel-textbook-2026-10-04.mp3" length="5157243" type="audio/mpeg"/>
+      <itunes:duration>0:07:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/3 PSR(確率的シャープレシオ)</title>
       <description>【HEIDEL BEEREの教科書】10/3 PSR(確率的シャープレシオ)
 
