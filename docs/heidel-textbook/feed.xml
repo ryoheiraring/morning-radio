@@ -11,6 +11,42 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】10/5 結果安定性</title>
+      <description>【HEIDEL BEEREの教科書】10/5 結果安定性
+
+暗号資産クオンツ分析ソフト neu Crypto Quant(HEIDEL BEERE)の画面の数字を、毎日ひとつずつ理解する講座です。
+
+今日のテーマ:
+バックテスト結果画面の「結果安定性」を解説しました。
+設定を少しずらしても成績が崩れないかを、ラーメンのレシピの例えで説明します。
+2軸エッジのTOP1マス(81点から4点)と、ALGOが別期間で崩れた例で確かめます。
+
+■ 今日の用語
+・結果安定性(バックテスト結果画面の診断欄)
+・条件を少しずらしても成績が大きく変わらないかを見る
+
+■ 読み方の目安
+・良い形: 設定をずらしても近い成績が並ぶ「高原」型
+・疑う形: 一点だけ尖った「針」型。隣で成績が半分以下なら要注意
+・安定していても、勝てることを意味しない
+
+■ やりがちな誤読
+・「安定性が高い=本物」と読むこと
+・安定性は設定のずれへの強さだけを見る。別期間で通用するかは別の問い
+
+■ 明日見る1か所
+・バックテスト結果画面で、最高点の隣の設定の点数が近いままか
+
+本番組は情報提供のみで投資助言ではありません。
+
+#HEIDELBEERE #クオンツ #バックテスト #暗号資産 #過学習</description>
+      <pubDate>Mon, 05 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-05/heidel-textbook-2026-10-05.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-05/heidel-textbook-2026-10-05.mp3" length="5246582" type="audio/mpeg"/>
+      <itunes:duration>0:07:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/4 過学習とその診断</title>
       <description>【HEIDEL BEEREの教科書】10/4 過学習とその診断
 
