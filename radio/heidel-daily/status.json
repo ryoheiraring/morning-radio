@@ -1,6 +1,6 @@
 {
- "generated_at_jst": "2026-10-03T11:29:17+09:00",
- "day": "2026-10-03",
+ "generated_at_jst": "2026-10-05T10:30:23+09:00",
+ "day": "2026-10-05",
  "loop_stopped": false,
  "loop_stop_reason": "",
  "loop_waiting": "",
@@ -10,8 +10,10 @@
  "processed_24h": 0,
  "api_cost_24h_usd": 0.0,
  "alerts": [
+  "2026-10-05T10:29:31\t直近24h：本数0／有効試行0／設計通過0／生存0／最高スコア-／型別落選: -／無効0／API $0.00",
+  "2026-10-04T20:01:53\t直近24h：本数0／有効試行0／設計通過0／生存0／最高スコア-／型別落選: -／無効0／API $0.00",
   "2026-10-03T11:27:36\t直近24h：本数0／有効試行0／設計通過0／生存0／最高スコア-／型別落選: -／無効0／API $0.00",
   "2026-10-03T01:40:46\t【研究員 付随作業 失敗】carry_paper: 失敗: 'gap_mean' / unlock_paper: 失敗: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()."
  ],
- "note": ""
+ "note": "判断待ちあり"
 }
