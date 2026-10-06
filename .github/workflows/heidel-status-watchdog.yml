@@ -4,9 +4,10 @@ name: heidel-status-watchdog
 #   1 時間ごとに HEIDEL シートの「いまの状況」タブの A1 (「…（YYYY-MM-DD HH:MM 時点・…）」) を読み、
 #   書き直しが 2 時間以上止まっていたらジョブを赤で終わらせる → GitHub の標準の失敗メールが届く。
 #   LINE などの外部通知は使わない。
-# 必要な secrets:
-#   HEIDEL_SA_JSON  … シートを読めるサービスアカウントの鍵 (読み取り専用の範囲でだけ使う)
-#   HEIDEL_SHEET_ID … スプレッドシートの ID
+# シートへの入り方 (鍵なし):
+#   リポジトリ変数 WIF_PROVIDER と WIF_SA があれば、GitHub の身分証 (OIDC) で Google Cloud に入り、
+#   「シートを見るだけ」の専用アカウント (鍵ファイル無し) の権限で読む。
+#   変数がまだ無い間だけ、secret HEIDEL_SA_JSON (鍵ファイル) で読む (切り替え後に削除する)。
 # ログには「何分前か」だけを出す (このリポジトリは公開のため)。
 # 手動確認: Actions → heidel-status-watchdog → Run workflow (simulate_failure=true でわざと失敗させる)
 
@@ -26,39 +27,63 @@ on:
 
 permissions:
   contents: read
+  id-token: write          # GitHub の身分証 (OIDC) を Google Cloud に見せるため
 
 jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: わざと失敗 (試験)
+        if: github.event.inputs.simulate_failure == 'true'
+        run: |
+          echo "::error::試験のため、わざと失敗させました (simulate_failure=true)。この失敗メールが届けば見張り役は動いています。"
+          exit 1
+
+      - name: Google Cloud に鍵なしで入る (シートを見るだけの専用アカウント)
+        id: gauth
+        if: vars.WIF_PROVIDER != ''
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.WIF_PROVIDER }}
+          service_account: ${{ vars.WIF_SA }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/spreadsheets.readonly
+
       - name: Install google-auth
         run: pip install --quiet google-auth requests
 
       - name: いまの状況タブの更新時刻を確かめる
         env:
+          ACCESS_TOKEN: ${{ steps.gauth.outputs.access_token }}
           SA_JSON: ${{ secrets.HEIDEL_SA_JSON }}
           SHEET_ID: ${{ secrets.HEIDEL_SHEET_ID }}
-          SIMULATE: ${{ github.event.inputs.simulate_failure || 'false' }}
           MAX_AGE: ${{ github.event.inputs.max_age_minutes || '120' }}
         run: |
           python3 - <<'PY'
           import datetime, json, os, re, sys, urllib.parse
-          from google.oauth2 import service_account
-          from google.auth.transport.requests import AuthorizedSession
+          import requests
 
-          if os.environ.get("SIMULATE", "false").lower() == "true":
-              print("::error::試験のため、わざと失敗させました (simulate_failure=true)。この失敗メールが届けば見張り役は動いています。")
-              sys.exit(1)
           jst = datetime.timezone(datetime.timedelta(hours=9))
           max_age = float(os.environ.get("MAX_AGE") or 120)
-          cred = service_account.Credentials.from_service_account_info(
-              json.loads(os.environ["SA_JSON"].lstrip("﻿")), scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"])
-          s = AuthorizedSession(cred)
-          rng = urllib.parse.quote("'いまの状況'!A1", safe="")
-          r = s.get(f"https://sheets.googleapis.com/v4/spreadsheets/{os.environ['SHEET_ID'].strip().lstrip(chr(0xfeff))}/values/{rng}", timeout=30)
+          sid = os.environ["SHEET_ID"].strip().lstrip("﻿")
+          url = f"https://sheets.googleapis.com/v4/spreadsheets/{sid}/values/" + urllib.parse.quote("'いまの状況'!A1", safe="")
+          tok = os.environ.get("ACCESS_TOKEN", "")
+          if tok:
+              how = "鍵なし (専用の閲覧アカウント)"
+              r = requests.get(url, headers={"Authorization": f"Bearer {tok}"}, timeout=30)
+          elif os.environ.get("SA_JSON"):
+              from google.oauth2 import service_account
+              from google.auth.transport.requests import AuthorizedSession
+              how = "鍵ファイル (切り替え前)"
+              cred = service_account.Credentials.from_service_account_info(
+                  json.loads(os.environ["SA_JSON"].lstrip("﻿")), scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"])
+              r = AuthorizedSession(cred).get(url, timeout=30)
+          else:
+              print("::error::シートに入る方法がありません (WIF_PROVIDER も HEIDEL_SA_JSON も無い)")
+              sys.exit(1)
           if r.status_code != 200:
-              print(f"::error::シートを読めませんでした (HTTP {r.status_code})")
+              print(f"::error::シートを読めませんでした (HTTP {r.status_code}, 入り方: {how})")
               sys.exit(1)
           a1 = ((r.json().get("values") or [[""]])[0] or [""])[0]
           m = re.search(r"(\d{4}-\d{2}-\d{2} \d{2}:\d{2}) 時点", a1)
@@ -71,5 +96,5 @@ jobs:
               print(f"::error::いまの状況タブが {age / 60:.1f} 時間 ({age:.0f} 分) 更新されていません (基準 {max_age:.0f} 分)。"
                     "記録の係 (パソコンかサーバー) が止まっている可能性があります。")
               sys.exit(1)
-          print(f"正常: いまの状況タブは {age:.0f} 分前に更新されています (基準 {max_age:.0f} 分)")
+          print(f"正常: いまの状況タブは {age:.0f} 分前に更新されています (基準 {max_age:.0f} 分・入り方: {how})")
           PY
