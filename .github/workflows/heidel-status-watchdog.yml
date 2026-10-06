@@ -53,10 +53,10 @@ jobs:
           jst = datetime.timezone(datetime.timedelta(hours=9))
           max_age = float(os.environ.get("MAX_AGE") or 120)
           cred = service_account.Credentials.from_service_account_info(
-              json.loads(os.environ["SA_JSON"]), scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"])
+              json.loads(os.environ["SA_JSON"].lstrip("﻿")), scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"])
           s = AuthorizedSession(cred)
           rng = urllib.parse.quote("'いまの状況'!A1", safe="")
-          r = s.get(f"https://sheets.googleapis.com/v4/spreadsheets/{os.environ['SHEET_ID']}/values/{rng}", timeout=30)
+          r = s.get(f"https://sheets.googleapis.com/v4/spreadsheets/{os.environ['SHEET_ID'].strip().lstrip(chr(0xfeff))}/values/{rng}", timeout=30)
           if r.status_code != 200:
               print(f"::error::シートを読めませんでした (HTTP {r.status_code})")
               sys.exit(1)
