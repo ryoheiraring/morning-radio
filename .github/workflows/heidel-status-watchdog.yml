@@ -1,0 +1,75 @@
+name: heidel-status-watchdog
+
+# 外の見張り役 (2026-10-06):
+#   1 時間ごとに HEIDEL シートの「いまの状況」タブの A1 (「…（YYYY-MM-DD HH:MM 時点・…）」) を読み、
+#   書き直しが 2 時間以上止まっていたらジョブを赤で終わらせる → GitHub の標準の失敗メールが届く。
+#   LINE などの外部通知は使わない。
+# 必要な secrets:
+#   HEIDEL_SA_JSON  … シートを読めるサービスアカウントの鍵 (読み取り専用の範囲でだけ使う)
+#   HEIDEL_SHEET_ID … スプレッドシートの ID
+# ログには「何分前か」だけを出す (このリポジトリは公開のため)。
+# 手動確認: Actions → heidel-status-watchdog → Run workflow (simulate_failure=true でわざと失敗させる)
+
+on:
+  schedule:
+    - cron: '23 * * * *'   # 毎時 23 分
+  workflow_dispatch:
+    inputs:
+      simulate_failure:
+        description: 'true にすると、わざと失敗させて失敗メールが届くか確かめる'
+        required: false
+        default: 'false'
+      max_age_minutes:
+        description: '何分以上止まっていたら失敗にするか'
+        required: false
+        default: '120'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Install google-auth
+        run: pip install --quiet google-auth requests
+
+      - name: いまの状況タブの更新時刻を確かめる
+        env:
+          SA_JSON: ${{ secrets.HEIDEL_SA_JSON }}
+          SHEET_ID: ${{ secrets.HEIDEL_SHEET_ID }}
+          SIMULATE: ${{ github.event.inputs.simulate_failure || 'false' }}
+          MAX_AGE: ${{ github.event.inputs.max_age_minutes || '120' }}
+        run: |
+          python3 - <<'PY'
+          import datetime, json, os, re, sys, urllib.parse
+          from google.oauth2 import service_account
+          from google.auth.transport.requests import AuthorizedSession
+
+          if os.environ.get("SIMULATE", "false").lower() == "true":
+              print("::error::試験のため、わざと失敗させました (simulate_failure=true)。この失敗メールが届けば見張り役は動いています。")
+              sys.exit(1)
+          jst = datetime.timezone(datetime.timedelta(hours=9))
+          max_age = float(os.environ.get("MAX_AGE") or 120)
+          cred = service_account.Credentials.from_service_account_info(
+              json.loads(os.environ["SA_JSON"]), scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"])
+          s = AuthorizedSession(cred)
+          rng = urllib.parse.quote("'いまの状況'!A1", safe="")
+          r = s.get(f"https://sheets.googleapis.com/v4/spreadsheets/{os.environ['SHEET_ID']}/values/{rng}", timeout=30)
+          if r.status_code != 200:
+              print(f"::error::シートを読めませんでした (HTTP {r.status_code})")
+              sys.exit(1)
+          a1 = ((r.json().get("values") or [[""]])[0] or [""])[0]
+          m = re.search(r"(\d{4}-\d{2}-\d{2} \d{2}:\d{2}) 時点", a1)
+          if not m:
+              print("::error::いまの状況タブの A1 に更新時刻が見つかりません")
+              sys.exit(1)
+          t = datetime.datetime.strptime(m.group(1), "%Y-%m-%d %H:%M").replace(tzinfo=jst)
+          age = (datetime.datetime.now(jst) - t).total_seconds() / 60
+          if age >= max_age:
+              print(f"::error::いまの状況タブが {age / 60:.1f} 時間 ({age:.0f} 分) 更新されていません (基準 {max_age:.0f} 分)。"
+                    "記録の係 (パソコンかサーバー) が止まっている可能性があります。")
+              sys.exit(1)
+          print(f"正常: いまの状況タブは {age:.0f} 分前に更新されています (基準 {max_age:.0f} 分)")
+          PY
