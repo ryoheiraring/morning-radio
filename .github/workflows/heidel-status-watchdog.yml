@@ -70,12 +70,12 @@ jobs:
           url = f"https://sheets.googleapis.com/v4/spreadsheets/{sid}/values/" + urllib.parse.quote("'いまの状況'!A1", safe="")
           tok = os.environ.get("ACCESS_TOKEN", "")
           if tok:
-              how = "鍵なし (専用の閲覧アカウント)"
+              how, mode = "鍵なし (専用の閲覧アカウント)", "keyless"
               r = requests.get(url, headers={"Authorization": f"Bearer {tok}"}, timeout=30)
           elif os.environ.get("SA_JSON"):
               from google.oauth2 import service_account
               from google.auth.transport.requests import AuthorizedSession
-              how = "鍵ファイル (切り替え前)"
+              how, mode = "鍵ファイル (切り替え前)", "keyfile"
               cred = service_account.Credentials.from_service_account_info(
                   json.loads(os.environ["SA_JSON"].lstrip("﻿")), scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"])
               r = AuthorizedSession(cred).get(url, timeout=30)
@@ -96,5 +96,5 @@ jobs:
               print(f"::error::いまの状況タブが {age / 60:.1f} 時間 ({age:.0f} 分) 更新されていません (基準 {max_age:.0f} 分)。"
                     "記録の係 (パソコンかサーバー) が止まっている可能性があります。")
               sys.exit(1)
-          print(f"正常: いまの状況タブは {age:.0f} 分前に更新されています (基準 {max_age:.0f} 分・入り方: {how})")
+          print(f"正常: いまの状況タブは {age:.0f} 分前に更新されています (基準 {max_age:.0f} 分・入り方: {how}) [auth={mode}]")
           PY
