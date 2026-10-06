@@ -1,0 +1,21 @@
+【副業の種】10/6 配信者向けオーバーレイ素材の販売
+
+予測市場まわりの小さな商売の種を、毎日1つ紹介するラジオ番組です。
+
+今日のテーマ:
+配信画面に重ねる、予測市場の確率表示パーツを、デザインパックにして売る案です。
+機材メーカーElgatoの公式マーケットプレイスは、作者の取り分が7割で、決済と配達も任せられます。
+今日は個人の実額が見つからず、公式数字の援用です。審査期間や規約の面は未確認の点が残ります。
+
+本番組は情報提供のみで投資助言ではありません。
+
+#副業 #予測市場 #Polymarket #配信者 #オーバーレイ
+
+■ 見返し用
+案名: 配信者向け予測市場オーバーレイ素材(Elgato Marketplaceで買い切り販売)
+出典URL: https://docs.elgato.com/monetization/revenue-share/ (Elgato公式ドキュメント・2026/10/6閲覧)
+出典URL: https://ticker.polymarket.com/ (Polymarket公式 Livestream Ticker・2026/10/6閲覧)
+出典URL: https://interexy.com/how-to-integrate-prediction-markets-into-livestreaming-platforms (Interexy・2026/10/6閲覧)
+出典URL: https://win.gg/prediction-markets/streamers/ (win.gg・Polymarket×Parti連携 2026/3/27の記載・2026/10/6閲覧)
+数字: 1,500円×作者取り分7割(約1,050円)×約50件で月5万円。プラグイン2,200円なら約32件。直販2,000円なら25件(手数料前)
+最初の一歩: 中間選挙の開票夜に使える確率表示デザインを1種類作り、公開データを読み込んで配信ソフトに出せる状態にする

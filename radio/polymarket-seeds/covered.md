@@ -48,3 +48,4 @@
 - 2026-10-03  (46) 天気予測市場の判定ルール・観測地点 ||| 判定ルール早見表PDFを単発販売, Kalshi公式ニュース/Bloomberg/Apify/Polyweather, 天気市場, 観測地点, 丸め方, The Weather Company, Gumroad
 - 2026-10-04  (47) 中間選挙市場の決着ルール・確定日 ||| 州別早見表を単発PDFまたは月額ページで販売, Votebeat/CNN/KalshiView/DeFiRate, 中間選挙, 決着ルール, 確定日, アラスカ上院選, 速報と正式確定
 - 2026-10-05  (48) 非上場企業予測市場の決着ルール・基準価格 ||| 決着ルール早見表PDFを買い切りで販売, CoinDesk/Benzinga/Axios/CNBC/Swell, 非上場企業市場, ナスダック・プライベート・マーケット, 評価額, 決着ルール, Gumroad
+- 2026-10-06  (49) 配信者向けオーバーレイ素材 ||| 配信者向け確率オーバーレイをElgato公式ストアで買い切り販売, Elgato公式ドキュメント/Polymarket公式/Interexy/win.gg, Elgato Marketplace, オーバーレイ, ストリームデック, Parti, 中間選挙, 取り分7割
