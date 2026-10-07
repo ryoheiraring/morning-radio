@@ -11,6 +11,40 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】10/7 勝率と損益比</title>
+      <description>【HEIDEL BEEREの教科書】10/7 勝率と損益比
+
+暗号資産クオンツ分析ソフト neu Crypto Quant(HEIDEL BEERE)の指標を、毎日1つずつ学ぶ講座です。
+
+今日のテーマ: 勝率と損益比の関係
+勝率だけでは作戦の良し悪しは決まりません。損切り幅と利確幅から出る「基準線勝率」と並べて読みます。
+DASH、ALT、ALGOの実測例で確かめます。
+
+■ 今日の用語
+・勝率と損益比の関係
+・基準線勝率(損切り幅÷(損切り幅+利確幅))
+
+■ 読み方の目安
+・勝率は基準線と並べて読む
+・損切り1.5%・利確2.0%なら基準線は約43%
+・基準線ぎりぎりはコストで赤字になりやすい
+
+■ やりがちな誤読
+・勝率が高いから良い作戦だと思い込む
+
+■ 明日見る1か所
+・バックテスト結果画面の勝率の横の、損切り幅と利確幅
+
+本番組は情報提供のみで投資助言ではありません
+
+#HEIDELBEERE #暗号資産 #クオンツ #バックテスト #勝率</description>
+      <pubDate>Wed, 07 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-07/heidel-textbook-2026-10-07.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-07/heidel-textbook-2026-10-07.mp3" length="4690174" type="audio/mpeg"/>
+      <itunes:duration>0:06:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/6 トレード数30件の壁</title>
       <description>【HEIDEL BEEREの教科書】10/6 トレード数30件の壁
 
