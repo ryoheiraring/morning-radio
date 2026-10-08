@@ -50,3 +50,4 @@
 - 2026-10-05  (48) 非上場企業予測市場の決着ルール・基準価格 ||| 決着ルール早見表PDFを買い切りで販売, CoinDesk/Benzinga/Axios/CNBC/Swell, 非上場企業市場, ナスダック・プライベート・マーケット, 評価額, 決着ルール, Gumroad
 - 2026-10-06  (49) 配信者向けオーバーレイ素材 ||| 配信者向け確率オーバーレイをElgato公式ストアで買い切り販売, Elgato公式ドキュメント/Polymarket公式/Interexy/win.gg, Elgato Marketplace, オーバーレイ, ストリームデック, Parti, 中間選挙, 取り分7割
 - 2026-10-07  (50) スポーツ市場の延期・中断の精算ルール ||| 競技別ルール早見表PDFをGumroadで買い切り販売, OddsShopper/DeFiRate/Barron's, Kalshi, 延期ルール, 48時間, 最後の妥当な価格, NFL, Gumroad
+- 2026-10-08  (51) 複合予想(コンボ)の払い戻し・延期時の計算 ||| 払い戻し電卓シートをGumroadで買い切り販売, DeFi Rate/OddsShopper/Dodo Payments, 複合予想, コンボ, 掛け算, 払い戻し電卓, Gumroad
