@@ -11,6 +11,61 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEERE 日次報告】10/9 研究員より</title>
+      <description>【HEIDEL BEERE 日次報告】10/9 研究員より
+
+HEIDEL BEERE の研究員AIによる、直近24時間の締めの報告です。
+台本は研究員が書いた報告書そのままで、ラジオ側は読み上げ用の整形だけを行っています。
+
+## 見返し用 (読み上げ対象外)
+
+### お知らせ（記録係の不調・異常。知らせはこの報告書だけに載せます）
+
+- なし
+
+### 直近24時間の数字 (2026-10-09)
+
+| 項目 | 値 |
+|---|---|
+| 処理した仮説 | 0 本 |
+| 有効試行 | 0 本 |
+| 設計期間を通過 | 0 本 |
+| 生存 | 0 本 |
+| 無効 | 0 本 |
+| API 費用 | $0.00 (0 回) |
+
+### 落選した仮説
+
+| 派生ID | 仕組み | 状態 | 総合 |
+|---|---|---|---|
+| (なし) | | | |
+
+### Funding 裁定 paper の建玉 (2026-10-08 時点・10 脚)
+
+SKR、GRASS、VVV、SAGA、FARTCOIN、STBL、ZRO、PUMP、KAITO、ZORA
+
+carry paper: 建玉 10・当月損益（資金に対して・1銘柄4%・crossマージン）-0.07% [2026-10-07 08:00 UTC 時点]（1銘柄あたり -0.18%＝Funding -0.05% / ベーシス +0.10% / コスト 0.23%）・最悪逆行 30.7% (ZRO)・強制決済水準 到達 [分離マージン] 2倍 0/20 脚 (閾値 49%) / 3倍 0/20 脚 (閾値 32%) ｜ 縮小後の建て方 (2026-09-24 決裁): 1銘柄 4% (倍率 0.40)・crossマージン・取引所別 総レバ 0.80倍 → 最悪月の累積逆行 HL 8.0% / BN 6.9% (清算水準 88%) = 清算に達する脚なし
+
+### 週次相対の前向き記録 (最新 2026-10-05)
+
+稼働 True / ユニバース 89 / ロング 0 / ショート 0 / 回転率 0.3888888888888889
+
+### リンク
+
+- 戦略台帳 (Google スプレッドシート): https://docs.google.com/spreadsheets/d/1zd_OTk4_8O2mFMAHB2qs4smQwBJcdEbMKr7CmnIO07Q/edit
+- ループ台帳 (ローカル): `results/loop_ledger.jsonl`
+- 週次相対の前向き記録: `neu-researcher-xs/results/forward_xs.csv`
+- Funding 裁定 paper: `neu-researcher-carry/results/paper_carry/daily.csv`
+- この報告書: `daily-report/2026-10-09.md`
+
+本番組は研究の進み具合の報告であり、投資助言ではありません。</description>
+      <pubDate>Fri, 09 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-daily-2026-10-09/heidel-daily-2026-10-09.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-daily-2026-10-09/heidel-daily-2026-10-09.mp3" length="2888665" type="audio/mpeg"/>
+      <itunes:duration>0:04:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEERE 日次報告】10/8 本日の配信は失敗しました</title>
       <description>【HEIDEL BEERE 日次報告】10/8 本日の配信は失敗しました
 
