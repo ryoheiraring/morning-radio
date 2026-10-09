@@ -11,6 +11,43 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】10/9 EXIT理由の内訳</title>
+      <description>【HEIDEL BEEREの教科書】10/9 EXIT理由の内訳
+
+暗号資産クオンツ分析ソフト「neu Crypto Quant」(HEIDEL BEERE)の指標を、毎日1つずつ中学生にも分かる言葉で学ぶ講座です。
+
+今日のテーマ: EXIT理由の内訳
+損切り・利確・時間切れの件数が、成績の中身をどう教えてくれるかを解説します。
+DASHの例では43件中41件が時間切れでした。
+
+■ 今日の用語
+・EXIT理由の内訳(バックテスト結果画面)
+・損切り、利確、時間切れの件数を並べた表
+
+■ 読み方の目安
+・損切りと利確の合計が過半数なら、出口が設計どおり働いている可能性がある
+・時間切れが大半なら、出口の幅が遠すぎる、または値動きが小さすぎるかを疑う
+・件数が少ないと割合は揺れやすい
+
+■ やりがちな誤読
+・時間切れは損益が確定していないから無害、と考えること
+・実際は資金を拘束し、手数料も払っている
+
+■ 明日見る1か所
+・結果画面のEXIT理由の表で、時間切れが全体の何割かを確認する
+
+診断が全部合格でも別期間で崩れた例(ALGO:92点→別期間で4点)にも触れています。
+
+本番組は情報提供のみで投資助言ではありません
+
+#HEIDELBEERE #暗号資産 #クオンツ #バックテスト #統計</description>
+      <pubDate>Fri, 09 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-09/heidel-textbook-2026-10-09.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-09/heidel-textbook-2026-10-09.mp3" length="5441873" type="audio/mpeg"/>
+      <itunes:duration>0:07:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/8 MAE・MFEと取りこぼし率</title>
       <description>【HEIDEL BEEREの教科書】10/8 MAE・MFEと取りこぼし率
 
