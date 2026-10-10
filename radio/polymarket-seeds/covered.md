@@ -52,3 +52,4 @@
 - 2026-10-07  (50) スポーツ市場の延期・中断の精算ルール ||| 競技別ルール早見表PDFをGumroadで買い切り販売, OddsShopper/DeFiRate/Barron's, Kalshi, 延期ルール, 48時間, 最後の妥当な価格, NFL, Gumroad
 - 2026-10-08  (51) 複合予想(コンボ)の払い戻し・延期時の計算 ||| 払い戻し電卓シートをGumroadで買い切り販売, DeFi Rate/OddsShopper/Dodo Payments, 複合予想, コンボ, 掛け算, 払い戻し電卓, Gumroad
 - 2026-10-09  (52) Farcasterミニアプリ開発者報酬 ||| ミニアプリ報酬と作り方手順書をGumroadで販売, Farcaster公式ドキュメント/DataWallet/Bankless/The Block, Farcaster, ミニアプリ, 開発者報酬, USDC, Gumroad
+- 2026-10-10  (53) 予測市場の分野別手数料 ||| 手数料早見表PDFをGumroadで買い切り販売, Cointelegraph/DeFi Rate/Polymarket公式ドキュメント/CheckoutPage, 手数料, テイカー手数料, 分野別, 3月30日拡大, Gumroad
