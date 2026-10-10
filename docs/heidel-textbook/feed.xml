@@ -11,6 +11,41 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】10/10 モンテカルロ頑健性チェック</title>
+      <description>【HEIDEL BEEREの教科書】10/10 モンテカルロ頑健性チェック
+
+暗号資産クオンツ分析ソフト neu Crypto Quant(HEIDEL BEERE)の指標を、毎日ひとつ、中学生でも分かる言葉で学ぶ講座です。
+
+今日のテーマ: モンテカルロ頑健性チェック
+取引の順番を何度も並べ替え、成績が運のいい並びに助けられていないかを確かめる仕組みです。
+ただし並べ替えで見抜けるのは順番の運だけで、取引そのものが偶然かは別の検証が要ります。
+ALGO のように全診断に合格しても、別期間で崩れた例にも触れます。
+
+■ 今日の用語
+- モンテカルロ頑健性チェック(バックテスト結果画面)
+- 同じ取引を並べ替え、最大ドローダウンの散らばりと黒字の割合を見る
+
+■ 読み方の目安
+- 並べ替えても大半が黒字で、悪い並びのへこみが耐えられる範囲なら良い目安
+- 実際の最大DDが並べ替えの中で浅い側にある、悪い側が撤退線を超える、なら疑う
+
+■ やりがちな誤読
+- 何度並べ替えても黒字だから本物、と考えること
+- 並べ替えは取引の使い回しで、偶然の取引は見抜けない
+
+■ 明日見る1か所
+- バックテスト結果画面の最大ドローダウン欄で、実際の値と悪い側の値を並べて見る
+
+本番組は情報提供のみで投資助言ではありません。
+
+#HEIDELBEERE #クオンツ #バックテスト #暗号資産 #統計</description>
+      <pubDate>Sat, 10 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-10/heidel-textbook-2026-10-10.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-10/heidel-textbook-2026-10-10.mp3" length="4547545" type="audio/mpeg"/>
+      <itunes:duration>0:06:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/9 EXIT理由の内訳</title>
       <description>【HEIDEL BEEREの教科書】10/9 EXIT理由の内訳
 
