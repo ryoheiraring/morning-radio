@@ -1,0 +1,5 @@
+CFTCの予測市場規則2件とBlockchain.comの免許申請 ||| CFTC, 予測市場, イベント契約, Blockchain.com
+リップルのXRPレジャー供給量超過生成の脆弱性修正 ||| Ripple, XRP Ledger, xrpld 3.4.1, 脆弱性
+フランス委員会のステーブルコイン交換課税と予算案否決 ||| フランス, 国民議会, ステーブルコイン, 出国課税
+イーサ現物ETFの9日連続流出とソラナETFの流入停止 ||| Ether ETF, Solana ETF, 資金流出, 14週
+ハイパーリキッドの手数料前日比31.6%減 ||| Hyperliquid, HYPE, プロトコル手数料, HIP-3
