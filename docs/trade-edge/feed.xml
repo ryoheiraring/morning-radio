@@ -11,6 +11,38 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【エッジの見つけ方】10/11 満期前後の値幅の癖を数える</title>
+      <description>【エッジの見つけ方】10/11 満期前後の値幅の癖を数える
+
+トレードの「エッジ(確率的な優位)」を、自分で見つけ・確かめ・管理する方法を毎回1つ紹介する番組です。
+
+今日のコツ:
+オプションの満期日の前後に、値動きの癖があるかを数える回です。
+なぜ存在するのか、どう観察し、どう確かめ、いつ消えるのかを解説します。
+バイナンスのBTC無期限先物を舞台にした架空の例も紹介します。
+
+■ 今日のコツ
+・オプション満期の前後6時間の値幅を、普段の同じ長さの時間と比べる
+・方向ではなく「値幅の癖」を数える
+
+■ 観察手順(3行以内)
+・取引所の画面で直近の満期日と、未決済の権利が多い価格帯を確認する
+・過去90日分の満期に印を付け、前後6時間ずつの値幅を測る
+・普段の値幅の平均と並べ、30回分、手数料とスリッページ込みで残るかを見る
+
+■ 明日から試せる1アクション
+・直近の満期日を1つ選び、その前後6時間の値幅を普段と並べてメモする
+
+本番組は情報提供のみで投資助言ではありません。エッジは確率的な優位であり損失が出ることもあります
+
+#エッジの見つけ方 #トレード #暗号資産 #オプション #検証</description>
+      <pubDate>Sun, 11 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-10-11/trade-edge-2026-10-11.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-10-11/trade-edge-2026-10-11.mp3" length="4536260" type="audio/mpeg"/>
+      <itunes:duration>0:06:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【エッジの見つけ方】10/10 試した数を数えて偶然を見分ける</title>
       <description>【エッジの見つけ方】10/10 試した数を数えて偶然を見分ける
 
