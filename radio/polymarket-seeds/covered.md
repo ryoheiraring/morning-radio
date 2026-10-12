@@ -54,3 +54,4 @@
 - 2026-10-09  (52) Farcasterミニアプリ開発者報酬 ||| ミニアプリ報酬と作り方手順書をGumroadで販売, Farcaster公式ドキュメント/DataWallet/Bankless/The Block, Farcaster, ミニアプリ, 開発者報酬, USDC, Gumroad
 - 2026-10-10  (53) 予測市場の分野別手数料 ||| 手数料早見表PDFをGumroadで買い切り販売, Cointelegraph/DeFi Rate/Polymarket公式ドキュメント/CheckoutPage, 手数料, テイカー手数料, 分野別, 3月30日拡大, Gumroad
 - 2026-10-11  (54) 金利(Fed)決定市場の決着ルール ||| 決着ルール早見表の年間パスをGumroadで販売, DeFi Rate/CFTC提出書類/CryptoSlate/InsightRaider, FOMC, 金利, 上限, 25ベーシスポイント切り上げ, Gumroad
+- 2026-10-12  (55) 短時間暗号資産市場の決着ルール・価格データ ||| 決着ルール早見表PDFをGumroadで買い切り販売, CryptoBriefing/KuCoin/CheckoutPage/Polymarket市場ルール欄, 5分・15分市場, Chainlink, Data Streams, 同値は上, Gumroad
