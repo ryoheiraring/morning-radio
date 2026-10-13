@@ -55,3 +55,4 @@
 - 2026-10-10  (53) 予測市場の分野別手数料 ||| 手数料早見表PDFをGumroadで買い切り販売, Cointelegraph/DeFi Rate/Polymarket公式ドキュメント/CheckoutPage, 手数料, テイカー手数料, 分野別, 3月30日拡大, Gumroad
 - 2026-10-11  (54) 金利(Fed)決定市場の決着ルール ||| 決着ルール早見表の年間パスをGumroadで販売, DeFi Rate/CFTC提出書類/CryptoSlate/InsightRaider, FOMC, 金利, 上限, 25ベーシスポイント切り上げ, Gumroad
 - 2026-10-12  (55) 短時間暗号資産市場の決着ルール・価格データ ||| 決着ルール早見表PDFをGumroadで買い切り販売, CryptoBriefing/KuCoin/CheckoutPage/Polymarket市場ルール欄, 5分・15分市場, Chainlink, Data Streams, 同値は上, Gumroad
+- 2026-10-13  (56) 発言(メンション)市場の数え方ルール ||| 早見表PDFをGumroadで買い切り販売, Bloomberg Law/Cointelegraph/DeFiRate/Dodo Payments, 発言市場, メンション市場, 決算説明会, コインベース, 複数形, Gumroad
