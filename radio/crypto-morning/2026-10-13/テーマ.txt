@@ -1,0 +1,6 @@
+スタンダードチャータードのRLUSDカストディ開始 ||| Standard Chartered, RLUSD, LMAX, XRP Ledger
+アプトスの暗号化メンプール導入 ||| Aptos, Encrypted Mempool, フロントラン
+豪ASICの暗号資産デリバティブ規制案 ||| ASIC, レバレッジ上限, オーストラリア
+レジャー流出疑いと再販業者の続報 ||| Ledger, CryptoBilis, 再販業者
+バイナンスのTradFi無期限先物上場 ||| Binance, TradFi, 無期限先物
+ハイパーリキッドの手数料前日比39.9%増 ||| Hyperliquid, HYPE, 手数料, HIP-3
