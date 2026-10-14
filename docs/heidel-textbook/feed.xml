@@ -11,6 +11,42 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】10/15 生存者バイアス</title>
+      <description>【HEIDEL BEEREの教科書】10/15 生存者バイアス
+
+ラジオ番組「HEIDEL BEEREの教科書」。暗号資産クオンツ分析ソフト neu Crypto Quant(HEIDEL BEERE)の指標や検証の仕組みを、毎日1つずつ、中学生にも分かる言葉で学びます。
+
+今日のテーマ:
+生き残った候補だけを見て全体を判断してしまう「生存者バイアス」を解説。
+画面の点数より先に「何本の中から残ったか」を見る大切さを、ALGOや2軸エッジの実測例で確かめます。
+第1部(バックテスト結果の読み方)の最終回です。
+
+■ 今日の用語
+・生存者バイアス(生き残ったものだけを見て全体を判断するかたより)
+・バックテスト結果画面に並ぶ候補の一覧と、試した本数(分母)
+
+■ 読み方の目安
+・点数と一緒に「試した本数」「通った本数」を並べて見る
+・試した数が多く、通ったのが少数なら、偶然の当たりを疑う
+・設定をずらしても、別の期間でも、点が保たれるかを見る
+
+■ やりがちな誤読
+・「全部の診断に合格したから本物」と考える
+・ALGOは92点・PSR 97%・過学習リスク7で全診断に合格したが、別期間(2024年12月〜2025年12月)で4点・シャープ マイナス0.83に崩壊
+
+■ 明日見る1か所
+・候補の点数の横にある「試した本数」を探す
+
+本番組は情報提供のみで投資助言ではありません
+
+#HEIDELBEERE #クオンツ #バックテスト #生存者バイアス #暗号資産</description>
+      <pubDate>Thu, 15 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-15/heidel-textbook-2026-10-15.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-15/heidel-textbook-2026-10-15.mp3" length="5226206" type="audio/mpeg"/>
+      <itunes:duration>0:07:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【heidel-textbook】10/14 本日の配信は失敗しました</title>
       <description>【heidel-textbook】10/14 本日の配信は失敗しました
 
