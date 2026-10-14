@@ -11,6 +11,21 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【heidel-textbook】10/14 本日の配信は失敗しました</title>
+      <description>【heidel-textbook】10/14 本日の配信は失敗しました
+
+本日の配信は失敗しました。原因は台本の生成に失敗しました。
+原稿を書く工程が、決められた回数のやり直しでも通りませんでした。
+
+この回は自動生成のお知らせです。復旧後の回で通常の内容に戻ります。
+詳細は GitHub Actions の実行ログ (morning-radio / 2026-10-14) を確認してください。</description>
+      <pubDate>Wed, 14 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-14/heidel-textbook-2026-10-14.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-14/heidel-textbook-2026-10-14.mp3" length="399718" type="audio/mpeg"/>
+      <itunes:duration>0:00:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/13 ポジション縮小Replay検証</title>
       <description>【HEIDEL BEEREの教科書】10/13 ポジション縮小Replay検証
 
