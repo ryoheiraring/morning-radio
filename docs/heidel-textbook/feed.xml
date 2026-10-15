@@ -11,6 +11,43 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】10/16 歪度</title>
+      <description>【HEIDEL BEEREの教科書】10/16 歪度
+
+ラジオ番組「HEIDEL BEEREの教科書」。暗号資産クオンツ分析ソフト neu Crypto Quant の画面の指標を、毎日1つずつ、中学生にも分かる言葉で学びます。
+
+今日のテーマ:
+第2部の初回、Insight Explorer の「歪度」を解説。
+山が左右どちらに偏り、どちらの裾が長いかを示す数字です。
+平均だけでは見えない「たまに来る大きな損」を見つける目的を、ALT急変後の反動の実測例で確かめます。
+
+■ 今日の用語
+・歪度(スキューネス):リターン分布の左右の偏りを示す数字
+・場所は Insight Explorer の分布画面、ヒストグラムの横
+
+■ 読み方の目安
+・ゼロ付近なら左右対称に近い
+・マイナスは大きな損の裾が長い形。マイナス0.5より下は見直しの合図
+・平均と真ん中の値のずれも合わせて見る
+
+■ やりがちな誤読
+・プラスだから安全、と読んでしまう
+・件数が少ないと、外れ値1本で歪度は大きく動く
+・ALGOは全診断に合格しても、別期間の関門で4点に崩れた
+
+■ 明日見る1か所
+・分布画面の歪度と、ヒストグラムの左右の裾の長さ
+
+本番組は情報提供のみで投資助言ではありません。
+
+#HEIDELBEERE #クオンツ #暗号資産 #統計 #歪度</description>
+      <pubDate>Fri, 16 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-16/heidel-textbook-2026-10-16.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-16/heidel-textbook-2026-10-16.mp3" length="4364165" type="audio/mpeg"/>
+      <itunes:duration>0:06:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/15 生存者バイアス</title>
       <description>【HEIDEL BEEREの教科書】10/15 生存者バイアス
 
