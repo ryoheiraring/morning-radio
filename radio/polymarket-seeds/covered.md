@@ -58,3 +58,4 @@
 - 2026-10-13  (56) 発言(メンション)市場の数え方ルール ||| 早見表PDFをGumroadで買い切り販売, Bloomberg Law/Cointelegraph/DeFiRate/Dodo Payments, 発言市場, メンション市場, 決算説明会, コインベース, 複数形, Gumroad
 - 2026-10-14  (57) 賞レース市場の「その他」札・精算ルール ||| 早見表PDFをGumroadで買い切りまたは年間パス販売, Bitcoin.com News/The Star/Dodo Payments, ノーベル平和賞, ナビ・ピレイ, その他の札, 候補表, Gumroad
 - 2026-10-15  (58) 映画(批評スコア・興行)市場の判定ルール ||| 判定ルール早見カードを単発または年間パスでGumroad販売, DeFi Rate/Kalshi公式ブログ/The Ankler, ロッテントマト, 公開後の月曜, アカデミー賞, スマーフ, Gumroad
+- 2026-10-16  (59) 経済指標(物価・雇用)市場の欠測・遅延時の決着ルール ||| 早見表PDFを単発または年間パスでGumroad販売, 米労働統計局/Bloomberg Law/Cryptopolitan/Dodo Payments, 物価指数, 雇用統計, 政府閉鎖, 10月分欠測, Gumroad
