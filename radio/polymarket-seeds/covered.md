@@ -60,3 +60,4 @@
 - 2026-10-15  (58) 映画(批評スコア・興行)市場の判定ルール ||| 判定ルール早見カードを単発または年間パスでGumroad販売, DeFi Rate/Kalshi公式ブログ/The Ankler, ロッテントマト, 公開後の月曜, アカデミー賞, スマーフ, Gumroad
 - 2026-10-16  (59) 経済指標(物価・雇用)市場の欠測・遅延時の決着ルール ||| 早見表PDFを単発または年間パスでGumroad販売, 米労働統計局/Bloomberg Law/Cryptopolitan/Dodo Payments, 物価指数, 雇用統計, 政府閉鎖, 10月分欠測, Gumroad
 - 2026-10-17  (60) 大統領支持率市場の集計元・小数点・確定タイミング ||| 決着ルール早見表を年間パスまたは単発でGumroad販売, Polymarket市場ページ/CFTC提出書類/Creator Revenue Calculator, 支持率市場, Silver Bulletin, RealClearPolitics, 小数点一桁, 翌日確定, Gumroad
+- 2026-10-18  (61) 音楽チャート(Spotify)市場の決着ルール・同点・発表遅れ ||| 早見表PDFをGumroadで買い切り販売, Bloomberg/Creator Revenue Calculator/simplefunctions/Polymarket市場ルール欄, Spotify, 年間トップ歌手, 週間チャート, 同点はアルファベット順, 発表遅れは「その他」, Gumroad
