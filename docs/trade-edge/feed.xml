@@ -11,6 +11,31 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【エッジの見つけ方】10/18 成行の偏りの後の戻り</title>
+      <description>【エッジの見つけ方】10/18 成行の偏りの後の戻り
+
+トレードの「エッジ(確率的な優位)」を、自分で見つけ・確かめ・管理する方法を毎回1つ紹介する番組です。
+
+今日のテーマ: 成行注文が一方向に偏った直後の戻りを数える方法
+■ 今日のコツ
+・急ぐ成行の偏りの後に、価格がどれくらい戻るかを数える
+■ 観察手順(3行以内)
+・約定履歴を5分ごとに区切り、買い手主導と売り手主導の量を並べる
+・片方が普段の3倍以上に偏った場面を拾い、その後30分の戻りを記録する
+・30〜60日分、50件以上を目安に、手数料とスリッページ込みで確かめる
+■ 明日から試せる1アクション
+・直近1日分の約定履歴で偏った5分間を探し、30分後に戻ったかをメモに1行残す
+
+本番組は情報提供のみで投資助言ではありません。エッジは確率的な優位であり損失が出ることもあります
+
+#エッジの見つけ方 #トレード #暗号資産 #検証 #ハイパーリキッド</description>
+      <pubDate>Sun, 18 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-10-18/trade-edge-2026-10-18.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-10-18/trade-edge-2026-10-18.mp3" length="4619016" type="audio/mpeg"/>
+      <itunes:duration>0:06:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【エッジの見つけ方】10/17 連敗の長さを先に見積もる</title>
       <description>【エッジの見つけ方】10/17 連敗の長さを先に見積もる
 
