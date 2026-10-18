@@ -11,6 +11,45 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】10/19 KDE(密度推定)</title>
+      <description>【HEIDEL BEEREの教科書】10/19 KDE(密度推定)
+
+暗号資産クオンツ分析ソフト neu Crypto Quant(HEIDEL BEERE)の指標を、毎日1つずつ中学生でも分かる言葉で学ぶ講座です。
+
+今日のテーマ:
+Insight Explorerの分布グラフに重なるなめらかな曲線、KDE(カーネル密度推定)を学びます。
+点々のデータを光の重なりに例え、山の数・幅・裾の長さの読み方を解説します。
+曲線がきれいでも件数が少なければ中身は薄い、という落とし穴を実測例で確かめます。
+
+■ 今日の用語
+・KDE(カーネル密度推定):データの点から、なめらかな山の形を描く方法
+・Insight Explorerの分布グラフで、ヒストグラムに重なる曲線
+・バンド幅:なめらかさの設定。光の丸の大きさ
+
+■ 読み方の目安
+・山が1つで左右が似ていれば素直な分布
+・山が2つなら、性格の違う局面が混ざっている疑い
+・裾が長いほど、まれな大きな動きが起きやすい
+・バンド幅が小さいとでこぼこ、大きいと本物の山まで消える
+
+■ やりがちな誤読
+・曲線がなめらか=データが十分、と思い込む
+・E5 BTC急落の遅延は623件に見えて、独立した急落は3年で22本だった
+・ALGOは全診断に合格しても、別期間の関門で4点に崩れた
+
+■ 明日見る1か所
+・Insight Explorerの分布グラフで、曲線の山の数と裾が長い向きを確認する
+
+本番組は情報提供のみで投資助言ではありません。
+
+#HEIDELBEERE #暗号資産 #クオンツ #統計 #KDE</description>
+      <pubDate>Mon, 19 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-19/heidel-textbook-2026-10-19.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-19/heidel-textbook-2026-10-19.mp3" length="5701112" type="audio/mpeg"/>
+      <itunes:duration>0:07:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/18 正規分布</title>
       <description>【HEIDEL BEEREの教科書】10/18 正規分布
 
