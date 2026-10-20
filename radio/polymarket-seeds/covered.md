@@ -62,3 +62,4 @@
 - 2026-10-17  (60) 大統領支持率市場の集計元・小数点・確定タイミング ||| 決着ルール早見表を年間パスまたは単発でGumroad販売, Polymarket市場ページ/CFTC提出書類/Creator Revenue Calculator, 支持率市場, Silver Bulletin, RealClearPolitics, 小数点一桁, 翌日確定, Gumroad
 - 2026-10-18  (61) 音楽チャート(Spotify)市場の決着ルール・同点・発表遅れ ||| 早見表PDFをGumroadで買い切り販売, Bloomberg/Creator Revenue Calculator/simplefunctions/Polymarket市場ルール欄, Spotify, 年間トップ歌手, 週間チャート, 同点はアルファベット順, 発表遅れは「その他」, Gumroad
 - 2026-10-19  (62) 指導者「退任」市場の死亡時精算ルール ||| 早見表PDFをGumroadで買い切りまたは年間パス販売, Bloomberg Law/Decrypt/DeFi Rate/Bloomberg/Dodo Payments, 退任市場, 死亡の例外, 最後の取引価格, Kalshi, ハメネイ氏, Gumroad
+- 2026-10-20  (63) 最強AI市場の決着ルール・文体補正・同点処理 ||| 早見表PDFをGumroadで買い切り販売, Action Network/DeFi Rate/Polyguana/Dodo Payments, 最強AIモデル市場, アリーナ順位表, 文体補正, 同点処理, Gumroad
