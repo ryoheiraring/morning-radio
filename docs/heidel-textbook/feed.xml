@@ -11,6 +11,42 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】10/20 Q-Qプロット</title>
+      <description>【HEIDEL BEEREの教科書】10/20 Q-Qプロット
+
+ソフトの画面に出てくる指標を、毎日ひとつずつ、中学生にも分かる言葉で読み解く講座です。
+
+今日のテーマ:
+Insight Explorerに出てくるQ-Qプロットを解説します。
+点が斜めの線に沿うか、両端がどう外れるかで、釣り鐘(正規分布)との違いが分かります。
+E5やALGOの実測例とあわせて、端の点の読み方と注意点を確かめます。
+
+■ 今日の用語
+- Q-Qプロット(Insight Explorer)
+- 理想の並びと実際の並びを、点で見比べる図
+
+■ 読み方の目安
+- 点が線に沿っていれば、釣り鐘に近い
+- 左下が下、右上が上に反るS字は、端が厚いサイン
+- 片側だけ外れるなら、極端な値がその側に偏っている
+
+■ やりがちな誤読
+- 外れた端の点を、ただの外れ値として無視する
+- 線に乗ったから安心と思う(点の数が少ないと偶然の場合も)
+
+■ 明日見る1か所
+- Q-Qプロットの右上の端が、線より上に反っているか、その点が何個あるか
+
+本番組は情報提供のみで投資助言ではありません
+
+#HEIDELBEERE #暗号資産 #クオンツ #統計 #Q-Qプロット</description>
+      <pubDate>Tue, 20 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-20/heidel-textbook-2026-10-20.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-20/heidel-textbook-2026-10-20.mp3" length="5708322" type="audio/mpeg"/>
+      <itunes:duration>0:07:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/19 KDE(密度推定)</title>
       <description>【HEIDEL BEEREの教科書】10/19 KDE(密度推定)
 

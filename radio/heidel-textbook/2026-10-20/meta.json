@@ -1,0 +1,9 @@
+{
+ "show": "heidel-textbook",
+ "date": "2026-10-20",
+ "title": "【HEIDEL BEEREの教科書】10/20 Q-Qプロット",
+ "description": "【HEIDEL BEEREの教科書】10/20 Q-Qプロット\n\nソフトの画面に出てくる指標を、毎日ひとつずつ、中学生にも分かる言葉で読み解く講座です。\n\n今日のテーマ:\nInsight Explorerに出てくるQ-Qプロットを解説します。\n点が斜めの線に沿うか、両端がどう外れるかで、釣り鐘(正規分布)との違いが分かります。\nE5やALGOの実測例とあわせて、端の点の読み方と注意点を確かめます。\n\n■ 今日の用語\n- Q-Qプロット(Insight Explorer)\n- 理想の並びと実際の並びを、点で見比べる図\n\n■ 読み方の目安\n- 点が線に沿っていれば、釣り鐘に近い\n- 左下が下、右上が上に反るS字は、端が厚いサイン\n- 片側だけ外れるなら、極端な値がその側に偏っている\n\n■ やりがちな誤読\n- 外れた端の点を、ただの外れ値として無視する\n- 線に乗ったから安心と思う(点の数が少ないと偶然の場合も)\n\n■ 明日見る1か所\n- Q-Qプロットの右上の端が、線より上に反っているか、その点が何個あるか\n\n本番組は情報提供のみで投資助言ではありません\n\n#HEIDELBEERE #暗号資産 #クオンツ #統計 #Q-Qプロット",
+ "duration_sec": 476,
+ "size_bytes": 5708322,
+ "url": "https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-20/heidel-textbook-2026-10-20.mp3"
+}
