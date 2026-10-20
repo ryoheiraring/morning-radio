@@ -1,0 +1,9 @@
+{
+ "show": "heidel-textbook",
+ "date": "2026-10-21",
+ "title": "【HEIDEL BEEREの教科書】10/21 ADF検定",
+ "description": "【HEIDEL BEEREの教科書】10/21 ADF検定\n\n暗号資産クオンツ分析ソフト「neu Crypto Quant(HEIDEL BEERE)」の指標を、毎日1つずつ学ぶ講座です。\n\n今日のテーマ: ADF検定(Insight Explorer)\n・数列が平均のまわりに「戻る性質」を持つかを調べる検定\n・犬の散歩の例えで、リードの有無として説明\n・ピー値の目安と、価格ではなく変化率で測る注意点\n・ALGOの例から、別期間で確かめる大切さを確認\n\n■ 今日の用語\n・ADF検定(Augmented Dickey-Fuller検定)。数列が定常か、つまり戻る性質があるかを調べる\n・画面ではp値とADF統計量が表示される\n\n■ 読み方の目安\n・p値が0.05より小さければ、戻る性質がありそうと読む\n・0.05より大きければ、さまよう可能性が残る\n・価格より変化率で測るほうが、小さく出やすい\n\n■ やりがちな誤読\n・p値が小さいから勝てる、と読む\n・戻る性質があっても、いつ戻るかは分からない\n\n■ 明日見る1か所\n・Insight Explorerで、p値の横の「何を測ったか」の表示\n\n本番組は情報提供のみで投資助言ではありません\n\n#HEIDELBEERE #クオンツ #暗号資産 #統計 #ADF検定",
+ "duration_sec": 431,
+ "size_bytes": 5174170,
+ "url": "https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-21/heidel-textbook-2026-10-21.mp3"
+}

@@ -22,3 +22,4 @@
 - 2026-10-18  正規分布と、相場が正規分布でない理由 ||| 第2部, Insight Explorer, 正規分布, 釣り鐘, ヒストグラム, E5 BTC急落の遅延, ALGO
 - 2026-10-19  KDE(カーネル密度推定) ||| 第2部, Insight Explorer, KDE, カーネル密度推定, バンド幅, E5 BTC急落の遅延, ALGO
 - 2026-10-20  Q-Qプロット ||| 第2部, Insight Explorer, Q-Qプロット, 分位点, 裾の厚み, E5 BTC急落の遅延, ALGO
+- 2026-10-21  ADF検定(定常性の検定) ||| 第2部, Insight Explorer, ADF検定, 定常性, p値, E5 BTC急落の遅延, ALGO
