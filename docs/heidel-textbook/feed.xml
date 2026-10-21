@@ -11,6 +11,45 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】10/22 ローリングVaR</title>
+      <description>【HEIDEL BEEREの教科書】10/22 ローリングVaR
+
+暗号資産クオンツ分析ソフト「neu Crypto Quant」(HEIDEL BEERE)の指標を、毎日1つずつ、中学生にも分かる言葉で学ぶ講座です。
+
+今日のテーマ:
+Insight Explorerに出てくる「ローリングVaR」を取り上げます。
+直近の期間だけで毎日計算し直す、「ふつうに悪い日の損」の目安の線です。
+線が最大の損ではないこと、期間の長さで性質が変わること、全診断合格のALGOが別期間で崩れた例にも触れます。
+
+■ 今日の用語
+- ローリングVaR(バリュー・アット・リスク)
+- Insight Explorerの、時間とともに動く一本の線
+- 直近の一定期間で、ふつうに悪い日の損の目安を毎日測り直す
+
+■ 読み方の目安
+- 線の深さ: 20日に1日の設定で、線がマイナス2%なら、100万円で2万円ほど減る日が20日に1日ある、という読み
+- 線の形: ゆるやかなら落ち着き、急に深くなれば荒れ始めのサイン
+- 実際の損が線を超えた回数が多いなら、線のほうを疑う
+
+■ やりがちな誤読
+- 「線が最大の損」と読むのは誤り。線を超えた日の深さは教えてくれない
+- 浅い線は「最近は穏やか」を示すだけで、将来の保証ではない
+- 研究員の記録: ファンディング裁定の紙の運用は今月マイナス0.16%。それでも最悪の銘柄は74.3%逆行
+- ALGOは全診断に合格しても、別期間で4点に崩れた
+
+■ 明日見る1か所
+- ローリングVaRの線が、急に深くなっている場所を1か所探す
+
+本番組は情報提供のみで投資助言ではありません。
+
+#HEIDELBEERE #ローリングVaR #クオンツ #暗号資産 #統計入門</description>
+      <pubDate>Thu, 22 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-22/heidel-textbook-2026-10-22.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-22/heidel-textbook-2026-10-22.mp3" length="4980133" type="audio/mpeg"/>
+      <itunes:duration>0:06:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/21 ADF検定</title>
       <description>【HEIDEL BEEREの教科書】10/21 ADF検定
 
