@@ -1,0 +1,9 @@
+{
+ "show": "polymarket-seeds",
+ "date": "2026-10-22",
+ "title": "【polymarket-seeds】10/22 本日の配信は失敗しました",
+ "description": "【polymarket-seeds】10/22 本日の配信は失敗しました\n\n本日の配信は失敗しました。原因は台本の生成に失敗しました。\n原稿を書く工程が、決められた回数のやり直しでも通りませんでした。\n\nこの回は自動生成のお知らせです。復旧後の回で通常の内容に戻ります。\n詳細は GitHub Actions の実行ログ (morning-radio / 2026-10-22) を確認してください。",
+ "duration_sec": 34,
+ "size_bytes": 402539,
+ "url": "https://github.com/ryoheiraring/morning-radio/releases/download/polymarket-seeds-2026-10-22/polymarket-seeds-2026-10-22.mp3"
+}

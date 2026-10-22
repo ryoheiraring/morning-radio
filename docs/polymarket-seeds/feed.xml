@@ -11,6 +11,21 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【polymarket-seeds】10/22 本日の配信は失敗しました</title>
+      <description>【polymarket-seeds】10/22 本日の配信は失敗しました
+
+本日の配信は失敗しました。原因は台本の生成に失敗しました。
+原稿を書く工程が、決められた回数のやり直しでも通りませんでした。
+
+この回は自動生成のお知らせです。復旧後の回で通常の内容に戻ります。
+詳細は GitHub Actions の実行ログ (morning-radio / 2026-10-22) を確認してください。</description>
+      <pubDate>Thu, 22 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/polymarket-seeds-2026-10-22/polymarket-seeds-2026-10-22.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/polymarket-seeds-2026-10-22/polymarket-seeds-2026-10-22.mp3" length="402539" type="audio/mpeg"/>
+      <itunes:duration>0:00:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【副業の種】10/21 投稿数市場の数え方ルール早見表PDF</title>
       <description>【副業の種】10/21 投稿数市場の数え方ルール早見表PDF
 
