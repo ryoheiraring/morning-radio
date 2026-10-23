@@ -64,3 +64,4 @@
 - 2026-10-19  (62) 指導者「退任」市場の死亡時精算ルール ||| 早見表PDFをGumroadで買い切りまたは年間パス販売, Bloomberg Law/Decrypt/DeFi Rate/Bloomberg/Dodo Payments, 退任市場, 死亡の例外, 最後の取引価格, Kalshi, ハメネイ氏, Gumroad
 - 2026-10-20  (63) 最強AI市場の決着ルール・文体補正・同点処理 ||| 早見表PDFをGumroadで買い切り販売, Action Network/DeFi Rate/Polyguana/Dodo Payments, 最強AIモデル市場, アリーナ順位表, 文体補正, 同点処理, Gumroad
 - 2026-10-21  (64) 投稿数(ポスト数)市場の数え方ルール ||| 早見表PDFをGumroadで買い切り販売, TBS News/TechCrunch/Lines/Polyguana/Dodo Payments, 投稿数市場, イーロン・マスク, XTracker, 返信の扱い, Gumroad
+- 2026-10-23  (65) テニス市場の棄権・途中終了・不戦勝の精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Axios/CBS Sports/Polyguana/Creator Revenue Calculator/InsightRaider, ATP Tour, 公式パートナー, 棄権, 不戦勝は50対50, 7日超の延期, Gumroad
