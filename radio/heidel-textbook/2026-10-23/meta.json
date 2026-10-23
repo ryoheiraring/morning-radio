@@ -1,0 +1,9 @@
+{
+ "show": "heidel-textbook",
+ "date": "2026-10-23",
+ "title": "【HEIDEL BEEREの教科書】10/23 今日の用語",
+ "description": "【HEIDEL BEEREの教科書】10/23 今日の用語\n\n暗号資産クオンツ分析ソフト「neu Crypto Quant(HEIDEL BEERE)」の指標や統計を、毎日1つずつ中学生にも分かる言葉で学ぶ講座です。\n\n今日のテーマ:\nアンダーソン・ダーリング検定。値動きが釣り鐘型の正規分布かどうかを、特に両端(裾)に注目して白黒つける検定です。\n\n■ 今日の用語\n・Anderson-Darling検定(Insight Explorerの分布の画面)\n・ピー値と検定の点数で、正規分布かどうかを判定する\n\n■ 読み方の目安\n・ピー値が0.05より小さければ、正規分布ではないと判断する\n・暗号資産の値動きは引っかかるのが普通。その後の見積もりを慎重にする\n・ピー値が大きいときは、データの本数が少なすぎないかを疑う\n\n■ やりがちな誤読\n・ピー値が大きい=正規分布だと証明された、ではない。証拠が見つからなかっただけ\n\n■ 明日見る1か所\n・分布の画面の検定結果のピー値と、隣のデータ本数\n\n本番組は情報提供のみで投資助言ではありません\n\n#HEIDELBEERE #クオンツ #統計 #暗号資産 #検定",
+ "duration_sec": 386,
+ "size_bytes": 4636257,
+ "url": "https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-23/heidel-textbook-2026-10-23.mp3"
+}
