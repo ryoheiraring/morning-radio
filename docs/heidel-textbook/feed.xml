@@ -11,6 +11,42 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】10/25 GMMによるレジーム判定</title>
+      <description>【HEIDEL BEEREの教科書】10/25 GMMによるレジーム判定
+
+暗号資産クオンツ分析ソフト「neu Crypto Quant」の指標や統計を、毎日1つずつ学ぶ講座です。
+
+今日のテーマ:
+Insight Explorerに出てくる、GMM(ガウス混合モデル)によるレジーム判定。
+混ざった相場を「いくつかの山」に分け、各日がどの機嫌の山に属するかを確率で見ます。
+分け方に意味があるか、過学習に注意すべき点も、ALGOの例で確認します。
+
+■ 今日の用語
+- GMM(ガウス混合モデル):いくつかの山の混ぜ合わせでデータを説明する方法
+- レジーム:相場の「機嫌」(落ち着いた時期、荒れた時期)
+
+■ 読み方の目安
+- 山どうしが、平均や値動きの大きさではっきり離れている
+- 所属確率が90%前後なら明確、50%前後ならあいまい
+- 山の数は2〜3個で説明がつくか
+
+■ やりがちな誤読
+- 今日の色が明日も続くと思い込む(GMMは過去を分けるだけで、予言ではない)
+- 山の数を増やすほどきれいに見えるが、偶然まで拾う過学習になる
+
+■ 明日見る1か所
+- 色分けされた日の所属確率(50%前後ばかりなら境目があいまい)
+
+本番組は情報提供のみで投資助言ではありません。
+
+#HEIDELBEERE #暗号資産 #クオンツ #統計 #レジーム</description>
+      <pubDate>Sun, 25 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-25/heidel-textbook-2026-10-25.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-25/heidel-textbook-2026-10-25.mp3" length="4390497" type="audio/mpeg"/>
+      <itunes:duration>0:06:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/24 レヴィ・ウォーク</title>
       <description>【HEIDEL BEEREの教科書】10/24 レヴィ・ウォーク
 
