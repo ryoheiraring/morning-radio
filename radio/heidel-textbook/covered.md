@@ -25,3 +25,4 @@
 - 2026-10-21  ADF検定(定常性の検定) ||| 第2部, Insight Explorer, ADF検定, 定常性, p値, E5 BTC急落の遅延, ALGO
 - 2026-10-22  ローリングVaR ||| 第2部, Insight Explorer, ローリングVaR, バリュー・アット・リスク, 直近期間の測り直し, ファンディング裁定, ALGO
 - 2026-10-23  Anderson-Darling検定 ||| 第2部, Insight Explorer, Anderson-Darling検定, ピー値, 裾の厚み, E5 BTC急落の遅延, ALGO
+- 2026-10-24  Lévyウォーク(レヴィ・ウォーク) ||| 第2部, Insight Explorer, Lévyウォーク, 大ジャンプ, E5 BTC急落の遅延, ALGO
