@@ -66,3 +66,4 @@
 - 2026-10-21  (64) 投稿数(ポスト数)市場の数え方ルール ||| 早見表PDFをGumroadで買い切り販売, TBS News/TechCrunch/Lines/Polyguana/Dodo Payments, 投稿数市場, イーロン・マスク, XTracker, 返信の扱い, Gumroad
 - 2026-10-23  (65) テニス市場の棄権・途中終了・不戦勝の精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Axios/CBS Sports/Polyguana/Creator Revenue Calculator/InsightRaider, ATP Tour, 公式パートナー, 棄権, 不戦勝は50対50, 7日超の延期, Gumroad
 - 2026-10-24  (66) 停戦・和平合意市場の決着ルール・一時停戦と恒久和平の線引き ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, The Block/Finance Magnates/CheckoutPage, 停戦市場, 恒久和平, 一時停戦, UMA, イラン, Gumroad
+- 2026-10-25  (67) 予測市場のインサイダー取引禁止ルール・立場別の確認 ||| 立場別チェックリストPDFをGumroadで買い切り・年間パス販売, NPR/Axios/The Block/Bloomberg, インサイダー取引, 実名公表, サントス氏, 結果に影響できる立場, Kalshi, Gumroad
