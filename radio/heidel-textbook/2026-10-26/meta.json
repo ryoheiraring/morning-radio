@@ -1,0 +1,9 @@
+{
+ "show": "heidel-textbook",
+ "date": "2026-10-26",
+ "title": "【HEIDEL BEEREの教科書】10/26 DTWとKNN",
+ "description": "【HEIDEL BEEREの教科書】10/26 DTWとKNN\n\n暗号資産クオンツ分析ソフト「neu Crypto Quant(HEIDEL BEERE)」の画面の数字を、毎日ひとつずつ、中学生にも分かる言葉で読み解く講座です。\n\n今日のテーマ: DTW(動的時間伸縮)とKNN(K近傍法)\nInsight Explorerの「似た局面」を探す画面で、過去の似た値動きを近い順に並べる仕組みを解説します。\n歌の速さが違っても同じ曲と分かる例えで、伸び縮みを許す比べ方を紹介。\n近所の件数は、独立した場面で数えること。E5やE2、ALGOの実測例で確かめます。\n\n■ 今日の用語\n・DTW:時間の伸び縮みを許して二つの形の似かたを測る方法\n・KNN:いちばん似ている数件を選び、その後の動きを参考にする方法\n\n■ 読み方の目安\n・距離は同じ画面の中で、1位と10位の差を見る\n・近所のその後がバラバラなら疑う\n・近所の件数は、独立した場面で数える\n\n■ やりがちな誤読\n・「似ている=同じ結果になる」と読む\n・距離が小さい=良い結果、と考える\n\n■ 明日見る1か所\n・似た局面の一覧の、1位から10位の距離の差と、独立した場面の数\n\n本番組は情報提供のみで投資助言ではありません\n\n#HEIDELBEERE #クオンツ #暗号資産 #統計 #DTW",
+ "duration_sec": 392,
+ "size_bytes": 4709922,
+ "url": "https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-26/heidel-textbook-2026-10-26.mp3"
+}
