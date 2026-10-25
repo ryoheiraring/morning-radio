@@ -1,6 +1,6 @@
 {
- "generated_at_jst": "2026-10-25T05:01:03+09:00",
- "day": "2026-10-25",
+ "generated_at_jst": "2026-10-26T05:01:01+09:00",
+ "day": "2026-10-26",
  "loop_stopped": false,
  "loop_stop_reason": "",
  "loop_waiting": "",
@@ -9,6 +9,8 @@
  "valid_24h": 0,
  "processed_24h": 0,
  "api_cost_24h_usd": 0.0,
- "alerts": [],
+ "alerts": [
+  "2026-10-25T09:07:18\t【研究員 付随作業 失敗】unlock_paper: 失敗: Error tokenizing data. C error: Expected 19 fields in line 3, saw 23"
+ ],
  "note": ""
 }
