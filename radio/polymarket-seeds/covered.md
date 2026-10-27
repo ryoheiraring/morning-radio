@@ -68,3 +68,4 @@
 - 2026-10-24  (66) 停戦・和平合意市場の決着ルール・一時停戦と恒久和平の線引き ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, The Block/Finance Magnates/CheckoutPage, 停戦市場, 恒久和平, 一時停戦, UMA, イラン, Gumroad
 - 2026-10-25  (67) 予測市場のインサイダー取引禁止ルール・立場別の確認 ||| 立場別チェックリストPDFをGumroadで買い切り・年間パス販売, NPR/Axios/The Block/Bloomberg, インサイダー取引, 実名公表, サントス氏, 結果に影響できる立場, Kalshi, Gumroad
 - 2026-10-26  (68) eスポーツ世界大会市場の延期・中止・勝者なしの精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Sheep Esports/Polymarket市場ルール欄/Dodo Payments, eスポーツ市場, リーグ・オブ・レジェンド, Worlds 2026, 勝者なしは「その他」, Gumroad
+- 2026-10-27  (69) ゴルフ市場の棄権・同点の精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Covers/DeFi Rate/Robinhood予測市場ページ/Creator Revenue Calculator, ゴルフ市場, マスターズ, 棄権はハズレ, 公正な市場価格, 三人組対決, Gumroad
