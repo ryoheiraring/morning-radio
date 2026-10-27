@@ -11,6 +11,42 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】10/27 実現ボラティリティ</title>
+      <description>【HEIDEL BEEREの教科書】10/27 実現ボラティリティ
+
+暗号資産クオンツ分析ソフト neu Crypto Quant(HEIDEL BEERE)の指標を、毎日1つ、中学生にも分かる言葉で学ぶ講座です。
+
+今日のテーマ:
+実現ボラティリティと√換算。実際に起きた値動きの揺れを測る数字と、日々の揺れを長い期間に直す計算を学びます。
+
+■ 今日の用語
+・実現ボラティリティ: 実際に起きた値動きの揺れの大きさ
+・√換算: 日々の揺れを年あたりなど長い期間に直す計算
+・Insight Explorer 画面のボラティリティ欄
+
+■ 読み方の目安
+・絶対値ではなく、過去の普段と比べて大きいか小さいかを見る
+・極端に小さい値はデータ抜けを疑う
+・研究員の記録では、荒れ具合が過去90日の0.58倍で「落ち着き」と判定
+
+■ やりがちな誤読
+・高ボラティリティ=損、ではない。上下どちらにも大きく動くという意味
+・過去の揺れが未来も続くと思い込まない
+・ALGOのように全診断に合格しても、別期間で崩れる例がある
+
+■ 明日見る1か所
+・ボラティリティ欄の数字が、普段と比べてどうか
+
+本番組は情報提供のみで投資助言ではありません。
+
+#HEIDELBEERE #クオンツ #暗号資産 #ボラティリティ #統計</description>
+      <pubDate>Tue, 27 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-27/heidel-textbook-2026-10-27.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-27/heidel-textbook-2026-10-27.mp3" length="4456325" type="audio/mpeg"/>
+      <itunes:duration>0:06:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/26 DTWとKNN</title>
       <description>【HEIDEL BEEREの教科書】10/26 DTWとKNN
 

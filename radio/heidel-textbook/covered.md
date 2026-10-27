@@ -28,3 +28,4 @@
 - 2026-10-24  Lévyウォーク(レヴィ・ウォーク) ||| 第2部, Insight Explorer, Lévyウォーク, 大ジャンプ, E5 BTC急落の遅延, ALGO
 - 2026-10-25  GMMによるレジーム判定 ||| 第2部, Insight Explorer, GMM, ガウス混合モデル, レジーム, 所属確率
 - 2026-10-26  DTW＋KNN(似た局面の探索) ||| 第2部, Insight Explorer, DTW, KNN, 動的時間伸縮, K近傍法, E5 BTC急落の遅延, ALGO
+- 2026-10-27  実現ボラティリティと√換算 ||| 第2部, Insight Explorer, 実現ボラティリティ, √換算, 年率換算, ALGO
