@@ -1,0 +1,9 @@
+{
+ "show": "heidel-textbook",
+ "date": "2026-10-28",
+ "title": "【HEIDEL BEEREの教科書】10/28 ATRと損切り・利確幅",
+ "description": "【HEIDEL BEEREの教科書】10/28 ATRと損切り・利確幅\n\n暗号資産クオンツ分析ソフト「neu Crypto Quant」の指標や統計を、毎日1つずつ学ぶ講座です。\n\n今日のテーマ: ATRと損切り・利確幅\nATR(最近の1本の足のふだんの動きの平均)を物差しに、出口の幅を決める考え方を解説。\n急変後の反動の例では、損切り1.5%・利確2.0%で最大DDがマイナス30%からマイナス19%に改善。\nALGOは診断が全部合格でも別期間で崩れた例として紹介します。\n\n■ 今日の用語\n・ATR(アベレージ・トゥルー・レンジ)\n・損切り幅・利確幅をATRの何倍にするか\n\n■ 読み目安\n・損切り幅がATRの1倍を下回っていないか\n・倍数を少し変えても成績が崩れないか\n\n■ やりがちな誤読\n・ATRが小さい=安全と読む(急変では平均の何倍も動く)\n\n■ 明日見る1か所\n・検証結果画面の、損切り幅と利確幅の欄(ATRの何倍か)\n\n本番組は情報提供のみで投資助言ではありません。\n\n#HEIDELBEERE #暗号資産 #クオンツ #ATR #バックテスト",
+ "duration_sec": 435,
+ "size_bytes": 5224639,
+ "url": "https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-28/heidel-textbook-2026-10-28.mp3"
+}
