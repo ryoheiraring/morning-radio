@@ -11,6 +11,35 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【エッジの見つけ方】10/29 先物と現物の差の戻りを数える</title>
+      <description>【エッジの見つけ方】10/29 先物と現物の差の戻りを数える
+
+トレードの「エッジ」を、自分で見つけ・確かめ・管理する方法を毎回1つ紹介する5分番組です。
+
+今日のテーマ:無期限先物と指数価格の差(プレミアム)が開きすぎた後の戻りを数える方法です。
+
+■ 今日のコツ
+・Hyperliquid の先物価格と指数価格の差が、普段より大きく開いたあとに縮むかを数える
+・急いで買う人が割高を払い、差を戻す裁定の人が反対側に立つ、という仕組みで考える
+
+■ 観察手順(3行以内)
+・先物と指数の差を1時間ごとに2週間分記録する
+・普段の幅の何倍も開いた時刻に印を付け、4時間後に縮んだ件数と広がった件数を数える
+・でたらめな時刻との比較と、手数料・スリッページ込みで残るか確かめる
+
+■ 明日から試せる1アクション
+・Hyperliquid で1銘柄を選び、先物と指数の差を1日4回メモする(売買はしない)
+
+本番組は情報提供のみで投資助言ではありません。エッジは確率的な優位であり損失が出ることもあります
+
+#エッジの見つけ方 #トレード #暗号資産 #ハイパーリキッド #検証</description>
+      <pubDate>Thu, 29 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-10-29/trade-edge-2026-10-29.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-10-29/trade-edge-2026-10-29.mp3" length="4973863" type="audio/mpeg"/>
+      <itunes:duration>0:06:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【エッジの見つけ方】10/28 主要銘柄から小銘柄への波及の遅れ</title>
       <description>【エッジの見つけ方】10/28 主要銘柄から小銘柄への波及の遅れ
 
