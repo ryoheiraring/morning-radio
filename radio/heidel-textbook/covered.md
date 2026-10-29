@@ -30,3 +30,4 @@
 - 2026-10-26  DTW＋KNN(似た局面の探索) ||| 第2部, Insight Explorer, DTW, KNN, 動的時間伸縮, K近傍法, E5 BTC急落の遅延, ALGO
 - 2026-10-27  実現ボラティリティと√換算 ||| 第2部, Insight Explorer, 実現ボラティリティ, √換算, 年率換算, ALGO
 - 2026-10-28  ATRと損切り・利確幅 ||| 第2部, Insight Explorer, ATR, 損切り幅, 利確幅, ALT急変後の反動, ALGO
+- 2026-10-29  レジームとは(相場の季節) ||| 第3部, Market Condition Analysis, レジーム, レジーム判定, 季節ごとの成績, ALGO
