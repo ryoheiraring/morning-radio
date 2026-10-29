@@ -70,3 +70,4 @@
 - 2026-10-26  (68) eスポーツ世界大会市場の延期・中止・勝者なしの精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Sheep Esports/Polymarket市場ルール欄/Dodo Payments, eスポーツ市場, リーグ・オブ・レジェンド, Worlds 2026, 勝者なしは「その他」, Gumroad
 - 2026-10-27  (69) ゴルフ市場の棄権・同点の精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Covers/DeFi Rate/Robinhood予測市場ページ/Creator Revenue Calculator, ゴルフ市場, マスターズ, 棄権はハズレ, 公正な市場価格, 三人組対決, Gumroad
 - 2026-10-28  (70) NBA成績リーダー市場の出場試合条件・同点処理 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, CCN/Coinstats/CFTC提出書類/Dodo Payments, NBA, 成績リーダー市場, 58試合条件, 同点は全員ハズレ, Gumroad
+- 2026-10-29  (71) ロケット打ち上げ市場の「打ち上げ」の定義・判定元 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, CryptoSlate/Solflare/Polyguana/Aviation Week/Dodo Payments, スターシップ, 打ち上げ市場, 公式映像, 連邦航空局, Gumroad
