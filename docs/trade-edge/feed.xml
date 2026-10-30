@@ -11,6 +11,36 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【エッジの見つけ方】10/30 精算時刻前後の値動きの偏り</title>
+      <description>【エッジの見つけ方】10/30 精算時刻前後の値動きの偏り
+
+トレードの「エッジ」(確率的な優位)を、自分で見つけ・確かめ・管理する方法を毎回1つだけ紹介する5分のラジオ番組です。
+
+今日のテーマ: ファンディングの精算時刻の前後に、値動きの偏りがあるかを数える方法。
+手数料の都合で動く人が「損な側」に立つ仕組みと、偽物の時刻との比較、手数料とスリッページを3倍に見積もる確かめ方を解説します。
+バイナンスとハイパーリキッドを舞台にした架空の例も紹介します。
+
+■ 今日のコツ
+・ファンディングの精算時刻の前後30分で、値動きに偏りがあるかを数える
+
+■ 観察手順(3行以内)
+・過去30日分の精算時刻を履歴画面で確認する
+・精算の30分前〜30分後を5分足で並べ、動いた向きと幅を数える
+・手数料が高い日とほぼゼロの日に分けて比べる
+
+■ 明日から試せる1アクション
+・使っている取引所の精算時刻を調べ、直近10日分の前後30分の値動きを紙に書き写す
+
+本番組は情報提供のみで投資助言ではありません。エッジは確率的な優位であり損失が出ることもあります
+
+#エッジの見つけ方 #トレード #ファンディングレート #バイナンス #ハイパーリキッド</description>
+      <pubDate>Fri, 30 Oct 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-10-30/trade-edge-2026-10-30.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/trade-edge-2026-10-30/trade-edge-2026-10-30.mp3" length="5147525" type="audio/mpeg"/>
+      <itunes:duration>0:07:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【エッジの見つけ方】10/29 先物と現物の差の戻りを数える</title>
       <description>【エッジの見つけ方】10/29 先物と現物の差の戻りを数える
 
