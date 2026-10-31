@@ -72,3 +72,4 @@
 - 2026-10-28  (70) NBA成績リーダー市場の出場試合条件・同点処理 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, CCN/Coinstats/CFTC提出書類/Dodo Payments, NBA, 成績リーダー市場, 58試合条件, 同点は全員ハズレ, Gumroad
 - 2026-10-29  (71) ロケット打ち上げ市場の「打ち上げ」の定義・判定元 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, CryptoSlate/Solflare/Polyguana/Aviation Week/Dodo Payments, スターシップ, 打ち上げ市場, 公式映像, 連邦航空局, Gumroad
 - 2026-10-30  (72) 野球(MLB)市場の中断・延期時の精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Bettors Insider/CFTC提出書類/Robinhood予測市場ページ/CheckoutPage/Creator Revenue Calculator, 野球市場, 中断試合, ワールドシリーズ, 48時間, Gumroad
+- 2026-10-31  (73) 格闘技(UFC・ボクシング)市場の中止・引き分け・無効試合の精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Covers/Polyguana/Polymarket市場ページ/Dodo Payments, UFC, ボクシング, 無効試合は50対50, 決まり手の札はハズレ, Gumroad
