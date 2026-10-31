@@ -1,0 +1,9 @@
+{
+ "show": "heidel-textbook",
+ "date": "2026-10-31",
+ "title": "【HEIDEL BEEREの教科書】10/31 GARCH(ガーチ)",
+ "description": "【HEIDEL BEEREの教科書】10/31 GARCH(ガーチ)\n\n暗号資産クオンツ分析ソフト「neu Crypto Quant」(HEIDEL BEERE)の指標を、毎日1つずつ理解していく講座です。\n\n今日のテーマ:\n第3部「Market Condition Analysis」より、GARCH。揺れの大きさは荒れた直後に続きやすい、という性質を使い、明日の揺れを予想する道具です。\n池の波の例えで、仕組みと読み方を解説します。実測例として、ALT急変後の反動と、ALGOの別期間での崩壊を取り上げます。\n\n■ 今日の用語\n- GARCH(ガーチ):揺れ(ボラティリティ)の大きさを毎日更新して予想する統計モデル\n- 画面:Market Condition Analysis の揺れの予測線\n\n■ 読み方の目安\n- 予測が普段より高ければ荒れ気味、低ければ凪\n- 数字の大小より、普段との比べ方を見る\n- 予測線が毎日大きく跳ねるときは疑う\n- 荒れの最初の一日は予想できない\n\n■ やりがちな誤読\n- 揺れの予測が高い=下がる合図、ではない\n- 揺れは幅であって向きではない\n\n■ 明日見る1か所\n- GARCHの予測線の高さが、普段より上か下か\n\n本番組は情報提供のみで投資助言ではありません。\n\n#HEIDELBEERE #クオンツ #暗号資産 #GARCH #統計入門",
+ "duration_sec": 481,
+ "size_bytes": 5771329,
+ "url": "https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-10-31/heidel-textbook-2026-10-31.mp3"
+}

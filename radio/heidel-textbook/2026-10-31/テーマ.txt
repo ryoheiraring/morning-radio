@@ -1,0 +1,1 @@
+GARCH(揺れの大きさの予測) ||| 第3部, Market Condition Analysis, GARCH, ボラティリティ予測, 荒れの余韻, ALT急変後の反動, ALGO
