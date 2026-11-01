@@ -1,0 +1,1 @@
+マルチタイムフレーム整合性 ||| 第3部, Market Condition Analysis, マルチタイムフレーム整合性, 時間足, 相場判定の一致, ALGO

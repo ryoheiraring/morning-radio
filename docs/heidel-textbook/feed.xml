@@ -11,6 +11,43 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】11/1 マルチタイムフレーム整合性</title>
+      <description>【HEIDEL BEEREの教科書】11/1 マルチタイムフレーム整合性
+
+暗号資産クオンツ分析ソフト neu Crypto Quant(HEIDEL BEERE)の指標を、毎日1つずつ中学生にも分かる言葉で学ぶ講座です。
+
+今日のテーマ:
+時間足(1時間足・日足など)ごとの相場判定が、そろっているかを見る「マルチタイムフレーム整合性」。
+見る長さを変えても判定が崩れないかを確かめる欄です。
+そろっていても将来を約束しない点、本数が少ない足に注意する点を、ALGOの例とあわせて解説します。
+
+■ 今日の用語
+・マルチタイムフレーム整合性
+・時間足ごとの相場判定が一致しているかを見る指標(Market Condition Analysis 画面)
+
+■ 読み方の目安
+・ほとんどの時間足で判定が同じなら、土台はしっかりしている
+・半分に割れていたら、結果が相場の季節しだいなので慎重に見る
+・1つの足だけ違うときは、その足の本数が足りているかを疑う
+
+■ やりがちな誤読
+・「そろっているから安心」と読む(似ているだけで、将来の成績は約束しない)
+・時間足は同じ値動きの見直しなので、独立した証拠が増えたとは限らない
+・ALGOは全診断に合格しても、別期間(2024年12月〜2025年12月)で4点に崩れた
+
+■ 明日見る1か所
+・時間足ごとの判定が並ぶ欄で、割れている足がないか、その足の本数は足りているか
+
+本番組は情報提供のみで投資助言ではありません。
+
+#HEIDELBEERE #暗号資産 #クオンツ #統計 #バックテスト</description>
+      <pubDate>Sun, 01 Nov 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-11-01/heidel-textbook-2026-11-01.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-11-01/heidel-textbook-2026-11-01.mp3" length="5361311" type="audio/mpeg"/>
+      <itunes:duration>0:07:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】10/31 GARCH(ガーチ)</title>
       <description>【HEIDEL BEEREの教科書】10/31 GARCH(ガーチ)
 
