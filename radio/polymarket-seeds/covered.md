@@ -74,3 +74,4 @@
 - 2026-10-30  (72) 野球(MLB)市場の中断・延期時の精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Bettors Insider/CFTC提出書類/Robinhood予測市場ページ/CheckoutPage/Creator Revenue Calculator, 野球市場, 中断試合, ワールドシリーズ, 48時間, Gumroad
 - 2026-10-31  (73) 格闘技(UFC・ボクシング)市場の中止・引き分け・無効試合の精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Covers/Polyguana/Polymarket市場ページ/Dodo Payments, UFC, ボクシング, 無効試合は50対50, 決まり手の札はハズレ, Gumroad
 - 2026-11-01  (74) F1レース市場の最終順位表・失格後の精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, CryptoSlate/Struct/Accrue/Polyguana/InsightRaider, F1, 最終順位表, 失格, FIA, Gumroad
+- 2026-11-02  (75) Netflixランキング市場の判定ルール(視聴数・火曜更新・世界/米国) ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Netflix公式ニュース/Prediction Hunt/Dodo Payments, Netflix, Top 10, 視聴数, 火曜日更新, 世界とアメリカ, Gumroad
