@@ -76,3 +76,4 @@
 - 2026-11-01  (74) F1レース市場の最終順位表・失格後の精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, CryptoSlate/Struct/Accrue/Polyguana/InsightRaider, F1, 最終順位表, 失格, FIA, Gumroad
 - 2026-11-02  (75) Netflixランキング市場の判定ルール(視聴数・火曜更新・世界/米国) ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Netflix公式ニュース/Prediction Hunt/Dodo Payments, Netflix, Top 10, 視聴数, 火曜日更新, 世界とアメリカ, Gumroad
 - 2026-11-03  (76) App Storeランキング(無料アプリ1位)市場の判定ルール・時刻・地域 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, CNBC/Lines/Polymarket公式/Dodo Payments, App Store, 無料アプリ1位, 米国iPhone, 判定時刻, Gumroad
+- 2026-11-04  (77) YouTube再生数市場の数え方ルール(窓・ショート除外・投稿なし時の扱い) ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Polymarket市場ページ/Kalshi公式資料, YouTube, MrBeast, 再生数市場, 数える窓, 投稿なしは最下段, Gumroad
