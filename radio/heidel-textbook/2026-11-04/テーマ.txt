@@ -1,0 +1,1 @@
+全期間で計算した指標を入口に使うとリークになる理由 ||| 第3部, Market Condition Analysis, 全期間指標, 入口, リーク, ALGO
