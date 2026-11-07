@@ -79,3 +79,4 @@
 - 2026-11-04  (77) YouTube再生数市場の数え方ルール(窓・ショート除外・投稿なし時の扱い) ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Polymarket市場ページ/Kalshi公式資料, YouTube, MrBeast, 再生数市場, 数える窓, 投稿なしは最下段, Gumroad
 - 2026-11-05  (78) サッカー市場の通常時間(90分)ルール・延長戦とPK戦の扱い ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, KuCoin/Binance Square/Polymarket市場ページ/CFTC提出書類, サッカー市場, 通常時間, 90分+追加時間, 延長戦, PK戦, 勝ち上がり市場, Gumroad
 - 2026-11-06  (79) ホッケー(NHL)市場の延長戦・シュートアウトの精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, The Block/Polyguana/Dodo Payments, NHL, ホッケー市場, 延長戦, シュートアウト, 勝者に1点加算, Gumroad
+- 2026-11-07  (80) カレッジフットボール市場の脱落ルール・出場権と優勝の見分け ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Polyguana/InsightRaider, カレッジフットボール, プレーオフ, 優勝不可能, 判定元, Gumroad
