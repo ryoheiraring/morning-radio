@@ -1,0 +1,9 @@
+{
+ "show": "heidel-textbook",
+ "date": "2026-11-08",
+ "title": "【HEIDEL BEEREの教科書】11/8 絶対値の閾値と正規化",
+ "description": "【HEIDEL BEEREの教科書】11/8 絶対値の閾値と正規化\n\n暗号資産クオンツ分析ソフト neu Crypto Quant(HEIDEL BEERE)の指標を、毎日1つずつ学ぶ講座です。\n\n今日のテーマ:\n戦略の「発火の線」をどう引くか。絶対値の閾値、ATR%正規化、分位変換の違いを、身近な例えで解説します。\n銘柄や時期が変わっても同じ意味で使える線とは何かを、実測例で確かめます。\n\n■ 今日の用語\n・絶対値の閾値 / ATR%正規化 / 分位変換(特徴量一覧画面)\n\n■ 読み方の目安\n・時期ごとの発火回数が極端に偏っていないか\n・銘柄を替えても発火の割合が近いか\n・全体の件数が30件の壁を超えているか\n\n■ やりがちな誤読\n・正規化すれば公平で儲かる、と思い込む\n・割合を何通りも試して最良を選ぶ、全期間で分位を計算する\n\n■ 明日見る1か所\n・特徴量一覧画面の閾値の欄(絶対値か割合か、発火の偏り)\n\n本番組は情報提供のみで投資助言ではありません\n\n#HEIDELBEERE #暗号資産 #クオンツ #統計 #バックテスト",
+ "duration_sec": 414,
+ "size_bytes": 4971669,
+ "url": "https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-11-08/heidel-textbook-2026-11-08.mp3"
+}
