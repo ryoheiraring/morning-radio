@@ -11,6 +11,42 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】11/9 往復コストとスリッページ</title>
+      <description>【HEIDEL BEEREの教科書】11/9 往復コストとスリッページ
+
+暗号資産クオンツ分析ソフト neu Crypto Quant(HEIDEL BEERE)の指標を、毎日1つずつ学ぶ講座です。
+
+今日のテーマ: 往復コスト・スリッページ・インパクト・スプレッド
+買って売るまでに払う費用の合計と、注文が値段を動かす分を学びます。
+研究員の記録にある、年率21.9%が実測手数料で8.9%に下がった例を使って確かめます。
+
+■ 今日の用語
+・往復コスト(買いと売りで払う費用の合計)
+・スリッページ(思った値段と実際の値段のずれ)
+・インパクト・スプレッド(自分の注文が値段を動かす分の費用)
+
+■ 読み方の目安
+・コストを引く前と後の成績の差を見る
+・引いた後に大きく縮むなら疑う
+・取引回数が多い戦略ほど、差が広がりやすい
+
+■ やりがちな誤読
+・手数料の表だけ見て、コストは小さいと安心する
+・スリッページとインパクトは、表に出てこない
+
+■ 明日見る1か所
+・バックテスト結果画面の、コストを引く前と後の成績の差
+
+本番組は情報提供のみで投資助言ではありません。
+
+#HEIDELBEERE #クオンツ #暗号資産 #バックテスト #取引コスト</description>
+      <pubDate>Mon, 09 Nov 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-11-09/heidel-textbook-2026-11-09.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-11-09/heidel-textbook-2026-11-09.mp3" length="5413347" type="audio/mpeg"/>
+      <itunes:duration>0:07:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】11/8 絶対値の閾値と正規化</title>
       <description>【HEIDEL BEEREの教科書】11/8 絶対値の閾値と正規化
 
