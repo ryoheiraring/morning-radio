@@ -81,3 +81,4 @@
 - 2026-11-06  (79) ホッケー(NHL)市場の延長戦・シュートアウトの精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, The Block/Polyguana/Dodo Payments, NHL, ホッケー市場, 延長戦, シュートアウト, 勝者に1点加算, Gumroad
 - 2026-11-07  (80) カレッジフットボール市場の脱落ルール・出場権と優勝の見分け ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Polyguana/InsightRaider, カレッジフットボール, プレーオフ, 優勝不可能, 判定元, Gumroad
 - 2026-11-08  (81) 大学バスケ市場の延長戦・延期の精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Bloomberg/DeFi Rate/OddsShopper/CFTC提出書類, 大学バスケ, 延長戦, 延期, 前半合計点, Gumroad
+- 2026-11-09  (82) 企業発表市場の「発生日／公表日」ルール(Strategy社ビットコイン売却紛争) ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, CoinDesk/The Block/Cointelegraph/Dodo Payments, 企業発表市場, Strategy, ビットコイン売却, 公表日, 8-K, UMA投票, Gumroad
