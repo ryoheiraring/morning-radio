@@ -1,0 +1,9 @@
+{
+ "show": "heidel-textbook",
+ "date": "2026-11-10",
+ "title": "【HEIDEL BEEREの教科書】11/10 クロス型と閾値型",
+ "description": "【HEIDEL BEEREの教科書】11/10 クロス型と閾値型\n\n暗号資産クオンツ分析ソフト「neu Crypto Quant(HEIDEL BEERE)」の指標や統計を、毎日1つずつやさしく学ぶ講座です。\n\n今日のテーマ: クロス型とスレッショルド(閾値)型\n■ 今日の用語\n- クロス型: 数字が境目を越えた「瞬間」で発火する\n- 閾値型: 数字が境目を超えている「状態」の間、発火する\n■ 読み方の目安\n- 閾値型で件数が多いときは、少数の出来事の使い回しを疑う\n- クロス型で件数が少ないときは、30件の壁に届くかを先に確認する\n■ やりがちな誤読\n- 「件数が多いほど信頼できる」と読む(E2は2,279件・t値10.6が、クラスター換算でt値2.8)\n- 診断が全部合格でも、ALGOは別期間で4点に崩れた\n■ 明日見る1か所\n- 検証結果画面の、件数と独立クラスター数の差\n\n本番組は情報提供のみで投資助言ではありません\n\n#HEIDELBEERE #クオンツ #バックテスト #暗号資産 #統計",
+ "duration_sec": 473,
+ "size_bytes": 5678856,
+ "url": "https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-11-10/heidel-textbook-2026-11-10.mp3"
+}
