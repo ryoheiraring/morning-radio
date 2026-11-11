@@ -1,6 +1,6 @@
 {
- "generated_at_jst": "2026-11-09T05:00:48+09:00",
- "day": "2026-11-09",
+ "generated_at_jst": "2026-11-12T05:00:37+09:00",
+ "day": "2026-11-12",
  "loop_stopped": false,
  "loop_stop_reason": "",
  "loop_waiting": "",
@@ -10,11 +10,11 @@
  "processed_24h": 0,
  "api_cost_24h_usd": 0.0,
  "alerts": [
-  "2026-11-09T04:00:41\t【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error writing bytes to file. Detail: [errno 28] No space left on device",
-  "2026-11-09T00:00:43\t【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error writing bytes to file. Detail: [errno 28] No space left on device",
-  "2026-11-08T23:00:44\t【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error writing bytes to file. Detail: [errno 28] No space left on device",
-  "2026-11-08T22:00:42\t【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error writing bytes to file. Detail: [errno 28] No space left on device",
-  "2026-11-08T21:00:43\t【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error writing bytes to file. Detail: [errno 28] No space left on device"
+  "2026-11-11T08:00:45\t【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error wr",
+  "2026-11-11T07:00:46\t【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error writing bytes to file. Detail: [errno 28] No space left on device",
+  "2026-11-11T06:00:45\t【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error writing bytes to file. Detail: [errno 28] No space left on device",
+  "2026-11-11T05:00:45\t【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error writing bytes to file. Detail: [errno 28] No space left on device",
+  "2026-11-11T04:00:43\t【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error writing bytes to file. Detail: [errno 28] No space left on device"
  ],
  "note": ""
 }
