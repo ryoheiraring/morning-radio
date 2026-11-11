@@ -11,6 +11,44 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】11/11 FR・OI・プレミアム</title>
+      <description>【HEIDEL BEEREの教科書】11/11 FR・OI・プレミアム
+
+暗号資産クオンツ分析ソフト「neu Crypto Quant(HEIDEL BEERE)」の画面の数字を、毎日ひとつずつ学ぶ講座です。
+
+今日のテーマ:
+ファンディングレート、OI、プレミアムという、相場の混み具合を測る三つのものさしを学びました。
+行列のできるラーメン屋の例えで、期待の偏りを見る数字だと理解します。
+高い値を「そろそろ反転」と読む誤読と、ALGOが別期間で崩れた例も紹介します。
+
+■ 今日の用語
+- ファンディングレート:買い方と売り方がやり取りする定期的な手数料の率
+- OI(オープンインタレスト):まだ決済されていない約束の総量
+- プレミアム:先物の値段が現物よりどれだけ高いかの差
+
+■ 読み方の目安
+- 絶対値ではなく、Z-scoreで普段からの離れ具合を見る
+- 発火が30件に満たなければ、まず偶然を疑う
+- 同じ日にまとまって出た数字は1件として数える
+
+■ やりがちな誤読
+- 「高いからそろそろ下がる」と読む(Funding単独トリガーでは痕跡なし、プレミアムは継続を示した)
+- OIの増加を必ず上昇のサインと読む
+- 診断が全部合格でも、ALGOは別期間の関門で4点に崩れた
+
+■ 明日見る1か所
+- 特徴量一覧画面の、ファンディングレート欄のZ-scoreの列
+
+本番組は情報提供のみで投資助言ではありません。
+
+#HEIDELBEERE #クオンツ #ファンディングレート #暗号資産 #統計</description>
+      <pubDate>Wed, 11 Nov 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-11-11/heidel-textbook-2026-11-11.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-11-11/heidel-textbook-2026-11-11.mp3" length="4827787" type="audio/mpeg"/>
+      <itunes:duration>0:06:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEEREの教科書】11/10 クロス型と閾値型</title>
       <description>【HEIDEL BEEREの教科書】11/10 クロス型と閾値型
 
