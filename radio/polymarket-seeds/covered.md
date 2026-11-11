@@ -83,3 +83,4 @@
 - 2026-11-08  (81) 大学バスケ市場の延長戦・延期の精算ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Bloomberg/DeFi Rate/OddsShopper/CFTC提出書類, 大学バスケ, 延長戦, 延期, 前半合計点, Gumroad
 - 2026-11-09  (82) 企業発表市場の「発生日／公表日」ルール(Strategy社ビットコイン売却紛争) ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, CoinDesk/The Block/Cointelegraph/Dodo Payments, 企業発表市場, Strategy, ビットコイン売却, 公表日, 8-K, UMA投票, Gumroad
 - 2026-11-10  (83) 政府閉鎖市場の「閉鎖」の定義・判定時刻・基準部署 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Kalshi契約条件書/Pulse.bot/next.io, 政府閉鎖, OMB, OPM, 朝10時, 予算失効, Gumroad
+- 2026-11-11  (84) タイム誌「今年の人」市場の決着ルール・表紙の書き方別の判定 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, 404 Media/Kotaku/Project Syndicate, タイム誌, 今年の人, AIの設計者たち, 個人と集団の判定, Gumroad
