@@ -11,6 +11,86 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEERE 日次報告】11/12 研究員より</title>
+      <description>【HEIDEL BEERE 日次報告】11/12 研究員より
+
+HEIDEL BEERE の研究員AIによる、直近24時間の締めの報告です。
+台本は研究員が書いた報告書そのままで、ラジオ側は読み上げ用の整形だけを行っています。
+
+## 見返し用 (読み上げ対象外)
+
+### お知らせ（記録係の不調・異常。知らせはこの報告書だけに載せます）
+
+- 異常の記録 2026-11-11 05:00: 【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error writing bytes to file. Detail: [errno 28] No space left on device
+- 異常の記録 2026-11-11 06:00: 【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error writing bytes to file. Detail: [errno 28] No space left on device
+- 異常の記録 2026-11-11 07:00: 【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error writing bytes to file. Detail: [errno 28] No space left on device
+- 異常の記録 2026-11-11 08:00: 【研究員 口座スナップショット 失敗】hl wallets: 例外 OSError: [Errno 28] Error wr
+- 健康診断（11-12T04:40）: 係 wallets: 動かなかった 13 回（11-11 05:00, 11-11 06:00, 11-11 07:00, 11-11 08:00）・失敗 1 回
+- 健康診断（11-12T04:40）: 係 newhyp: 動かなかった 13 回（11-11 05:05, 11-11 06:05, 11-11 07:05, 11-11 08:05）・失敗 0 回
+- 健康診断（11-12T04:40）: 係 books: 動かなかった 26 回（11-11 04:57, 11-11 05:27, 11-11 05:57, 11-11 06:27）・失敗 1 回
+- 健康診断（11-12T04:40）: 係 tradesa: 動かなかった 6 回（11-11 06:28, 11-11 08:28, 11-11 10:28, 11-11 12:28）・失敗 0 回
+- 健康診断（11-12T04:40）: 係 tradesb: 動かなかった 7 回（11-11 05:28, 11-11 07:28, 11-11 09:28, 11-11 11:28）・失敗 0 回
+- 健康診断（11-12T04:40）: 係 status: 動かなかった 159 回（11-11 04:45, 11-11 04:50, 11-11 04:55, 11-11 05:00）・失敗 0 回
+- 健康診断（11-12T04:40）: 係 sidejobs: 動かなかった 1 回（11-11 09:05）・失敗 0 回
+- 健康診断（11-12T04:40）: 係 hlp: 動かなかった 1 回（11-11 10:10）・失敗 0 回
+- 健康診断（11-12T04:40）: 係 fwdevents: 動かなかった 1 回（11-11 09:20）・失敗 0 回
+- 健康診断（11-12T04:40）: 係 hlcarry: 動かなかった 1 回（11-11 09:15）・失敗 0 回
+- 健康診断（11-12T04:40）: 係 pull: 動かなかった 53 回（11-11 04:45, 11-11 05:00, 11-11 05:15, 11-11 05:30）・失敗 1 回
+- 健康診断（11-12T04:40）: 係 report: 動かなかった 1 回（11-11 05:00）・失敗 0 回
+- 健康診断（11-12T04:40）: 係 liveu: 動かなかった 53 回（11-11 04:55, 11-11 05:10, 11-11 05:25, 11-11 05:40）・失敗 42 回
+- 健康診断（11-12T04:40）: 係 hyporeg: 動かなかった 1 回（11-11 07:10）・失敗 0 回
+- 健康診断（11-12T04:40）: 係 bnrefresh: 動かなかった 13 回（11-11 05:35, 11-11 06:35, 11-11 07:35, 11-11 08:35）・失敗 0 回
+- 健康診断（11-12T04:40）: 係 ctxlive: 動かなかった 159 回（11-11 04:43, 11-11 04:48, 11-11 04:53, 11-11 04:58）・失敗 1 回
+- 健康診断（11-12T04:40）: 係 ctxlive4h: 動かなかった 14 回（11-11 04:52, 11-11 05:52, 11-11 06:52, 11-11 07:52）・失敗 10 回
+- 健康診断（11-12T04:40）: 係 twap2fwd: 動かなかった 13 回（11-11 05:40, 11-11 06:40, 11-11 07:40, 11-11 08:40）・失敗 0 回
+- 健康診断（11-12T04:40）: データが古い: HL の 4 時間足（Funding裁定・U の模擬・xs・週次判定）: **古い**（最後 11-01 03:38（日本時間）・265.0 時間前・線 8 時間）
+- 健康診断（11-12T04:40）: 約定の記録（BTC）で 1 件も無い分が 768 分（いちばん長く続いたのは 768 分）
+- 健康診断（11-12T04:40）: 読めないファイル 3 個: twap2_fwd/rounds.csv（列の数がそろっていない行がある（2 行。最初は 881 行目））、unlock_paper_repriced_2026-10-15.csv（中身が無い）、unlock_paper_trades.csv（列の数がそろっていない行がある（4 行。最初は 3 行目））
+- データが古い: HL の 4 時間足（Funding裁定・U の模擬・xs・週次判定）: **古い**（最後 11-01 03:38（日本時間）・265.4 時間前・線 8 時間）
+
+### 直近24時間の数字 (2026-11-12)
+
+| 項目 | 値 |
+|---|---|
+| 処理した仮説 | 0 本 |
+| 有効試行 | 0 本 |
+| 設計期間を通過 | 0 本 |
+| 生存 | 0 本 |
+| 無効 | 0 本 |
+| API 費用 | $0.00 (0 回) |
+
+### 落選した仮説
+
+| 派生ID | 仕組み | 状態 | 総合 |
+|---|---|---|---|
+| (なし) | | | |
+
+### Funding 裁定 paper の建玉 (2026-11-11 時点・10 脚)
+
+SKR、GRASS、VVV、SAGA、FARTCOIN、STBL、ZRO、PUMP、KAITO、ZORA
+
+carry paper: 建玉 10・当月損益（資金に対して・1銘柄4%・crossマージン）-0.25% [2026-10-31 16:00 UTC 時点]（1銘柄あたり -0.61%＝Funding -0.30% / ベーシス -0.09% / コスト 0.23%）・最悪逆行 74.3% (STBL)・強制決済水準 到達 [分離マージン] 2倍 1/20 脚 (閾値 49%) / 3倍 6/20 脚 (閾値 32%)  ※到達: 2倍 STBL(HL) ／ 3倍 SAGA(HL),FARTCOIN(BN),STBL(HL),ZRO(HL),PUMP(BN),KAITO(BN) ｜ 縮小後の建て方 (2026-09-24 決裁): 1銘柄 4% (倍率 0.40)・crossマージン・取引所別 総レバ 0.80倍 → 最悪月の累積逆行 HL 19.7% / BN 18.8% (清算水準 88%) = 清算に達する脚なし
+
+### 週次相対の前向き記録 (最新 2026-11-02)
+
+稼働 False / ユニバース 12 / ロング 0 / ショート 0 / 回転率 0.25
+
+### リンク
+
+- 戦略台帳 (Google スプレッドシート): https://docs.google.com/spreadsheets/d/1zd_OTk4_8O2mFMAHB2qs4smQwBJcdEbMKr7CmnIO07Q/edit
+- ループ台帳 (ローカル): `results/loop_ledger.jsonl`
+- 週次相対の前向き記録: `neu-researcher-xs/results/forward_xs.csv`
+- Funding 裁定 paper: `neu-researcher-carry/results/paper_carry/daily.csv`
+- この報告書: `daily-report/2026-11-12.md`
+
+本番組は研究の進み具合の報告であり、投資助言ではありません。</description>
+      <pubDate>Thu, 12 Nov 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-daily-2026-11-12/heidel-daily-2026-11-12.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-daily-2026-11-12/heidel-daily-2026-11-12.mp3" length="3011545" type="audio/mpeg"/>
+      <itunes:duration>0:04:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【HEIDEL BEERE 日次報告】11/11 本日の配信は失敗しました</title>
       <description>【HEIDEL BEERE 日次報告】11/11 本日の配信は失敗しました
 
