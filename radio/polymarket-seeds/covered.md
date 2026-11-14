@@ -86,3 +86,4 @@
 - 2026-11-11  (84) タイム誌「今年の人」市場の決着ルール・表紙の書き方別の判定 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, 404 Media/Kotaku/Project Syndicate, タイム誌, 今年の人, AIの設計者たち, 個人と集団の判定, Gumroad
 - 2026-11-12  (85) トークン発行(FDV)市場の判定ルール・翌日の時刻・発行の条件 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, FrenzyCap/Dodo Payments/DeFi Rate, FDV, トークン発行, 翌日午後4時, 売買可能条件, UMA, Gumroad
 - 2026-11-13  (86) FRB議長の人事市場の決着ルール・指名/承認/退任の違い ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, DeFi Rate/Dodo Payments/Specula Markets, FRB議長, ウォーシュ, 指名と承認, 米国議会図書館, 退任, Gumroad
+- 2026-11-14  (87) 軍事行動・侵攻市場の「侵攻」の定義・領土支配の目的 ||| 早見表PDFをGumroadで買い切り・年間パス販売, DeFi Rate/カジノビーツ/Bloomberg/InsightRaider, 侵攻市場, ベネズエラ, 軍事行動, 領土の支配, 米軍の滞在, Gumroad
