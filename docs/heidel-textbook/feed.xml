@@ -11,6 +11,44 @@
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>【HEIDEL BEEREの教科書】11/14 t値と有意性</title>
+      <description>【HEIDEL BEEREの教科書】11/14 t値と有意性
+
+暗号資産クオンツ分析ソフト「neu Crypto Quant(HEIDEL BEERE)」の指標を、毎日1つずつ中学生にも分かる言葉で学ぶ講座です。
+
+今日のテーマ: t値と有意性
+結果が偶然では出にくいかを示す数字、t値の意味を解説します。
+件数が多くても、同じ出来事の重複で数字が膨らむ例(E2・E5)を確かめます。
+診断に全部合格してもALGOが別期間で崩れた話にも触れます。
+
+■ 今日の用語
+・t値(結果が偶然では出にくい度合い)
+・有意性(偶然とは言いにくいと判断できること)
+・検証結果画面のt値の欄
+
+■ 読み方の目安
+・およそ2以上が最低ラインの目安
+・多数の条件を試すと、偶然でも2を超えるものが出る
+・件数とクラスター数を並べて見る
+
+■ やりがちな誤読
+・t値が大きい=強い戦略、と読んでしまう
+・件数の水増しや同じ日の重複で数字は膨らむ
+・E2はn=2,279・t値10.6が、クラスターで数えると2.8
+
+■ 明日見る1か所
+・検証結果画面で、t値の横のクラスター数
+
+本番組は情報提供のみで投資助言ではありません
+
+#HEIDELBEERE #暗号資産 #クオンツ #統計 #t値</description>
+      <pubDate>Sat, 14 Nov 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-11-14/heidel-textbook-2026-11-14.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/heidel-textbook-2026-11-14/heidel-textbook-2026-11-14.mp3" length="4904900" type="audio/mpeg"/>
+      <itunes:duration>0:06:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>【heidel-textbook】11/13 本日の配信は失敗しました</title>
       <description>【heidel-textbook】11/13 本日の配信は失敗しました
 
