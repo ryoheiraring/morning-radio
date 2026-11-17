@@ -89,3 +89,4 @@
 - 2026-11-14  (87) 軍事行動・侵攻市場の「侵攻」の定義・領土支配の目的 ||| 早見表PDFをGumroadで買い切り・年間パス販売, DeFi Rate/カジノビーツ/Bloomberg/InsightRaider, 侵攻市場, ベネズエラ, 軍事行動, 領土の支配, 米軍の滞在, Gumroad
 - 2026-11-15  (88) 企業決算「予想超え」市場の判定ルール・ガープ/非ガープ・基準値・判定元 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, 247WallSt/The Block/Orrery/Dodo Payments, 決算市場, 予想超え, ガープ, 非ガープ, エヌビディア, 基準値, Gumroad
 - 2026-11-16  (89) ハーフタイムショー市場の「出演」の定義・ゲスト出演の判定 ||| 判定ルール早見表PDFをGumroadで買い切り・年間パス販売, Gambling Insider/Fortune/Steptoe/Dodo Payments, ハーフタイムショー, 出演の定義, カーディ・ビー, 背景で踊る, 報道の多数決, Gumroad
+- 2026-11-17  (90) 住宅価格(不動産)市場の決着ルール・Parcl指数・対象都市 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, The Block/Gambling Insider/Finance Magnates/Dodo Payments/InsightRaider, 住宅価格市場, Parcl, 日次指数, 決着ルール, Gumroad
