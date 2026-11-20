@@ -91,3 +91,4 @@
 - 2026-11-16  (89) ハーフタイムショー市場の「出演」の定義・ゲスト出演の判定 ||| 判定ルール早見表PDFをGumroadで買い切り・年間パス販売, Gambling Insider/Fortune/Steptoe/Dodo Payments, ハーフタイムショー, 出演の定義, カーディ・ビー, 背景で踊る, 報道の多数決, Gumroad
 - 2026-11-17  (90) 住宅価格(不動産)市場の決着ルール・Parcl指数・対象都市 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, The Block/Gambling Insider/Finance Magnates/Dodo Payments/InsightRaider, 住宅価格市場, Parcl, 日次指数, 決着ルール, Gumroad
 - 2026-11-19  (91) ゲーム発売日(延期)市場の判定ルール・公式発表の人/機種/時刻 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Action Network/DeFi Rate/Dodo Payments/OpenCritic, GTA6, ゲーム発売日市場, テイクツー, 公式発表, パソコン版未定, 米東部23時59分, Gumroad
+- 2026-11-20  (92) 最高裁判決市場の決着ルール・「勝訴」の定義(一部認容・差し戻し・還付との別) ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Dodo Payments/Creator Revenue Calculator/Fox Business/American Banker, 最高裁判決市場, 関税裁判, 勝訴の定義, 差し戻し, 一部認容, Gumroad
