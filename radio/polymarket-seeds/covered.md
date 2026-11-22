@@ -93,3 +93,4 @@
 - 2026-11-19  (91) ゲーム発売日(延期)市場の判定ルール・公式発表の人/機種/時刻 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Action Network/DeFi Rate/Dodo Payments/OpenCritic, GTA6, ゲーム発売日市場, テイクツー, 公式発表, パソコン版未定, 米東部23時59分, Gumroad
 - 2026-11-20  (92) 最高裁判決市場の決着ルール・「勝訴」の定義(一部認容・差し戻し・還付との別) ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Dodo Payments/Creator Revenue Calculator/Fox Business/American Banker, 最高裁判決市場, 関税裁判, 勝訴の定義, 差し戻し, 一部認容, Gumroad
 - 2026-11-21  (93) 景気後退(リセッション)市場の決着ルール・GDP2期連続マイナスとNBER宣言の違い ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Crypto Briefing/OddsShopper/Business Insider/Gumroad公式ヘルプ, 景気後退市場, GDP2期連続マイナス, NBER, Kalshi, Gumroad
+- 2026-11-22  (94) UFO・機密解除市場の決着ルール・「公開」の定義と証拠の種類 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, CryptoSlate/DeFi Rate/CheckoutPage/Steptoe, UFO市場, 機密解除, UMA, 公開の定義, Gumroad
