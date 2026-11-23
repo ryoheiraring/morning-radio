@@ -94,3 +94,4 @@
 - 2026-11-20  (92) 最高裁判決市場の決着ルール・「勝訴」の定義(一部認容・差し戻し・還付との別) ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Dodo Payments/Creator Revenue Calculator/Fox Business/American Banker, 最高裁判決市場, 関税裁判, 勝訴の定義, 差し戻し, 一部認容, Gumroad
 - 2026-11-21  (93) 景気後退(リセッション)市場の決着ルール・GDP2期連続マイナスとNBER宣言の違い ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Crypto Briefing/OddsShopper/Business Insider/Gumroad公式ヘルプ, 景気後退市場, GDP2期連続マイナス, NBER, Kalshi, Gumroad
 - 2026-11-22  (94) UFO・機密解除市場の決着ルール・「公開」の定義と証拠の種類 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, CryptoSlate/DeFi Rate/CheckoutPage/Steptoe, UFO市場, 機密解除, UMA, 公開の定義, Gumroad
+- 2026-11-23  (95) Kalshi永久先物の資金調達率ルール・計算時刻と停止日 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Kalshi公式ニュース/CFTC提出書類/CheckoutPage/Gaming.net, 永久先物, 資金調達率, 金・銀, 週末の計算停止, Gumroad
