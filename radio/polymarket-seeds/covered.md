@@ -95,3 +95,4 @@
 - 2026-11-21  (93) 景気後退(リセッション)市場の決着ルール・GDP2期連続マイナスとNBER宣言の違い ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Crypto Briefing/OddsShopper/Business Insider/Gumroad公式ヘルプ, 景気後退市場, GDP2期連続マイナス, NBER, Kalshi, Gumroad
 - 2026-11-22  (94) UFO・機密解除市場の決着ルール・「公開」の定義と証拠の種類 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, CryptoSlate/DeFi Rate/CheckoutPage/Steptoe, UFO市場, 機密解除, UMA, 公開の定義, Gumroad
 - 2026-11-23  (95) Kalshi永久先物の資金調達率ルール・計算時刻と停止日 ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Kalshi公式ニュース/CFTC提出書類/CheckoutPage/Gaming.net, 永久先物, 資金調達率, 金・銀, 週末の計算停止, Gumroad
+- 2026-11-24  (96) 予測市場の州別規制状況(使える・使えない)の日付つき地図 ||| 早見表PDFをGumroadで単発・年間パス・月額販売, SBC Americas/Al Jazeera/Fox Sports/Substack Event Horizon/Gumroad公式ヘルプ, 州別規制, CFTC, アーカンソー州提訴, 停止命令, Kalshi, Gumroad
