@@ -98,3 +98,4 @@
 - 2026-11-24  (96) 予測市場の州別規制状況(使える・使えない)の日付つき地図 ||| 早見表PDFをGumroadで単発・年間パス・月額販売, SBC Americas/Al Jazeera/Fox Sports/Substack Event Horizon/Gumroad公式ヘルプ, 州別規制, CFTC, アーカンソー州提訴, 停止命令, Kalshi, Gumroad
 - 2026-11-25  (97) 恩赦市場の判定ルール・恩赦/減刑/猶予の範囲と期限(任期末/年末)の違い ||| 早見表PDFをGumroadで単発・年間パス・月額販売, NPR/OddsShopper/Kalshi契約条件書/Prediction Hunt/Gumroad公式ヘルプ, 恩赦市場, 減刑, 猶予, 任期末と年末, Kalshi, Gumroad
 - 2026-11-26  (98) グラミー賞市場のノミネート/受賞の二段構え・同点札の判定ルール ||| 早見表PDFをGumroadで単発・買い切り・年間パス販売, Kalshi公式ニュース/Kalshi市場ページ/Dodo Payments, グラミー賞, ノミネート市場, 受賞市場, 同点札, 2027年2月7日, Gumroad
+- 2026-11-27  (99) ハイズマン賞市場の判定元・発表日・最終候補/辞退の扱い ||| 早見表PDFをGumroadで単発・年間パス・月額販売, DeFi Rate/Variety/Prediction Hunt, ハイズマン賞, 判定元, 辞退, 同点札, Gumroad
