@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>朝の学びラジオ</title>
+    <link>https://ryoheiraring.github.io/morning-radio/</link>
+    <description>散歩しながら聞く15〜30分の朝の学び。前半はコーチング、後半は曜日ごとのテーマ(心理学・行動経済学・金融・パーマカルチャー・筋肉と骨格)。AIが台本を書き、AI音声でお届けします。</description>
+    <language>ja</language>
+    <atom:link href="https://ryoheiraring.github.io/morning-radio/asa-radio/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>ryoheiraring</itunes:author>
+    <itunes:image href="https://ryoheiraring.github.io/morning-radio/asa-radio/artwork.png"/>
+    <itunes:category text="Education"/>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>【asa-radio】11/28 本日の配信は失敗しました</title>
+      <description>【asa-radio】11/28 本日の配信は失敗しました
+
+本日の配信は失敗しました。原因は台本の生成に失敗しました。
+原稿を書く工程が、決められた回数のやり直しでも通りませんでした。
+
+この回は自動生成のお知らせです。復旧後の回で通常の内容に戻ります。
+詳細は GitHub Actions の実行ログ (morning-radio / 2026-11-28) を確認してください。</description>
+      <pubDate>Sat, 28 Nov 2026 06:00:00 +0900</pubDate>
+      <guid isPermaLink="false">https://github.com/ryoheiraring/morning-radio/releases/download/asa-radio-2026-11-28/asa-radio-2026-11-28.mp3</guid>
+      <enclosure url="https://github.com/ryoheiraring/morning-radio/releases/download/asa-radio-2026-11-28/asa-radio-2026-11-28.mp3" length="403792" type="audio/mpeg"/>
+      <itunes:duration>0:00:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
