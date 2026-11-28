@@ -184,6 +184,7 @@ jobs:
             if python3 scripts/split_output.py work/claude_out.txt work/script.txt work/desc.txt work/topics.txt "$l" "$h" "$speakers" "$strict"; then
               ok=1; break
             fi
+            [ -f work/feedback.txt ] && echo "::warning::不合格の理由(試行 $i): $(tr '\n' ' ' < work/feedback.txt | head -c 600)"
             if [ "$judged" -ge 2 ]; then echo "品質不合格が2回続いた"; break; fi
             printf '\n\n【重要・作り直し】前回の出力は不合格だった。以下を必ず守り、最初から全体を作り直すこと:\n' >> work/prompt.md
             cat work/feedback.txt >> work/prompt.md 2>/dev/null || true
