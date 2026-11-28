@@ -31,6 +31,7 @@ DEFAULTS = {
     "builder": "",        # (任意)台本を直接作るスクリプト。指定すると Claude を呼ばず、これが 台本/概要欄/テーマ を書く
     "duration_sec": [150, 720],   # 公開してよい音声の長さ(秒)の範囲
     "attach_reports": 0,  # (任意)研究員の日次報告(radio/heidel-daily/archive/)の直近 N 日ぶんをプロンプトに添付
+    "attach": "",         # (任意)radio/<番組ID>/ 直下のファイルを1つプロンプトに添付(例: affirmations.md)
     "tools": "",          # (任意)台本生成で claude に許可するツール(例: WebSearch)。空なら一切使わせない
 }
 

@@ -2,7 +2,7 @@
 title: 毎朝の行動経済学
 description: 損失回避・アンカリング・ナッジなど、人のお金と選択のクセを Nana が毎朝ひとつ5分で解説する番組。AIが台本を書き、AI音声でお届けします。
 speakers: [Nana]
-days: [mon, tue, wed, thu, fri, sat, sun]
+days: []   # 2026-11-28 終了。朝の学びラジオ(asa-radio)にまとめた
 chars: [1500, 2000]
 category: Education
 color: "#b5773f"

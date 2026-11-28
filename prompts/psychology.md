@@ -2,7 +2,7 @@
 title: 毎朝の心理学レッスン
 description: 認知・感情・対人関係・発達など心理学の定番テーマを、Nana が毎朝ひとつ5分で解説するレッスン番組。AIが台本を書き、AI音声でお届けします。
 speakers: [Nana]
-days: [mon, tue, wed, thu, fri, sat, sun]
+days: []   # 2026-11-28 終了。朝の学びラジオ(asa-radio)にまとめた
 chars: [1500, 2000]
 category: Education
 color: "#3f6fb5"

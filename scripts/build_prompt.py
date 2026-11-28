@@ -73,6 +73,11 @@ elif past:
     parts += [f"- {p}" for p in past[-300:]]
 else:
     parts.append("(まだ放送はありません。第1回です)")
+att = str(cfg.get("attach") or "").strip()
+if att:
+    ap = Path(f"radio/{show_id}/{att}")
+    if ap.exists():
+        parts += ["", "---", "", f"## 添付資料: {att}", "", ap.read_text(encoding="utf-8").strip()]
 n_rep = int(cfg.get("attach_reports") or 0)
 if n_rep:
     reps = sorted(Path("radio/heidel-daily/archive").glob("*.md"), reverse=True)[:n_rep]
